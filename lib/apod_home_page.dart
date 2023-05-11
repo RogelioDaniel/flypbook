@@ -46,7 +46,7 @@ class _APODHomePageState extends State<APODHomePage> {
               _controller.setSelectedDate(index);
             },
           ),
-          SizedBox(height: 16),
+          const SizedBox(height: 16),
           Flexible(
             child: SingleChildScrollView(
               padding: EdgeInsets.all(16),
