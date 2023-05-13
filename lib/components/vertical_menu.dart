@@ -1,87 +1,85 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import '../views/item_detail_screen.dart';
 import '../views/menu_item_detail_screen.dart';
 
-class VerticalMenu extends StatelessWidget {
+class VerticalMenu extends StatefulWidget {
+  @override
+  _VerticalMenuState createState() => _VerticalMenuState();
+}
+
+class _VerticalMenuState extends State<VerticalMenu> {
+  List<MenuItemData> _menuItems = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _loadMenuItems();
+  }
+
+  Future<void> _loadMenuItems() async {
+    String jsonString = await DefaultAssetBundle.of(context)
+        .loadString('lib/components/menu_items.json');
+    List<dynamic> jsonData = json.decode(jsonString);
+    List<MenuItemData> menuItems = [];
+    for (var item in jsonData) {
+      MenuItemData menuItem = MenuItemData(
+        image: item['image'],
+        title: item['title'],
+        description: item['description'],
+      );
+      menuItems.add(menuItem);
+    }
+    setState(() {
+      _menuItems = menuItems;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
       padding: EdgeInsets.symmetric(horizontal: 16.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          SizedBox(height: 16.0),
-          Text(
-            'Vertical Menu',
-            style: TextStyle(
-              fontSize: MediaQuery.of(context).size.width * 0.05,
-              fontWeight: FontWeight.bold,
+      child: SingleChildScrollView(
+        // Added SingleChildScrollView
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SizedBox(height: 16.0),
+            Text(
+              'Vertical Menu',
+              style: TextStyle(
+                fontSize: MediaQuery.of(context).size.width * 0.05,
+                fontWeight: FontWeight.bold,
+              ),
             ),
-          ),
-          SizedBox(height: 16.0),
-          GestureDetector(
-            onTap: () {
-              navigateToMenuItemDetail(
-                context,
-                'Random Item',
-                'Description for Random Item',
-                'https://via.placeholder.com/200x200',
-              );
-            },
-            child: MenuItem(
-              image: 'https://via.placeholder.com/200x200',
-              title: 'Random Item',
-              description: 'Description for Random Item',
+            SizedBox(height: 16.0),
+            ListView.builder(
+              shrinkWrap: true,
+              physics:
+                  NeverScrollableScrollPhysics(), // Disable inner ListView scrolling
+              itemCount: _menuItems.length,
+              itemBuilder: (context, index) {
+                MenuItemData menuItem = _menuItems[index];
+                return GestureDetector(
+                  onTap: () {
+                    navigateToMenuItemDetail(
+                      context,
+                      menuItem.title,
+                      menuItem.description,
+                      menuItem.image,
+                    );
+                  },
+                  child: MenuItem(
+                    image: menuItem.image,
+                    title: menuItem.title,
+                    description: menuItem.description,
+                  ),
+                );
+              },
             ),
-          ),
-          GestureDetector(
-            onTap: () {
-              navigateToMenuItemDetail(
-                context,
-                'Item 1',
-                'Description for Item 1',
-                'assets/logo.png',
-              );
-            },
-            child: MenuItem(
-              image: 'https://via.placeholder.com/200x200',
-              title: 'Item 1',
-              description: 'Description for Item 1',
-            ),
-          ),
-          GestureDetector(
-            onTap: () {
-              navigateToMenuItemDetail(
-                context,
-                'Item 2',
-                'Description for Item 2',
-                'https://via.placeholder.com/200x200',
-              );
-            },
-            child: MenuItem(
-              image: 'https://via.placeholder.com/200x200',
-              title: 'Item 2',
-              description: 'Description for Item 2',
-            ),
-          ),
-          GestureDetector(
-            onTap: () {
-              navigateToMenuItemDetail(
-                context,
-                'Item 3',
-                'Description for Item 3',
-                'https://via.placeholder.com/200x200',
-              );
-            },
-            child: MenuItem(
-              image: 'https://via.placeholder.com/200x200',
-              title: 'Item 3',
-              description: 'Description for Item 3',
-            ),
-          ),
-          // Add more menu items as needed
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -125,7 +123,8 @@ class MenuItem extends StatelessWidget {
                 Text(
                   description,
                   style: TextStyle(
-                      fontSize: MediaQuery.of(context).size.width * 0.035),
+                    fontSize: MediaQuery.of(context).size.width * 0.035,
+                  ),
                 ),
               ],
             ),
@@ -134,6 +133,18 @@ class MenuItem extends StatelessWidget {
       ),
     );
   }
+}
+
+class MenuItemData {
+  final String image;
+  final String title;
+  final String description;
+
+  MenuItemData({
+    required this.image,
+    required this.title,
+    required this.description,
+  });
 }
 
 void navigateToMenuItemDetail(

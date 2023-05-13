@@ -17,7 +17,7 @@ class MenuItemDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Item Details'),
+        title: Text('Item 2 Details'),
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
@@ -27,13 +27,15 @@ class MenuItemDetailScreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             SizedBox(height: 16.0),
-            Image.asset(
-              image,
-              height: 200.0,
-              width: 200.0,
+            AspectRatio(
+              aspectRatio: 1.0,
+              child: Image.asset(
+                image,
+                fit: BoxFit.cover,
+              ),
             ),
             SizedBox(height: 16.0),
             Padding(
@@ -41,16 +43,19 @@ class MenuItemDetailScreen extends StatelessWidget {
               child: Text(
                 title,
                 style: TextStyle(
-                  fontSize: 24.0,
+                  fontSize: MediaQuery.of(context).size.width * 0.06,
                   fontWeight: FontWeight.bold,
                 ),
+                textAlign: TextAlign.center,
               ),
             ),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
                 description,
-                style: TextStyle(fontSize: 16.0),
+                style: TextStyle(
+                  fontSize: MediaQuery.of(context).size.width * 0.04,
+                ),
                 textAlign: TextAlign.center,
               ),
             ),

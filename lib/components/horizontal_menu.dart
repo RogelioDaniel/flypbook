@@ -1,24 +1,38 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flypbook/models/horizontal_menu_item.dart';
 
-class HorizontalMenu extends StatelessWidget {
-  final List<HorizontalMenuItem> items = [
-    HorizontalMenuItem(
-      title: 'Item 1',
-      description: 'Description 1',
-      imageUrl: 'https://via.placeholder.com/150',
-    ),
-    HorizontalMenuItem(
-      title: 'Item 2',
-      description: 'Description 2',
-      imageUrl: 'https://via.placeholder.com/150',
-    ),
-    HorizontalMenuItem(
-      title: 'Item 3',
-      description: 'Description 3',
-      imageUrl: 'https://via.placeholder.com/150',
-    ),
-  ];
+class HorizontalMenu extends StatefulWidget {
+  @override
+  _HorizontalMenuState createState() => _HorizontalMenuState();
+}
+
+class _HorizontalMenuState extends State<HorizontalMenu> {
+  List<HorizontalMenuItem> items = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _loadMenuItems();
+  }
+
+  Future<void> _loadMenuItems() async {
+    String jsonString = await DefaultAssetBundle.of(context)
+        .loadString('lib/components/menu_items.json');
+    List<dynamic> jsonData = json.decode(jsonString);
+    List<HorizontalMenuItem> menuItems = [];
+    for (var item in jsonData) {
+      HorizontalMenuItem menuItem = HorizontalMenuItem(
+        title: item['title'],
+        description: item['description'],
+        imageUrl: item['imageUrl'],
+      );
+      menuItems.add(menuItem);
+    }
+    setState(() {
+      items = menuItems;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

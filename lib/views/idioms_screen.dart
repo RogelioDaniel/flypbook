@@ -1,29 +1,43 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flypbook/components/vertical_menu.dart';
 import 'package:http/http.dart' as http;
 
 import '../components/menu_drawer.dart';
+import '../components/vertical_menu.dart';
 import 'favorite_item.dart';
 
-class IdiomsScreen extends StatelessWidget {
-  final List<Widget> favoriteItems = [
-    FavoriteItem(
-      image: 'lib/assets/logo.png',
-      title: 'Idiom 1',
-      description: 'Description for Idiom 1',
-    ),
-    FavoriteItem(
-      image: 'https://via.placeholder.com/200x200',
-      title: 'Idiom 2',
-      description: 'Description for Idiom 2',
-    ),
-    FavoriteItem(
-      image: 'https://via.placeholder.com/200x200',
-      title: 'Idiom 3',
-      description: 'Description for Idiom 3',
-    ),
-  ];
+class IdiomsScreen extends StatefulWidget {
+  @override
+  _IdiomsScreenState createState() => _IdiomsScreenState();
+}
+
+class _IdiomsScreenState extends State<IdiomsScreen> {
+  List<Widget> favoriteItems = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _loadFavoriteItems();
+  }
+
+  Future<void> _loadFavoriteItems() async {
+    String jsonString = await DefaultAssetBundle.of(context)
+        .loadString('lib/components/favorite_items.json');
+    List<dynamic> jsonData = json.decode(jsonString);
+    List<Widget> items = [];
+    for (var item in jsonData) {
+      FavoriteItem favoriteItem = FavoriteItem(
+        image: item['image'],
+        title: item['title'],
+        description: item['description'],
+      );
+      items.add(favoriteItem);
+    }
+    setState(() {
+      favoriteItems = items;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

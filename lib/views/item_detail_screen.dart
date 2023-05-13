@@ -61,7 +61,7 @@ class ItemDetailScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 16.0),
-            TopicScreen(), // Show the TopicScreen component with the provided topicItems
+            TopicScreen(),
           ],
         ),
       ),
