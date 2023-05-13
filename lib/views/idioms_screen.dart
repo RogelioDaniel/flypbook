@@ -51,15 +51,18 @@ class _IdiomsScreenState extends State<IdiomsScreen> {
           children: [
             SizedBox(height: 16.0),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
-              child: Text(
-                'Favorites',
-                style: TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
+                child: Text(
+                  'Favorites',
+                  style: TextStyle(
+                    fontSize: 24.0,
+                    fontWeight: FontWeight.bold,
+                    foreground: Paint()
+                      ..style = PaintingStyle.stroke
+                      ..strokeWidth = 2
+                      ..color = const Color.fromARGB(255, 3, 3, 3),
+                  ),
+                )),
             SizedBox(height: 16.0),
             CarouselSlider(
               items: favoriteItems,

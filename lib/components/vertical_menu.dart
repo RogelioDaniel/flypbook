@@ -57,7 +57,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
             ListView.builder(
               shrinkWrap: true,
               physics:
-                  NeverScrollableScrollPhysics(), // Disable inner ListView scrolling
+                  const NeverScrollableScrollPhysics(), // Disable inner ListView scrolling
               itemCount: _menuItems.length,
               itemBuilder: (context, index) {
                 MenuItemData menuItem = _menuItems[index];

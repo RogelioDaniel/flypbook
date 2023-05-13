@@ -12,19 +12,19 @@ class _OnboardingPageState extends State<OnboardingScreen> {
   int _currentPageIndex = 0;
   List<OnboardingItem> _onboardingItems = [
     OnboardingItem(
-      image: 'assets/images/onboarding1.png',
-      title: 'Welcome to MyApp',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      image: '',
+      title: 'Welcome to FlypBook',
+      description: 'Focus on what matters to you.',
     ),
     OnboardingItem(
       image: 'assets/images/onboarding2.png',
-      title: 'Explore Amazing Features',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Learn at your own pace',
+      description: 'And practice in your free time.',
     ),
     OnboardingItem(
       image: 'assets/images/onboarding3.png',
       title: 'Get Started Now',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Your context is the learning base, focus!!!.',
     ),
   ];
 
@@ -74,86 +74,129 @@ class _OnboardingPageState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Set the background color
-      body: PageView.builder(
-        controller: _pageController,
-        itemCount: _onboardingItems.length,
-        onPageChanged: (index) {
-          setState(() {
-            _currentPageIndex = index;
-          });
-        },
-        itemBuilder: (context, index) {
-          final item = _onboardingItems[index];
-          return Container(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('lib/assets/8715883.gif'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Color.fromRGBO(255, 254, 254, 0.2),
+          ),
+          child: Padding(
             padding: EdgeInsets.all(16.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  item.image,
-                  height: 200.0,
-                  width: 200.0,
-                ),
-                SizedBox(height: 32.0),
-                Text(
-                  item.title,
-                  style: TextStyle(
-                    fontSize: 24.0,
-                    fontWeight: FontWeight.bold,
+                Expanded(
+                  child: PageView.builder(
+                    controller: _pageController,
+                    itemCount: _onboardingItems.length,
+                    onPageChanged: (index) {
+                      setState(() {
+                        _currentPageIndex = index;
+                      });
+                    },
+                    itemBuilder: (context, index) {
+                      final item = _onboardingItems[index];
+                      return Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          LayoutBuilder(
+                            builder: (context, constraints) {
+                              final maxWidth = constraints.maxWidth;
+                              final maxHeight = constraints.maxHeight;
+
+                              final imageHeight = maxWidth * 1.6;
+                              final imageWidth = maxWidth * 1.6;
+
+                              return Image.asset(
+                                item.image,
+                                height: imageHeight,
+                                width: imageWidth,
+                              );
+                            },
+                          ),
+                          SizedBox(height: 32.0),
+                          Text(
+                            item.title,
+                            style: TextStyle(
+                              fontSize: 24.0,
+                              fontWeight: FontWeight.bold,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2.5
+                                ..color = const Color.fromARGB(255, 18, 17, 17),
+                            ),
+                          ),
+                          SizedBox(height: 16.0),
+                          LayoutBuilder(
+                            builder: (context, constraints) {
+                              final maxWidth = constraints.maxWidth;
+
+                              return Text(
+                                item.description,
+                                style: TextStyle(
+                                  fontSize: maxWidth * 0.04,
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                                textAlign: TextAlign.center,
+                              );
+                            },
+                          ),
+                        ],
+                      );
+                    },
                   ),
                 ),
-                SizedBox(height: 16.0),
-                Text(
-                  item.description,
-                  style: TextStyle(fontSize: 16.0),
-                  textAlign: TextAlign.center,
+                Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      if (_currentPageIndex > 0)
+                        TextButton(
+                          onPressed: () {
+                            _pageController.previousPage(
+                              duration: Duration(milliseconds: 300),
+                              curve: Curves.ease,
+                            );
+                          },
+                          child: Text(
+                            'Previous',
+                            style: TextStyle(
+                              color: Colors.blue,
+                            ),
+                          ),
+                        ),
+                      if (_currentPageIndex < _onboardingItems.length - 1)
+                        ElevatedButton(
+                          onPressed: () {
+                            _navigateToNextPage();
+                          },
+                          child: Text('Next'),
+                          style: ElevatedButton.styleFrom(
+                            primary: const Color.fromARGB(255, 0, 0, 0),
+                          ),
+                        ),
+                      if (_currentPageIndex == _onboardingItems.length - 1)
+                        ElevatedButton(
+                          onPressed: () {
+                            _navigateToNextPage();
+                          },
+                          child: Text('Get Started'),
+                          style: ElevatedButton.styleFrom(
+                            primary: const Color.fromARGB(255, 0, 0, 0),
+                          ),
+                        ),
+                    ],
+                  ),
                 ),
               ],
             ),
-          );
-        },
-      ),
-      bottomNavigationBar: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            if (_currentPageIndex > 0)
-              TextButton(
-                onPressed: () {
-                  _pageController.previousPage(
-                    duration: Duration(milliseconds: 300),
-                    curve: Curves.ease,
-                  );
-                },
-                child: Text(
-                  'Previous',
-                  style: TextStyle(
-                      color: Colors.blue), // Set the button text color
-                ),
-              ),
-            if (_currentPageIndex < _onboardingItems.length - 1)
-              ElevatedButton(
-                onPressed: () {
-                  _navigateToNextPage();
-                },
-                child: Text('Next'),
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.blue, // Set the button background color
-                ),
-              ),
-            if (_currentPageIndex == _onboardingItems.length - 1)
-              ElevatedButton(
-                onPressed: () {
-                  _navigateToNextPage();
-                },
-                child: Text('Get Started'),
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.green, // Set the button background color
-                ),
-              ),
-          ],
+          ),
         ),
       ),
     );

@@ -73,6 +73,10 @@ flutter:
     - lib/assets/logo.png 
     - lib/components/menu_items.json
     - lib/components/favorite_items.json
+    - lib/components/topics.json
+    - lib/assets/onboarding1.gif
+    - lib/assets/onboarding1_1.gif
+    - lib/assets/8715883.gif
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

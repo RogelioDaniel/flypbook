@@ -12,7 +12,7 @@ class MenuDrawer extends StatelessWidget {
             Container(
               height: 200,
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Color.fromARGB(255, 93, 160, 223),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(32),
                   bottomRight: Radius.circular(32),
@@ -39,6 +39,7 @@ class MenuDrawer extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.blue,
                   fontSize: 16,
+                  fontWeight: FontWeight.bold, // Premium style
                 ),
               ),
               onTap: () {
@@ -55,6 +56,7 @@ class MenuDrawer extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.blue,
                   fontSize: 16,
+                  fontWeight: FontWeight.bold, // Premium style
                 ),
               ),
               onTap: () {

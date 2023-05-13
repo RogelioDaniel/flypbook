@@ -1,0 +1,20 @@
+[
+    {
+      "id": "topic1",
+      "title": "Topic 1",
+      "image": "assets/images/topic1.png",
+      "description": "Description for Topic 1"
+    },
+    {
+      "id": "topic2",
+      "title": "Topic 2",
+      "image": "assets/images/topic2.png",
+      "description": "Description for Topic 2"
+    },
+    {
+      "id": "topic3",
+      "title": "Topic 3",
+      "image": "assets/images/topic3.png",
+      "description": "Description for Topic 3"
+    }
+  ]

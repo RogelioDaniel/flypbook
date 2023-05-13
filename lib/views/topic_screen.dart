@@ -1,23 +1,42 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 
-class TopicScreen extends StatelessWidget {
-  final List<TopicItem> topicItems = [
-    TopicItem(
-      image: 'assets/images/topic1.png',
-      title: 'Topic 1',
-      description: 'Description for Topic 1',
-    ),
-    TopicItem(
-      image: 'assets/images/topic2.png',
-      title: 'Topic 2',
-      description: 'Description for Topic 2',
-    ),
-    TopicItem(
-      image: 'assets/images/topic3.png',
-      title: 'Topic 3',
-      description: 'Description for Topic 3',
-    ),
-  ];
+class TopicScreen extends StatefulWidget {
+  @override
+  _TopicScreenState createState() => _TopicScreenState();
+}
+
+class _TopicScreenState extends State<TopicScreen> {
+  List<TopicItem> topicItems = [];
+
+  @override
+  void initState() {
+    super.initState();
+    loadTopicItems();
+  }
+
+  Future<void> loadTopicItems() async {
+    // Load the JSON content from a file
+    String jsonString = await DefaultAssetBundle.of(context)
+        .loadString('lib/components/topics.json');
+
+    // Decoding the JSON content
+    List<dynamic> jsonData = json.decode(jsonString);
+
+    // Mapping the JSON data to TopicItem objects
+    List<TopicItem> items = jsonData
+        .map((item) => TopicItem(
+              id: item['id'],
+              image: item['image'],
+              title: item['title'],
+              description: item['description'],
+            ))
+        .toList();
+
+    setState(() {
+      topicItems = items;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -45,6 +64,7 @@ class TopicScreen extends StatelessWidget {
               return Padding(
                 padding: EdgeInsets.only(left: 16.0),
                 child: TopicItemCard(
+                  id: item.id,
                   image: item.image,
                   title: item.title,
                   description: item.description,
@@ -67,11 +87,13 @@ class TopicScreen extends StatelessWidget {
 }
 
 class TopicItem {
+  final String id;
   final String image;
   final String title;
   final String description;
 
   TopicItem({
+    required this.id,
     required this.image,
     required this.title,
     required this.description,
@@ -79,12 +101,14 @@ class TopicItem {
 }
 
 class TopicItemCard extends StatelessWidget {
+  final String id;
   final String image;
   final String title;
   final String description;
   final VoidCallback onPressed;
 
   const TopicItemCard({
+    required this.id,
     required this.image,
     required this.title,
     required this.description,
@@ -198,7 +222,7 @@ class TopicSubScreen extends StatelessWidget {
                   return ListTile(
                     title: Text('Subtopic ${index + 1}'),
                     onTap: () {
-                      // Navigate to subtopic screen
+// Navigate to subtopic screen
                     },
                   );
                 },
