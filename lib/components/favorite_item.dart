@@ -43,7 +43,7 @@ class FavoriteItem extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.all(16.0),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(8.0),
+          borderRadius: BorderRadius.circular(15.0),
           color: const Color.fromARGB(255, 229, 210, 210).withOpacity(0.8),
           boxShadow: [
             BoxShadow(
@@ -52,6 +52,14 @@ class FavoriteItem extends StatelessWidget {
               offset: const Offset(0, 2),
             ),
           ],
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              const Color.fromARGB(255, 229, 210, 210),
+              Color.fromARGB(255, 220, 207, 207),
+            ],
+          ),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,

@@ -18,12 +18,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flypbook',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      home: onboardingShown ? const AllItemsScreen() : OnboardingScreen(),
-    );
+    return GestureDetector(
+        // Add GestureDetector to handle tap anywhere on the screen
+        onTap: () {
+          // Unfocus text field and dismiss keyboard
+          FocusScope.of(context).unfocus();
+        },
+        child: MaterialApp(
+          title: 'Flypbook',
+          theme: ThemeData(
+            primarySwatch: Colors.orange,
+          ),
+          home: onboardingShown ? const AllItemsScreen() : OnboardingScreen(),
+        ));
   }
 }

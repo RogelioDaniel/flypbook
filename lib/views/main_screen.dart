@@ -18,18 +18,16 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
   List<Widget> allItems = [];
 
   bool animate = true; // Placeholder value for animate variable
-  late FocusNode _searchFocusNode;
 
   @override
   void initState() {
     super.initState();
-    _searchFocusNode = FocusNode();
+
     _loadAllItems();
   }
 
   @override
   void dispose() {
-    _searchFocusNode.dispose();
     super.dispose();
   }
 
