@@ -1,15 +1,15 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/services.dart';
-import 'package:http/http.dart' as http;
-import 'package:circles_background/circles_background.dart';
 
+import 'package:circles_background/circles_background.dart';
 import '../components/menu_drawer.dart';
 import '../components/vertical_menu.dart';
 import '../components/favorite_item.dart';
 
 class AllItemsScreen extends StatefulWidget {
+  const AllItemsScreen({super.key});
+
   @override
   _AllItemsScreenState createState() => _AllItemsScreenState();
 }
@@ -61,11 +61,11 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
               alignment: Alignment.topRight),
           CircleInfo(
               size: const Size(300, 900),
-              gradient: LinearGradient(
+              gradient: const LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 179, 160, 24)!,
+                    Color.fromARGB(255, 179, 160, 24),
                     Color.fromARGB(255, 211, 125, 28)
                   ]),
               borderRadius: const BorderRadius.only(),
@@ -76,7 +76,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 179, 160, 24)!,
+                    Color.fromARGB(255, 179, 160, 24),
                     Color.fromARGB(255, 242, 131, 4)
                   ]),
               borderRadius: const BorderRadius.only(

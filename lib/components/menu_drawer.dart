@@ -4,15 +4,23 @@ class MenuDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      backgroundColor: Color.fromARGB(255, 255, 255, 255).withOpacity(0.9),
       child: Container(
-        color: Colors.white,
+        color: Colors.transparent,
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             Container(
               height: 200,
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 93, 160, 223),
+                gradient: RadialGradient(
+                  colors: [
+                    Colors.orange,
+                    const Color.fromARGB(255, 232, 181, 103),
+                  ],
+                  center: Alignment.topCenter,
+                  radius: 0.8,
+                ),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(32),
                   bottomRight: Radius.circular(32),
@@ -22,7 +30,7 @@ class MenuDrawer extends StatelessWidget {
                 child: Text(
                   'Menu',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                   ),
@@ -32,14 +40,14 @@ class MenuDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.home,
-                color: Colors.blue,
+                color: Colors.orange,
               ),
               title: Text(
                 'Home',
                 style: TextStyle(
-                  color: Colors.blue,
+                  color: const Color.fromARGB(255, 0, 0, 0),
                   fontSize: 16,
-                  fontWeight: FontWeight.bold, // Premium style
+                  fontWeight: FontWeight.bold,
                 ),
               ),
               onTap: () {
@@ -49,14 +57,14 @@ class MenuDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.info,
-                color: Colors.blue,
+                color: Colors.orange,
               ),
               title: Text(
                 'About',
                 style: TextStyle(
-                  color: Colors.blue,
+                  color: Colors.black,
                   fontSize: 16,
-                  fontWeight: FontWeight.bold, // Premium style
+                  fontWeight: FontWeight.bold,
                 ),
               ),
               onTap: () {

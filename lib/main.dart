@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/all_items_screen.dart';
 import 'package:flypbook/views/onboarding_screen.dart';
-import 'package:circles_background/circles_background.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -15,7 +14,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   final bool onboardingShown;
 
-  const MyApp({required this.onboardingShown});
+  const MyApp({super.key, required this.onboardingShown});
 
   @override
   Widget build(BuildContext context) {

@@ -7,10 +7,10 @@
       "description": "Description for Random Item"
     },
     {
-      "itemId": "2",
-      "id": "2",
-      "image": "lib/assets/bank_b.gif",
-      "title": "Item 1",
+      "itemId": "8",
+      "id": "8",
+      "image": "lib/assets/hospital_b.gif",
+      "title": "Hospital",
       "description": "Description for Item 1"
     },
     {

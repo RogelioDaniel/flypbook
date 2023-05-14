@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flypbook/views/topic_screen.dart';
-import '../views/item_detail_screen.dart' as ItemDetailScreen;
+
+import '../views/item_detail_screen.dart' as item_detail_screen;
 
 class FavoriteItem extends StatelessWidget {
   final String itemId;
@@ -10,6 +10,7 @@ class FavoriteItem extends StatelessWidget {
   final String description;
 
   const FavoriteItem({
+    super.key,
     required this.itemId,
     required this.id,
     required this.image,
@@ -25,7 +26,7 @@ class FavoriteItem extends StatelessWidget {
           context,
           MaterialPageRoute(
             builder: (context) => Material(
-              child: ItemDetailScreen.ItemDetailScreen(
+              child: item_detail_screen.ItemDetailScreen(
                 itemId: itemId,
                 id: id,
                 image: image,
@@ -45,7 +46,7 @@ class FavoriteItem extends StatelessWidget {
             BoxShadow(
               color: Colors.black.withOpacity(0.2),
               blurRadius: 4,
-              offset: Offset(0, 2),
+              offset: const Offset(0, 2),
             ),
           ],
         ),
@@ -61,7 +62,7 @@ class FavoriteItem extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            SizedBox(height: 8.0),
+            const SizedBox(height: 8.0),
             Text(
               title,
               style: TextStyle(
@@ -71,7 +72,7 @@ class FavoriteItem extends StatelessWidget {
               ),
               textAlign: TextAlign.left,
             ),
-            SizedBox(height: 4.0),
+            const SizedBox(height: 4.0),
             Text(
               description,
               style: TextStyle(
