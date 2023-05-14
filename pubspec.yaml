@@ -71,9 +71,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - lib/assets/logo.png 
-    - lib/components/menu_items.json
-    - lib/components/favorite_items.json
-    - lib/components/topics.json
+    - lib/assets/restaurante_b.gif
+    - lib/data/vertical_items.json
+    - lib/data/favorite_items.json
+    - lib/data/all_items.json
+    - lib/data/topics.json
     - lib/assets/onboarding1.gif
     - lib/assets/onboarding1_1.gif
     - lib/assets/8715883.gif

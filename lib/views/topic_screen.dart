@@ -1,7 +1,17 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flypbook/components/topic_item_card.dart';
+import 'package:flypbook/views/topic_sub_screen.dart';
+import 'package:flypbook/models/topic_item.dart';
 
 class TopicScreen extends StatefulWidget {
+  final String itemId;
+
+  const TopicScreen({
+    required this.itemId,
+  });
+
   @override
   _TopicScreenState createState() => _TopicScreenState();
 }
@@ -12,30 +22,63 @@ class _TopicScreenState extends State<TopicScreen> {
   @override
   void initState() {
     super.initState();
-    loadTopicItems();
+    _loadTopicItems();
   }
 
-  Future<void> loadTopicItems() async {
-    // Load the JSON content from a file
-    String jsonString = await DefaultAssetBundle.of(context)
-        .loadString('lib/components/topics.json');
+  Future<void> _loadTopicItems() async {
+    // Load the JSON content from topics.json
+    String topicsJsonString =
+        await DefaultAssetBundle.of(context).loadString('lib/data/topics.json');
 
-    // Decoding the JSON content
-    List<dynamic> jsonData = json.decode(jsonString);
+    // Decoding the JSON content of topics.json
+    List<dynamic> topicsJsonData = json.decode(topicsJsonString);
 
-    // Mapping the JSON data to TopicItem objects
-    List<TopicItem> items = jsonData
-        .map((item) => TopicItem(
-              id: item['id'],
-              image: item['image'],
-              title: item['title'],
-              description: item['description'],
-            ))
-        .toList();
+    // Load the JSON content from favorite_items.json
+    String favoritesJsonString = await DefaultAssetBundle.of(context)
+        .loadString('lib/data/all_items.json');
 
-    setState(() {
-      topicItems = items;
-    });
+    // Decoding the JSON content of favorite_items.json
+    List<dynamic> favoritesJsonData = json.decode(favoritesJsonString);
+
+    // Find the favorite item with the matching itemId
+    var favoriteItem = favoritesJsonData.firstWhere(
+      (favorite) => favorite['itemId'] == widget.itemId,
+      orElse: () => null,
+    );
+
+    if (favoriteItem != null) {
+      // Filter topicsJsonData based on the favorite item's itemId
+      List<dynamic> filteredTopicsJsonData = topicsJsonData.where((topic) {
+        return topic['itemId'] == widget.itemId;
+      }).toList();
+
+      // Mapping the JSON data to TopicItem objects
+      List<TopicItem> items = filteredTopicsJsonData.map((topic) {
+        // Extract the items from the JSON data
+        List<Item> subItems =
+            (topic['items'] as List<dynamic>).map<Item>((item) {
+          return Item(
+            id: item['id'],
+            title: item['title'],
+            description: item['description'],
+          );
+        }).toList();
+
+        return TopicItem(
+          id: topic['id'],
+          itemId: topic['itemId'],
+          image: topic['image'],
+          title: topic['title'],
+          description: topic['description'],
+          items: subItems,
+          isFavorite: true,
+        );
+      }).toList();
+
+      setState(() {
+        topicItems = items;
+      });
+    }
   }
 
   @override
@@ -49,6 +92,7 @@ class _TopicScreenState extends State<TopicScreen> {
             'Topics',
             style: TextStyle(
               fontSize: 24.0,
+              color: Colors.black,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -82,155 +126,6 @@ class _TopicScreenState extends State<TopicScreen> {
           ),
         ),
       ],
-    );
-  }
-}
-
-class TopicItem {
-  final String id;
-  final String image;
-  final String title;
-  final String description;
-
-  TopicItem({
-    required this.id,
-    required this.image,
-    required this.title,
-    required this.description,
-  });
-}
-
-class TopicItemCard extends StatelessWidget {
-  final String id;
-  final String image;
-  final String title;
-  final String description;
-  final VoidCallback onPressed;
-
-  const TopicItemCard({
-    required this.id,
-    required this.image,
-    required this.title,
-    required this.description,
-    required this.onPressed,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPressed,
-      child: Container(
-        width: 160.0,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(8.0),
-          color: Colors.white,
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.1),
-              offset: Offset(0, 2),
-              blurRadius: 4.0,
-            ),
-          ],
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(8.0),
-                topRight: Radius.circular(8.0),
-              ),
-              child: Image.asset(
-                image,
-                height: 100.0,
-                width: double.infinity,
-                fit: BoxFit.cover,
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: TextStyle(
-                      fontSize: 16.0,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(height: 4.0),
-                  Text(
-                    description,
-                    style: TextStyle(fontSize: 14.0),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class TopicSubScreen extends StatelessWidget {
-  final TopicItem topicItem;
-
-  TopicSubScreen({required this.topicItem});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(topicItem.title),
-      ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(8.0),
-              child: Image.asset(
-                topicItem.image,
-                height: 200.0,
-                width: double.infinity,
-                fit: BoxFit.cover,
-              ),
-            ),
-            SizedBox(height: 16.0),
-            Text(
-              topicItem.title,
-              style: TextStyle(
-                fontSize: 24.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 8.0),
-            Text(
-              topicItem.description,
-              style: TextStyle(fontSize: 16.0),
-            ),
-            SizedBox(height: 16.0),
-            Expanded(
-              child: ListView.builder(
-                itemCount: 5,
-                itemBuilder: (context, index) {
-                  return ListTile(
-                    title: Text('Subtopic ${index + 1}'),
-                    onTap: () {
-// Navigate to subtopic screen
-                    },
-                  );
-                },
-              ),
-            ),
-          ],
-        ),
-      ),
     );
   }
 }

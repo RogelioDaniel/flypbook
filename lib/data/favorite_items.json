@@ -1,0 +1,24 @@
+[
+  {
+    "itemId": "1",
+    "id": "1",
+    "image": "lib/assets/restaurante_b.gif",
+    "title": "Restaurant",
+    "description": "I can help you when you need to gotta a restaurant."
+  },
+  {
+    "itemId": "2",
+    "id": "2",
+    "image": "assets/images/item2.png",
+    "title": "Favorite Item 2",
+    "description": "This is the description of Favorite Item 2."
+  },
+  {
+    "itemId": "3",
+    "id": "3",
+    "image": "assets/images/item3.png",
+    "title": "Favorite Item 3",
+    "description": "This is the description of Favorite Item 3."
+  }
+
+]

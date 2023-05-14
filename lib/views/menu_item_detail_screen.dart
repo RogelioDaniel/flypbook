@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flypbook/views/topic_screen.dart';
 
 class MenuItemDetailScreen extends StatelessWidget {
+  final String itemId;
   final String image;
   final String title;
   final String description;
 
   const MenuItemDetailScreen({
+    required this.itemId,
     required this.image,
     required this.title,
     required this.description,
@@ -25,43 +27,48 @@ class MenuItemDetailScreen extends StatelessWidget {
           },
         ),
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            SizedBox(height: 16.0),
-            AspectRatio(
-              aspectRatio: 1.0,
-              child: Image.asset(
-                image,
-                fit: BoxFit.cover,
-              ),
-            ),
-            SizedBox(height: 16.0),
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Text(
-                title,
-                style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width * 0.06,
-                  fontWeight: FontWeight.bold,
+      body: Container(
+        color: const Color.fromARGB(255, 247, 246, 246),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              SizedBox(height: 16.0),
+              AspectRatio(
+                aspectRatio: 1.0,
+                child: Image.asset(
+                  image,
+                  fit: BoxFit.cover,
                 ),
-                textAlign: TextAlign.center,
               ),
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
-              child: Text(
-                description,
-                style: TextStyle(
-                  fontSize: MediaQuery.of(context).size.width * 0.04,
+              SizedBox(height: 16.0),
+              Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Text(
+                  title,
+                  style: TextStyle(
+                    fontSize: MediaQuery.of(context).size.width * 0.06,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
               ),
-            ),
-            SizedBox(height: 16.0),
-            TopicScreen(), // Show the TopicScreen component
-          ],
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
+                child: Text(
+                  description,
+                  style: TextStyle(
+                    fontSize: MediaQuery.of(context).size.width * 0.04,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              SizedBox(height: 16.0),
+              TopicScreen(
+                itemId: itemId,
+              ), // Show the TopicScreen component
+            ],
+          ),
         ),
       ),
     );

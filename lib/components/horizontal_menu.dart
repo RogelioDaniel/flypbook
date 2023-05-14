@@ -18,7 +18,7 @@ class _HorizontalMenuState extends State<HorizontalMenu> {
 
   Future<void> _loadMenuItems() async {
     String jsonString = await DefaultAssetBundle.of(context)
-        .loadString('lib/components/menu_items.json');
+        .loadString('lib/data/menu_items.json');
     List<dynamic> jsonData = json.decode(jsonString);
     List<HorizontalMenuItem> menuItems = [];
     for (var item in jsonData) {

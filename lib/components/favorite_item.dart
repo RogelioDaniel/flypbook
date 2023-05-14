@@ -1,20 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/topic_screen.dart';
-import 'item_detail_screen.dart'
-    as ItemDetailScreen; // Add the 'as' keyword and a prefix
+import '../views/item_detail_screen.dart' as ItemDetailScreen;
 
 class FavoriteItem extends StatelessWidget {
-  final Key? key;
+  final String itemId;
+  final String id;
   final String image;
   final String title;
   final String description;
 
   const FavoriteItem({
+    required this.itemId,
+    required this.id,
     required this.image,
     required this.title,
     required this.description,
-    this.key,
-  }) : super(key: key);
+  });
+
+  void idknow() {
+    print("sadas" + id);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +30,8 @@ class FavoriteItem extends StatelessWidget {
           MaterialPageRoute(
             builder: (context) => Material(
               child: ItemDetailScreen.ItemDetailScreen(
-                // Use the prefix to specify the correct ItemDetailScreen
+                itemId: itemId,
+                id: id,
                 image: image,
                 title: title,
                 description: description,
@@ -33,6 +39,7 @@ class FavoriteItem extends StatelessWidget {
             ),
           ),
         );
+        idknow();
       },
       child: Container(
         padding: EdgeInsets.all(16.0),

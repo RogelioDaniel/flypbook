@@ -19,11 +19,12 @@ class _VerticalMenuState extends State<VerticalMenu> {
 
   Future<void> _loadMenuItems() async {
     String jsonString = await DefaultAssetBundle.of(context)
-        .loadString('lib/components/menu_items.json');
+        .loadString('lib/data/vertical_items.json');
     List<dynamic> jsonData = json.decode(jsonString);
     List<MenuItemData> menuItems = [];
     for (var item in jsonData) {
       MenuItemData menuItem = MenuItemData(
+        itemId: item['itemId'],
         image: item['image'],
         title: item['title'],
         description: item['description'],
@@ -65,6 +66,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
                   onTap: () {
                     navigateToMenuItemDetail(
                       context,
+                      menuItem.itemId,
                       menuItem.title,
                       menuItem.description,
                       menuItem.image,
@@ -136,23 +138,26 @@ class MenuItem extends StatelessWidget {
 }
 
 class MenuItemData {
+  final String itemId;
   final String image;
   final String title;
   final String description;
 
   MenuItemData({
+    required this.itemId,
     required this.image,
     required this.title,
     required this.description,
   });
 }
 
-void navigateToMenuItemDetail(
-    BuildContext context, String title, String description, String image) {
+void navigateToMenuItemDetail(BuildContext context, String itemId, String title,
+    String description, String image) {
   Navigator.push(
     context,
     MaterialPageRoute(
       builder: (context) => MenuItemDetailScreen(
+        itemId: itemId,
         title: title,
         description: description,
         image: image,
