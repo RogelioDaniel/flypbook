@@ -25,11 +25,11 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
 
   Future<void> _loadAllItems() async {
     String jsonString = await DefaultAssetBundle.of(context)
-        .loadString('lib/data/all_items.json');
+        .loadString('lib/data/favorite_items.json');
     List<dynamic> jsonData = json.decode(jsonString);
     List<Widget> items = [];
     for (var item in jsonData) {
-      FavoriteItem allItem = FavoriteItem(
+      FavoriteItem favorite_item = FavoriteItem(
         itemId: item['itemId'],
         id: item['id'],
         image: item['image'],
@@ -37,7 +37,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
         description: item['description'],
       );
 
-      items.add(allItem);
+      items.add(favorite_item);
     }
     setState(() {
       allItems = items;
@@ -48,7 +48,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('All Items'),
+        title: Text('Favorite'),
       ),
       drawer: MenuDrawer(),
       body: CirclesBackground(
@@ -91,7 +91,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16.0),
                 child: Text(
-                  'All Items',
+                  'Favorite',
                   style: TextStyle(
                     fontSize: 24.0,
                     fontWeight: FontWeight.bold,
