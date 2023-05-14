@@ -60,7 +60,7 @@ class _OnboardingPageState extends State<OnboardingScreen> {
       _markOnboardingAsShown(); // Mark onboarding as shown
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => IdiomsScreen()),
+        MaterialPageRoute(builder: (context) => AllItemsScreen()),
       );
     }
   }

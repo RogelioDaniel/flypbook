@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/all_items_screen.dart';
 import 'package:flypbook/views/onboarding_screen.dart';
-
+import 'package:circles_background/circles_background.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: onboardingShown ? IdiomsScreen() : OnboardingScreen(),
+      home: onboardingShown ? AllItemsScreen() : OnboardingScreen(),
     );
   }
 }

@@ -2,7 +2,7 @@
     {
         "itemId": "1",
         "id": "1",
-        "image": "assets/logo.png",
+        "image": "lib/assets/restaurante_b.gif",
         "title": "Restaurant",
         "description": "I can help you when you need to gotta a restaurant"
     },

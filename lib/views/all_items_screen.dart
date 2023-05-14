@@ -3,35 +3,33 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
+import 'package:circles_background/circles_background.dart';
 
 import '../components/menu_drawer.dart';
 import '../components/vertical_menu.dart';
 import '../components/favorite_item.dart';
 
-class IdiomsScreen extends StatefulWidget {
+class AllItemsScreen extends StatefulWidget {
   @override
-  _IdiomsScreenState createState() => _IdiomsScreenState();
+  _AllItemsScreenState createState() => _AllItemsScreenState();
 }
 
-class _IdiomsScreenState extends State<IdiomsScreen> {
-  List<Widget> favoriteItems = [];
-  List<Widget> topics = [];
+class _AllItemsScreenState extends State<AllItemsScreen> {
+  List<Widget> allItems = [];
 
   @override
   void initState() {
     super.initState();
-    _loadFavoriteItems();
-    _loadTopics();
-    evaluateIds();
+    _loadAllItems();
   }
 
-  Future<void> _loadFavoriteItems() async {
+  Future<void> _loadAllItems() async {
     String jsonString = await DefaultAssetBundle.of(context)
-        .loadString('lib/data/favorite_items.json');
+        .loadString('lib/data/all_items.json');
     List<dynamic> jsonData = json.decode(jsonString);
     List<Widget> items = [];
     for (var item in jsonData) {
-      FavoriteItem favoriteItem = FavoriteItem(
+      FavoriteItem allItem = FavoriteItem(
         itemId: item['itemId'],
         id: item['id'],
         image: item['image'],
@@ -39,61 +37,10 @@ class _IdiomsScreenState extends State<IdiomsScreen> {
         description: item['description'],
       );
 
-      items.add(favoriteItem);
+      items.add(allItem);
     }
     setState(() {
-      favoriteItems = items;
-    });
-  }
-
-  Future<void> evaluateIds() async {
-    // Load favorite items
-    String favoriteItemsJson =
-        await rootBundle.loadString('lib/data/favorite_items.json');
-    List<dynamic> favoriteItemsData = json.decode(favoriteItemsJson);
-    List<String> favoriteItemIds = [];
-    for (var itemData in favoriteItemsData) {
-      favoriteItemIds.add(itemData['id']);
-    }
-
-    // Load topics
-    String topicsJson = await rootBundle.loadString('lib/data/topics.json');
-    List<dynamic> topicsData = json.decode(topicsJson);
-
-    // Find topics with common IDs
-    List<dynamic> commonTopics = topicsData.where((topicData) {
-      String topicId = topicData['id'];
-      return favoriteItemIds.contains(topicId);
-    }).toList();
-
-    // Print the output
-    print('Common Topics:');
-    for (var topic in commonTopics) {
-      print('ID: ${topic['id']}');
-      print('Title: ${topic['title']}');
-      print('Description: ${topic['description']}');
-      print('---');
-    }
-  }
-
-  Future<void> _loadTopics() async {
-    String jsonString = await rootBundle.loadString('lib/data/topics.json');
-    List<dynamic> jsonData = json.decode(jsonString);
-    List<Widget> items = [];
-    for (var item in jsonData) {
-      // Assuming the structure of each topic is similar to FavoriteItem
-      FavoriteItem topicItem = FavoriteItem(
-        itemId: item['itemId'],
-        id: item['id'],
-        image: item['image'],
-        title: item['title'],
-        description: item['description'],
-      );
-
-      items.add(topicItem);
-    }
-    setState(() {
-      topics = items;
+      allItems = items;
     });
   }
 
@@ -101,64 +48,98 @@ class _IdiomsScreenState extends State<IdiomsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Principal'),
+        title: Text('All Items'),
       ),
       drawer: MenuDrawer(),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SizedBox(height: 16.0),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
-              child: Text(
-                'Favorites',
-                style: TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
-                  foreground: Paint()
-                    ..style = PaintingStyle.stroke
-                    ..strokeWidth = 2
-                    ..color = const Color.fromARGB(255, 3, 3, 3),
-                ),
-              ),
-            ),
-            SizedBox(height: 16.0),
-            CarouselSlider(
-              items: favoriteItems,
-              options: CarouselOptions(
-                height: MediaQuery.of(context).size.width * 0.5,
-                autoPlay: true,
-                enlargeCenterPage: true,
-              ),
-            ),
-            SizedBox(height: 32.0),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
-              child: Text(
-                'Vertical Menu',
-                style: TextStyle(
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-            SizedBox(height: 16.0),
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 16.0),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8.0),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.1),
-                    offset: Offset(0, 2),
-                    blurRadius: 4.0,
+      body: CirclesBackground(
+        circles: [
+          CircleInfo(
+              size: const Size(300, 500),
+              color: Color.fromARGB(255, 233, 192, 68),
+              borderRadius:
+                  const BorderRadius.only(bottomLeft: Radius.circular(200)),
+              alignment: Alignment.topRight),
+          CircleInfo(
+              size: const Size(300, 900),
+              gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color.fromARGB(255, 179, 160, 24)!,
+                    Color.fromARGB(255, 211, 125, 28)
+                  ]),
+              borderRadius: const BorderRadius.only(),
+              alignment: Alignment.topLeft),
+          CircleInfo(
+              size: const Size(200, 500),
+              gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color.fromARGB(255, 179, 160, 24)!,
+                    Color.fromARGB(255, 242, 131, 4)
+                  ]),
+              borderRadius: const BorderRadius.only(
+                  bottomLeft: Radius.circular(50),
+                  topLeft: Radius.circular(150)),
+              alignment: Alignment.bottomRight),
+        ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 16.0),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
+                child: Text(
+                  'All Items',
+                  style: TextStyle(
+                    fontSize: 24.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                    decoration: TextDecoration.none,
                   ),
-                ],
+                ),
               ),
-              child: VerticalMenu(),
-            ),
-            SizedBox(height: 16.0),
-          ],
+              SizedBox(height: 16.0),
+              CarouselSlider(
+                items: allItems,
+                options: CarouselOptions(
+                  height: MediaQuery.of(context).size.width * 0.5,
+                  autoPlay: true,
+                  enlargeCenterPage: true,
+                ),
+              ),
+              SizedBox(height: 32.0),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
+                child: Text(
+                  'Vertical Menu',
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                    decoration: TextDecoration.none,
+                  ),
+                ),
+              ),
+              SizedBox(height: 16.0),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 16.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.1),
+                      offset: Offset(0, 2),
+                      blurRadius: 4.0,
+                    ),
+                  ],
+                ),
+                child: VerticalMenu(),
+              ),
+              SizedBox(height: 16.0),
+            ],
+          ),
         ),
       ),
     );
