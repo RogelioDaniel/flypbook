@@ -1,4 +1,3 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/topic_screen.dart';
 
@@ -18,8 +17,9 @@ class MenuItemDetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
-        title: Text('Item 2 Details'),
+        title: Text('Details'),
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
@@ -27,49 +27,137 @@ class MenuItemDetailScreen extends StatelessWidget {
           },
         ),
       ),
-      body: Container(
-        color: const Color.fromARGB(255, 247, 246, 246),
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              SizedBox(height: 16.0),
-              AspectRatio(
-                aspectRatio: 1.0,
-                child: Image.asset(
-                  image,
-                  fit: BoxFit.cover,
-                ),
+      body: Stack(
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(image),
+                fit: BoxFit.cover,
               ),
-              SizedBox(height: 16.0),
-              Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Text(
-                  title,
-                  style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width * 0.06,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.symmetric(horizontal: 16.0),
-                child: Text(
-                  description,
-                  style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width * 0.04,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ),
-              SizedBox(height: 16.0),
-              TopicScreen(
-                itemId: itemId,
-              ), // Show the TopicScreen component
-            ],
+            ),
           ),
-        ),
+          Container(
+            color: const Color.fromARGB(255, 229, 210, 210).withOpacity(0.3),
+          ),
+          SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                SizedBox(height: 16.0),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.3),
+                        blurRadius: 10.0,
+                        offset: Offset(0, 5),
+                      ),
+                    ],
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(12.0),
+                    child: AspectRatio(
+                      aspectRatio: 1.0,
+                      child: Image.asset(
+                        image,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(height: 16.0),
+                Container(
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 229, 210, 210)
+                        .withOpacity(0.3),
+                    borderRadius: BorderRadius.circular(12.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.8),
+                        blurRadius: 10.0,
+                        offset: Offset(0, 5),
+                      ),
+                    ],
+                    border: Border.all(
+                      color: const Color.fromARGB(255, 23, 23, 23),
+                      width: 1.0,
+                    ),
+                  ),
+                  padding: EdgeInsets.all(16.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        title,
+                        style: TextStyle(
+                          fontSize: 24.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                          letterSpacing: 1.2,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      SizedBox(height: 16.0),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 16.0),
+                        child: Text(
+                          description,
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.black87,
+                            letterSpacing: 0.8,
+                            height: 1.5,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(height: 24.0),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                  child: Text(
+                    'Related Topics',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                      letterSpacing: 1.2,
+                    ),
+                  ),
+                ),
+                SizedBox(height: 16.0),
+                Divider(
+                  height: 1.0,
+                  color: Colors.grey[300],
+                  thickness: 1.0,
+                ),
+                SizedBox(height: 16.0),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.transparent,
+                    borderRadius: BorderRadius.circular(12.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.3),
+                        blurRadius: 10.0,
+                        offset: Offset(0, 5),
+                      ),
+                    ],
+                    border: Border.all(
+                      color: Colors.grey[300]!,
+                      width: 1.0,
+                    ),
+                  ),
+                  padding: EdgeInsets.all(16.0),
+                  child: TopicScreen(itemId: itemId),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }

@@ -9,16 +9,16 @@
   {
     "itemId": "2",
     "id": "2",
-    "image": "assets/images/item2.png",
-    "title": "Favorite Item 2",
-    "description": "This is the description of Favorite Item 2."
+    "image": "lib/assets/supermarket_b.gif",
+    "title": "Supermarket",
+    "description": "You will need to buy somethings."
   },
   {
     "itemId": "3",
     "id": "3",
-    "image": "assets/images/item3.png",
-    "title": "Favorite Item 3",
-    "description": "This is the description of Favorite Item 3."
+    "image": "lib/assets/public_transport_b.gif",
+    "title": "Public transport",
+    "description": "Move on."
   }
 
 ]

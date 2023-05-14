@@ -48,7 +48,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
           children: [
             SizedBox(height: 16.0),
             Text(
-              'Vertical Menu',
+              'Principal Menu',
               style: TextStyle(
                 fontSize: MediaQuery.of(context).size.width * 0.05,
                 fontWeight: FontWeight.bold,
@@ -104,7 +104,8 @@ class MenuItem extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 16.0),
       child: Row(
         children: [
-          Image.network(
+          Image.asset(
+            // or can 'network' from url
             image,
             height: MediaQuery.of(context).size.width * 0.2,
             width: MediaQuery.of(context).size.width * 0.2,

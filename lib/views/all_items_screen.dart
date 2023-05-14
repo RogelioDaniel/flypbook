@@ -113,7 +113,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16.0),
                 child: Text(
-                  'Vertical Menu',
+                  'Principal Menu',
                   style: TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,

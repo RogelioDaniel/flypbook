@@ -10,15 +10,15 @@
         "itemId": "2",
         "id": "2",
         "image": "assets/images/item2.png",
-        "title": "Favorite Item 2",
-        "description": "This is the description of Favorite Item 2."
+        "title": "Supermarket",
+        "description": "You will need to buy somethings."
     },
     {
         "itemId": "3",
         "id": "3",
         "image": "assets/images/item3.png",
-        "title": "Favorite Item 3",
-        "description": "This is the description of Favorite Item 3."
+        "title": "Public transport",
+        "description": "Move on."
     },
     {
         "itemId": "4",
@@ -44,7 +44,7 @@
     {
         "itemId": "7",
         "id": "7",
-        "image": "https://via.placeholder.com/200x200",
+        "image": "lib/assets/bank_b.gif",
         "title": "Item 2",
         "description": "Description for Item 2"
     },

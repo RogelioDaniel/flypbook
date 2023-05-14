@@ -73,6 +73,9 @@ flutter:
   assets:
     - lib/assets/logo.png 
     - lib/assets/restaurante_b.gif
+    - lib/assets/supermarket_b.gif
+    - lib/assets/public_transport_b.gif
+    - lib/assets/bank_b.gif
     - lib/data/vertical_items.json
     - lib/data/favorite_items.json
     - lib/data/all_items.json
