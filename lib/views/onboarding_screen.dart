@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flypbook/views/all_items_screen.dart';
+import 'package:flypbook/views/main_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class OnboardingScreen extends StatefulWidget {

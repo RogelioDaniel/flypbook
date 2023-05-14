@@ -10,6 +10,8 @@ class VerticalMenu extends StatefulWidget {
 
 class _VerticalMenuState extends State<VerticalMenu> {
   List<MenuItemData> _menuItems = [];
+  List<MenuItemData> _filteredMenuItems = []; // Added filtered list
+  String _searchQuery = '';
 
   @override
   void initState() {
@@ -33,6 +35,22 @@ class _VerticalMenuState extends State<VerticalMenu> {
     }
     setState(() {
       _menuItems = menuItems;
+      _filteredMenuItems =
+          menuItems; // Initialize filtered list with all menu items
+    });
+  }
+
+  void _filterMenuItems(String query) {
+    setState(() {
+      _searchQuery = query;
+      if (query.isNotEmpty) {
+        _filteredMenuItems = _menuItems.where((menuItem) {
+          return menuItem.title.toLowerCase().contains(query.toLowerCase());
+        }).toList();
+      } else {
+        _filteredMenuItems =
+            _menuItems; // Show all menu items if query is empty
+      }
     });
   }
 
@@ -42,26 +60,24 @@ class _VerticalMenuState extends State<VerticalMenu> {
       width: double.infinity,
       padding: EdgeInsets.symmetric(horizontal: 16.0),
       child: SingleChildScrollView(
-        // Added SingleChildScrollView
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(height: 16.0),
-            Text(
-              'Principal Menu',
-              style: TextStyle(
-                fontSize: MediaQuery.of(context).size.width * 0.05,
-                fontWeight: FontWeight.bold,
+            TextField(
+              onChanged: (value) => _filterMenuItems(value),
+              decoration: InputDecoration(
+                labelText: 'Search',
+                prefixIcon: Icon(Icons.search),
               ),
             ),
             SizedBox(height: 16.0),
             ListView.builder(
               shrinkWrap: true,
-              physics:
-                  const NeverScrollableScrollPhysics(), // Disable inner ListView scrolling
-              itemCount: _menuItems.length,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: _filteredMenuItems.length,
               itemBuilder: (context, index) {
-                MenuItemData menuItem = _menuItems[index];
+                MenuItemData menuItem = _filteredMenuItems[index];
                 return GestureDetector(
                   onTap: () {
                     navigateToMenuItemDetail(

@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 import 'package:circles_background/circles_background.dart';
 import '../components/menu_drawer.dart';
@@ -16,6 +17,8 @@ class AllItemsScreen extends StatefulWidget {
 
 class _AllItemsScreenState extends State<AllItemsScreen> {
   List<Widget> allItems = [];
+
+  get animate => true;
 
   @override
   void initState() {
@@ -123,8 +126,12 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                 ),
               ),
               SizedBox(height: 16.0),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 16.0),
+              AnimatedContainer(
+                duration: Duration(seconds: 1),
+                curve: Curves.easeInOut,
+                margin: EdgeInsets.symmetric(
+                  horizontal: animate ? 16.0 : 0.0,
+                ),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: [
