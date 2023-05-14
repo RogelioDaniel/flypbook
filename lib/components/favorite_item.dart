@@ -22,6 +22,9 @@ class FavoriteItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
+        // Unfocus text field and dismiss keyboard
+        FocusScope.of(context).unfocus();
+
         Navigator.push(
           context,
           MaterialPageRoute(

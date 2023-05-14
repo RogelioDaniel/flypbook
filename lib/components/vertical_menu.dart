@@ -17,6 +17,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
   void initState() {
     super.initState();
     _loadMenuItems();
+    _searchQuery = '';
   }
 
   Future<void> _loadMenuItems() async {
@@ -56,47 +57,57 @@ class _VerticalMenuState extends State<VerticalMenu> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      padding: EdgeInsets.symmetric(horizontal: 16.0),
-      child: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(height: 16.0),
-            TextField(
-              onChanged: (value) => _filterMenuItems(value),
-              decoration: InputDecoration(
-                labelText: 'Search',
-                prefixIcon: Icon(Icons.search),
+    return GestureDetector(
+      // Add GestureDetector to handle tap anywhere on the screen
+      onTap: () {
+        // Unfocus text field and dismiss keyboard
+        FocusScope.of(context).unfocus();
+      },
+      child: Container(
+        width: double.infinity,
+        padding: EdgeInsets.symmetric(horizontal: 16.0),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(height: 16.0),
+              TextField(
+                onChanged: (value) => _filterMenuItems(value),
+                decoration: InputDecoration(
+                  labelText: 'Search',
+                  prefixIcon: Icon(Icons.search),
+                ),
               ),
-            ),
-            SizedBox(height: 16.0),
-            ListView.builder(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              itemCount: _filteredMenuItems.length,
-              itemBuilder: (context, index) {
-                MenuItemData menuItem = _filteredMenuItems[index];
-                return GestureDetector(
-                  onTap: () {
-                    navigateToMenuItemDetail(
-                      context,
-                      menuItem.itemId,
-                      menuItem.title,
-                      menuItem.description,
-                      menuItem.image,
-                    );
-                  },
-                  child: MenuItem(
-                    image: menuItem.image,
-                    title: menuItem.title,
-                    description: menuItem.description,
-                  ),
-                );
-              },
-            ),
-          ],
+              SizedBox(height: 16.0),
+              ListView.builder(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: _filteredMenuItems.length,
+                itemBuilder: (context, index) {
+                  MenuItemData menuItem = _filteredMenuItems[index];
+                  return GestureDetector(
+                    onTap: () {
+                      // Unfocus text field and dismiss keyboard
+                      FocusScope.of(context).unfocus();
+
+                      navigateToMenuItemDetail(
+                        context,
+                        menuItem.itemId,
+                        menuItem.title,
+                        menuItem.description,
+                        menuItem.image,
+                      );
+                    },
+                    child: MenuItem(
+                      image: menuItem.image,
+                      title: menuItem.title,
+                      description: menuItem.description,
+                    ),
+                  );
+                },
+              ),
+            ],
+          ),
         ),
       ),
     );
