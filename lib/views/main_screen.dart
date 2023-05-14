@@ -62,14 +62,14 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
         },
         child: Scaffold(
           appBar: AppBar(
-            title: Text('Favorite'),
+            title: Text('Principal'),
           ),
           drawer: MenuDrawer(),
           body: CirclesBackground(
             circles: [
               CircleInfo(
                 size: const Size(300, 500),
-                color: Color.fromARGB(255, 233, 192, 68),
+                color: Color.fromARGB(255, 139, 139, 139),
                 borderRadius:
                     const BorderRadius.only(bottomLeft: Radius.circular(200)),
                 alignment: Alignment.topRight,
@@ -80,8 +80,8 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 179, 160, 24),
-                    Color.fromARGB(255, 211, 125, 28),
+                    Color.fromARGB(255, 138, 138, 138),
+                    Color.fromARGB(255, 97, 97, 97),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(),
@@ -93,8 +93,8 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 179, 160, 24),
-                    Color.fromARGB(255, 242, 131, 4),
+                    Color.fromARGB(255, 138, 138, 138),
+                    Color.fromARGB(255, 97, 97, 97),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(

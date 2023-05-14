@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           title: 'Flypbook',
           theme: ThemeData(
-            primarySwatch: Colors.orange,
+            primarySwatch: Colors.grey,
           ),
           home: onboardingShown ? const AllItemsScreen() : OnboardingScreen(),
         ));

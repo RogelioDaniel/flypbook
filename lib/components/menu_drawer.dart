@@ -20,8 +20,8 @@ class MenuDrawer extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      Colors.orange,
-                      const Color.fromARGB(255, 232, 181, 103),
+                      Colors.grey,
+                      Color.fromARGB(255, 142, 142, 142),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
