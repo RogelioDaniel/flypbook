@@ -20,11 +20,7 @@ class TopicItemCard extends StatelessWidget {
     final screenWidth = MediaQuery.of(context).size.width;
 
     return GestureDetector(
-      // Add GestureDetector to handle tap anywhere on the screen
-      onTap: () {
-        // Unfocus text field and dismiss keyboard
-        FocusScope.of(context).unfocus();
-      },
+      onTap: onPressed,
       child: Container(
         width: screenWidth * 0.4,
         decoration: BoxDecoration(
