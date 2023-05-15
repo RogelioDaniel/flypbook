@@ -9,96 +9,140 @@ class TopicSubScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(topicItem.title),
-      ),
-      body: CirclesBackground(
-        circles: [
-          CircleInfo(
-            size: const Size(300, 500),
-            color: Color.fromARGB(255, 233, 192, 68),
-            borderRadius:
-                const BorderRadius.only(bottomLeft: Radius.circular(200)),
-            alignment: Alignment.topRight,
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return Scaffold(
+          appBar: AppBar(
+            title: Text(topicItem.title),
           ),
-          CircleInfo(
-            size: const Size(300, 900),
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Color.fromARGB(255, 179, 160, 24)!,
-                Color.fromARGB(255, 211, 125, 28),
-              ],
-            ),
-            borderRadius: const BorderRadius.only(),
-            alignment: Alignment.topLeft,
-          ),
-          CircleInfo(
-            size: const Size(200, 500),
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Color.fromARGB(255, 179, 160, 24)!,
-                Color.fromARGB(255, 242, 131, 4),
-              ],
-            ),
-            borderRadius: const BorderRadius.only(
-              bottomLeft: Radius.circular(50),
-              topLeft: Radius.circular(150),
-            ),
-            alignment: Alignment.bottomRight,
-          ),
-        ],
-        child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8.0),
-                child: Image.asset(
-                  topicItem.image,
-                  height: 200.0,
-                  width: double.infinity,
-                  fit: BoxFit.cover,
-                ),
+          extendBodyBehindAppBar: false,
+          body: CirclesBackground(
+            circles: [
+              CircleInfo(
+                size: Size(constraints.maxWidth, constraints.maxHeight * 0.5),
+                color: Color.fromARGB(255, 0, 0, 0),
+                borderRadius:
+                    const BorderRadius.only(bottomLeft: Radius.circular(200)),
+                alignment: Alignment.topRight,
               ),
-              SizedBox(height: 16.0),
-              Text(
-                topicItem.title,
-                style: TextStyle(
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
+              CircleInfo(
+                size: Size(constraints.maxWidth, constraints.maxHeight * 0.9),
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color.fromARGB(255, 179, 160, 24)!,
+                    Color.fromARGB(255, 211, 125, 28),
+                  ],
                 ),
+                borderRadius: const BorderRadius.only(),
+                alignment: Alignment.topLeft,
               ),
-              SizedBox(height: 8.0),
-              Text(
-                topicItem.description,
-                style: TextStyle(fontSize: 16.0),
-              ),
-              SizedBox(height: 16.0),
-              Expanded(
-                child: ListView.builder(
-                  itemCount: topicItem.items.length,
-                  itemBuilder: (context, index) {
-                    final item = topicItem.items[index];
-                    return ListTile(
-                      title: Text(item.title),
-                      subtitle: Text(item.description),
-                      onTap: () {
-                        // Navigate to subtopic screen
-                      },
-                    );
-                  },
+              CircleInfo(
+                size: Size(
+                    constraints.maxWidth * 0.5, constraints.maxHeight * 0.5),
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color.fromARGB(255, 179, 160, 24)!,
+                    Color.fromARGB(255, 242, 131, 4),
+                  ],
                 ),
+                borderRadius: const BorderRadius.only(
+                  bottomLeft: Radius.circular(50),
+                  topLeft: Radius.circular(150),
+                ),
+                alignment: Alignment.bottomRight,
               ),
             ],
+            child: Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(8.0),
+                    child: Image.asset(
+                      topicItem.image,
+                      height: constraints.maxHeight * 0.25,
+                      width: double.infinity,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  SizedBox(height: 16.0),
+                  Text(
+                    topicItem.title,
+                    style: TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black87,
+                    ),
+                  ),
+                  SizedBox(height: 8.0),
+                  Text(
+                    topicItem.description,
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black87,
+                    ),
+                  ),
+                  SizedBox(height: 16.0),
+                  Expanded(
+                    child: ListView.builder(
+                      itemCount: topicItem.items.length,
+                      itemBuilder: (context, index) {
+                        final item = topicItem.items[index];
+                        return Card(
+                            elevation: 4.0,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(4),
+                            ),
+                            clipBehavior: Clip.antiAliasWithSaveLayer,
+                            // Define how the card's content should be clipped
+                            child: Container(
+                                decoration: BoxDecoration(
+                                  border: Border(
+                                    bottom: BorderSide(
+                                      color: Color.fromRGBO(0, 0, 0, 1),
+                                      width: 1.0,
+                                    ),
+                                  ),
+                                ),
+                                child: Container(
+                                  color: Color.fromARGB(255, 239, 238, 238),
+                                  child: ListTile(
+                                    contentPadding: EdgeInsets.symmetric(
+                                        horizontal: 16.0, vertical: 12.0),
+                                    title: Text(
+                                      item.title,
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      item.description,
+                                      style: TextStyle(
+                                        fontSize: 14.0,
+                                        color: Colors.grey[600],
+                                      ),
+                                    ),
+                                    onTap: () {
+                                      // Navigate to subtopic screen
+                                    },
+                                  ),
+                                )));
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
-        ),
-      ),
+        );
+      },
     );
   }
 }

@@ -2,85 +2,564 @@
   {
     "id": "1",
     "itemId": "1",
-    "image": "assets/images/item1.png",
-    "title": "First practice",
-    "description": "How to ask about the better restaurant around",
+    "image": "lib/assets/restaurants/fast_food.jpg",
+    "title": "Fast food restaurants",
+    "description": "Are you foodly and lazy?",
     "items": [
       {
         "id": "1",
-        "title": "Begginer",
-        "description": "What is the best restaurant around here?."
+        "title": "Greet the staff",
+        "description": "Start by greeting the cashier or staff member with a friendly \"Hello\" or \"Hi.\""
       },
       {
         "id": "2",
-        "title": "Polite",
-        "description": "May you tell me which is the best restaurant around?."
+        "title": "Check the menu",
+        "description": "Look at the menu options displayed on the overhead boards or menu displays."
       },
       {
         "id": "3",
-        "title": "Begginer 2",
-        "description": "What is the best restaurant in the surrounding area?"
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "itemId": "1",
-    "image": "lib/assets/logo.png",
-    "title": "Second practice",
-    "description": "You arrived at the restaurant",
-    "items": [
+        "title": "Decide your order",
+        "description": "Take some time to decide what you want to eat. Consider the different options available, such as burgers, sandwiches, salads, or combo meals."
+      },
       {
         "id": "4",
-        "title": "Welcome :D",
-        "description": "You just say, thanks"
+        "title": "Approach the counter",
+        "description": "Once you have decided, approach the cashier or the counter where you place your order."
       },
       {
         "id": "5",
-        "title": "Subtopic 5",
-        "description": "This is the description of Subtopic 5."
+        "title": "Place your order",
+        "description": "Clearly state your order to the cashier. You can say, \"I would like to order [specific item(s)].\""
+      },
+      {
+        "id": "6",
+        "title": "Customize your order",
+        "description": "If you have any specific requests or modifications, such as removing certain ingredients or adding extra toppings, communicate them to the cashier."
+      },
+      {
+        "id": "7",
+        "title": "Choose your meal size",
+        "description": "Fast food restaurants often offer different sizes for meals, such as small, medium, or large. Specify your preferred meal size when placing your order."
+      },
+      {
+        "id": "8",
+        "title": "Add side items or extras",
+        "description": "If you want to add any additional items like fries, drinks, or desserts to your order, let the cashier know."
+      },
+      {
+        "id": "9",
+        "title": "Confirm your order",
+        "description": "After placing your order, the cashier might repeat it back to you. Listen carefully and confirm if the order is correct."
+      },
+      {
+        "id": "10",
+        "title": "Make the payment",
+        "description": "Pay for your order at the counter. You can use cash or a debit/credit card, depending on the payment options available."
+      },
+      {
+        "id": "11",
+        "title": "Collect your order number or receipt",
+        "description": "If the restaurant provides order numbers or receipts, make sure to collect yours."
+      },
+      {
+        "id": "12",
+        "title": "Find a seat",
+        "description": "Look for an available table or seating area in the restaurant. Choose a spot that suits your preference."
+      },
+      {
+        "id": "13",
+        "title": "Wait for your order",
+        "description": "Relax and wait for your order to be prepared. Most fast food restaurants have a display or a screen that shows when orders are ready."
+      },
+      {
+        "id": "14",
+        "title": "Collect your food",
+        "description": "Once your order is ready, listen for your order number or name to be called, or check the display screen for your order status. Collect your tray or bag of food from the designated pickup counter."
+      },
+      {
+        "id": "15",
+        "title": "Enjoy your meal",
+        "description": "Find a comfortable spot at your chosen table and enjoy your fast food meal."
+      },
+      {
+        "id": "16",
+        "title": "Dispose of trash",
+        "description": "After finishing your meal, clean up your table by disposing of any trash in the designated bins or trash cans."
+      },
+      {
+        "id": "17",
+        "title": "Leave the restaurant",
+        "description": "When you are ready to leave, you can simply get up from your seat and exit the restaurant."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "1",
+    "image": "lib/assets/restaurants/casual_restaurant.jpg",
+    "title": "Casual Restaurants",
+    "description": "Looking for a relaxed dining experience?",
+    "items": [
+      {
+        "id": "1",
+        "title": "Greet the staff",
+        "description": "Start by greeting the host or hostess with a friendly \"Hello\" or \"Hi.\""
+      },
+      {
+        "id": "2",
+        "title": "Check the seating",
+        "description": "Follow the host or hostess to your assigned table or choose a seat if open seating is available."
+      },
+      {
+        "id": "3",
+        "title": "Browse the menu",
+        "description": "Take some time to look through the menu options and familiarize yourself with the available dishes."
+      },
+      {
+        "id": "4",
+        "title": "Order drinks",
+        "description": "Start by ordering your preferred beverages, such as water, soft drinks, or alcoholic drinks."
+      },
+      {
+        "id": "5",
+        "title": "Place your food order",
+        "description": "Once you have decided on your meal, notify the server of your food order."
+      },
+      {
+        "id": "6",
+        "title": "Special requests",
+        "description": "If you have any dietary restrictions or specific requests, communicate them to the server."
+      },
+      {
+        "id": "7",
+        "title": "Appetizers or starters",
+        "description": "If you wish to have appetizers or starters before your main course, order them accordingly."
+      },
+      {
+        "id": "8",
+        "title": "Enjoy conversation",
+        "description": "Engage in pleasant conversation with your dining companions while waiting for your food."
+      },
+      {
+        "id": "9",
+        "title": "Wait for food",
+        "description": "Relax and wait for your food to be prepared. It may take some time, as dishes are typically made to order."
+      },
+      {
+        "id": "10",
+        "title": "Food presentation",
+        "description": "Admire the presentation of your dishes when they are brought to your table."
+      },
+      {
+        "id": "11",
+        "title": "Savor your meal",
+        "description": "Take your time to enjoy each bite of your meal, appreciating the flavors and textures."
+      },
+      {
+        "id": "12",
+        "title": "Request additional items",
+        "description": "If you desire any additional items like condiments, sauces, or bread, ask your server."
+      },
+      {
+        "id": "13",
+        "title": "Refill drinks",
+        "description": "If your beverages need refills, signal your server to request more."
+      },
+      {
+        "id": "14",
+        "title": "Ask for assistance",
+        "description": "If you have any questions or need assistance during your dining experience, don't hesitate to ask the server."
+      },
+      {
+        "id": "15",
+        "title": "Dessert or coffee",
+        "description": "If you wish to end your meal with dessert or coffee, place your order accordingly."
+      },
+      {
+        "id": "16",
+        "title": "Request the bill",
+        "description": "When you are ready to pay, ask your server for the bill."
+      },
+      {
+        "id": "17",
+        "title": "Payment",
+        "description": "Pay the bill using cash, credit"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "1",
+    "image": "lib/assets/restaurants/cafe_restaurant.jpg",
+    "title": "Café Restaurants",
+    "description": "Looking for a cozy café experience?",
+    "items": [
+      {
+        "id": "1",
+        "title": "Enter the café",
+        "description": "Step inside the café and take a moment to enjoy the ambiance."
+      },
+      {
+        "id": "2",
+        "title": "Greet the staff",
+        "description": "Give a friendly greeting to the café staff upon entering."
+      },
+      {
+        "id": "3",
+        "title": "Find a seat",
+        "description": "Choose a comfortable seat at a table or a cozy corner to relax in."
+      },
+      {
+        "id": "4",
+        "title": "Browse the menu",
+        "description": "Take a look at the menu to see the variety of coffee, tea, and food options available."
+      },
+      {
+        "id": "5",
+        "title": "Order beverages",
+        "description": "Start by ordering your preferred hot or cold beverages, such as coffee, tea, or specialty drinks."
+      },
+      {
+        "id": "6",
+        "title": "Select food items",
+        "description": "Decide on any food items you would like to accompany your beverages, such as pastries, sandwiches, or salads."
+      },
+      {
+        "id": "7",
+        "title": "Place your order",
+        "description": "Notify the café staff of your beverage and food order."
+      },
+      {
+        "id": "8",
+        "title": "Special requests",
+        "description": "If you have any dietary preferences or special requests, communicate them to the café staff."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy the atmosphere",
+        "description": "Relax and soak in the cozy atmosphere of the café while waiting for your order."
+      },
+      {
+        "id": "10",
+        "title": "Engage in conversation",
+        "description": "Have meaningful conversations with friends or enjoy a peaceful moment alone with your thoughts."
+      },
+      {
+        "id": "11",
+        "title": "Wait for your order",
+        "description": "Be patient as the café staff prepares your beverages and food with care."
+      },
+      {
+        "id": "12",
+        "title": "Food and beverage presentation",
+        "description": "Appreciate the artistic presentation of your beverages and the delectable appearance of your food."
+      },
+      {
+        "id": "13",
+        "title": "Taste and savor",
+        "description": "Take small sips of your beverage and savor the flavors. Enjoy each bite of your food."
+      },
+      {
+        "id": "14",
+        "title": "Request refills",
+        "description": "If you would like a refill of your beverage, politely ask the café staff for another serving."
+      },
+      {
+        "id": "15",
+        "title": "Indulge in desserts",
+        "description": "Consider treating yourself to a delicious dessert from the café's selection, if available."
+      },
+      {
+        "id": "16",
+        "title": "Ask for the bill",
+        "description": "When you are ready to leave, ask the café staff for the bill at the counter."
+      },
+      {
+        "id": "17",
+        "title": "Payment",
+        "description": "Pay for your order at the counter using cash, credit, or any other accepted payment"
       }
     ]
   },
   {
     "id": "1",
-    "itemId": "1",
-    "image": "assets/images/item3.png",
-    "title": "Topic Item 3",
-    "description": "This is the description of Topic Item 3.",
+    "itemId": "2",
+    "image": "lib/assets/stores/supermarket.jpg",
+    "title": "Supermarket",
+    "description": "Tips for a smooth supermarket shopping experience",
     "items": [
       {
-        "id": "6",
-        "title": "Subtopic 6",
-        "description": "This is the description of Subtopic 6."
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "itemId": "7",
-    "image": "assets/images/item3.png",
-    "title": "Topic Item 3",
-    "description": "Este es el .",
-    "items": [
+        "id": "1",
+        "title": "Prepare a Shopping List",
+        "description": "Make a list of the items you need before going to the supermarket."
+      },
       {
-        "id": "6",
-        "title": "Subtopic 6",
-        "description": "This is the description of Subtopic 6."
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "itemId": "5",
-    "image": "assets/images/item3.png",
-    "title": "Topic Item 3",
-    "description": "Este es el  nuevo.",
-    "items": [
+        "id": "2",
+        "title": "Bring Reusable Bags",
+        "description": "Bring your own bags to carry your groceries and reduce plastic waste."
+      },
+      {
+        "id": "3",
+        "title": "Take a Shopping Cart or Basket",
+        "description": "Grab a shopping cart or basket to hold your items while you shop."
+      },
+      {
+        "id": "4",
+        "title": "Navigate the Aisles",
+        "description": "Walk through each aisle and locate the items on your shopping list."
+      },
       {
         "id": "5",
-        "title": "Subtopic 6",
-        "description": "This is the description of Subtopic 6."
+        "title": "Compare Prices and Brands",
+        "description": "Compare prices and brands to make informed purchasing decisions."
+      },
+      {
+        "id": "6",
+        "title": "Check Expiry Dates",
+        "description": "Inspect the expiry dates of perishable items to ensure freshness."
+      },
+      {
+        "id": "7",
+        "title": "Read Labels and Ingredients",
+        "description": "Read product labels and ingredients to make healthier choices."
+      },
+      {
+        "id": "8",
+        "title": "Consider Bulk Buying",
+        "description": "If appropriate, consider buying items in bulk to save money."
+      },
+      {
+        "id": "9",
+        "title": "Ask for Assistance",
+        "description": "Don't hesitate to ask store staff for help if you can't find an item."
+      },
+      {
+        "id": "10",
+        "title": "Check Out and Pay",
+        "description": "Proceed to the checkout counter and pay for your groceries."
+      },
+      {
+        "id": "11",
+        "title": "Pack Your Groceries",
+        "description": "Pack your groceries carefully, separating fragile items if needed."
+      },
+      {
+        "id": "12",
+        "title": "Review Your Receipt",
+        "description": "Take a moment to review your receipt for accuracy before leaving."
+      },
+      {
+        "id": "13",
+        "title": "Return Shopping Cart",
+        "description": "Return the shopping cart to its designated area after unloading your groceries."
+      },
+      {
+        "id": "14",
+        "title": "Plan for Meal Preparation",
+        "description": "Organize your groceries based on meal plans for efficient meal preparation."
+      },
+      {
+        "id": "15",
+        "title": "Properly Store Perishables",
+        "description": "Store perishable items promptly in the appropriate storage areas."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "2",
+    "image": "lib/assets/stores/hypermarket.jpg",
+    "title": "Hypermarket",
+    "description": "Tips for a successful hypermarket shopping experience",
+    "items": [
+      {
+        "id": "1",
+        "title": "Prepare a Shopping List",
+        "description": "Make a list of the items you need before going to the hypermarket."
+      },
+      {
+        "id": "2",
+        "title": "Bring Reusable Bags",
+        "description": "Bring your own bags to carry your purchases and reduce plastic waste."
+      },
+      {
+        "id": "3",
+        "title": "Take a Shopping Cart",
+        "description": "Grab a shopping cart to hold your items while you shop."
+      },
+      {
+        "id": "4",
+        "title": "Navigate the Aisles",
+        "description": "Explore different sections and aisles to find the products you need."
+      },
+      {
+        "id": "5",
+        "title": "Compare Prices and Brands",
+        "description": "Compare prices and brands to make informed purchasing decisions."
+      },
+      {
+        "id": "6",
+        "title": "Check Expiry Dates",
+        "description": "Check the expiry dates of perishable items for freshness and quality."
+      },
+      {
+        "id": "7",
+        "title": "Read Labels and Product Information",
+        "description": "Read labels and product information to understand the features and benefits."
+      },
+      {
+        "id": "8",
+        "title": "Consider Bulk Buying",
+        "description": "If suitable, consider buying items in bulk to save money in the long run."
+      },
+      {
+        "id": "9",
+        "title": "Ask for Assistance",
+        "description": "Don't hesitate to ask store staff for help if you have any questions or need directions."
+      },
+      {
+        "id": "10",
+        "title": "Proceed to the Checkout",
+        "description": "When you have everything you need, head to the checkout counter to pay."
+      },
+      {
+        "id": "11",
+        "title": "Pack Your Purchases",
+        "description": "After paying, carefully pack your purchases, separating fragile items if necessary."
+      },
+      {
+        "id": "12",
+        "title": "Review Your Receipt",
+        "description": "Take a moment to review your receipt for accuracy before leaving the hypermarket."
+      },
+      {
+        "id": "13",
+        "title": "Return the Shopping Cart",
+        "description": "Return the shopping cart to its designated area to help maintain a tidy shopping environment."
+      },
+      {
+        "id": "14",
+        "title": "Organize Your Purchases",
+        "description": "Once you're home, organize your purchases for easy access and storage."
+      },
+      {
+        "id": "15",
+        "title": "Dispose of Packaging",
+        "description": "Properly dispose of packaging materials and recycle whenever possible."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "2",
+    "image": "lib/assets/stores/departament_store.jpg",
+    "title": "Department Store",
+    "description": "Tips for a smooth department store shopping experience",
+    "items": [
+      {
+        "id": "1",
+        "title": "Greet the Staff",
+        "description": "Start by greeting the store employees with a friendly 'Hello' or 'Hi.'"
+      },
+      {
+        "id": "2",
+        "title": "Explore Different Departments",
+        "description": "Department stores have various departments offering a wide range of products. Take your time to browse through different sections."
+      },
+      {
+        "id": "3",
+        "title": "Check for Sales and Discounts",
+        "description": "Look for signs or banners indicating any ongoing sales or discounts. Take advantage of these offers if interested."
+      },
+      {
+        "id": "4",
+        "title": "Seek Assistance if Needed",
+        "description": "If you have any questions or need help finding specific items, don't hesitate to ask a store employee for assistance."
+      },
+      {
+        "id": "5",
+        "title": "Try on or Test Products",
+        "description": "If you're interested in purchasing clothing, accessories, or any other items that can be tried on or tested, take advantage of the fitting rooms or testing areas available."
+      },
+      {
+        "id": "6",
+        "title": "Compare Prices and Products",
+        "description": "Since department stores offer a wide variety of products, take the time to compare prices, brands, and quality before making a final decision."
+      },
+      {
+        "id": "7",
+        "title": "Make Your Selections",
+        "description": "Once you've decided on the items you want to purchase, gather them and keep them with you while you continue exploring the store."
+      },
+      {
+        "id": "8",
+        "title": "Proceed to the Checkout Counter",
+        "description": "When you're ready to make your purchase, head to the checkout counter or cash registers located within the department store."
+      },
+      {
+        "id": "9",
+        "title": "Wait in Line",
+        "description": "If there are other customers ahead of you, patiently wait in line for your turn to pay for your items."
+      },
+      {
+        "id": "10",
+        "title": "Pay for Your Items",
+        "description": "Once it's your turn, present your items to the cashier, who will scan or enter them into the system. Pay for your items using the available payment methods."
+      },
+      {
+        "id": "11",
+        "title": "Collect Your Receipt and Bags",
+        "description": "After completing the payment, collect your receipt and any shopping bags provided by the store."
+      },
+      {
+        "id": "12",
+        "title": "Enjoy Your Purchases",
+        "description": "Take a moment to appreciate your new purchases and ensure you have everything before leaving the store."
+      },
+      {
+        "id": "13",
+        "title": "Leave the Store",
+        "description": "Once you're ready to leave, exit the department store and, if applicable, thank the staff for their assistance."
+      }
+    ]
+  }
+,  
+  {
+    "id": "1",
+    "itemId": "3",
+    "image": "assets/images/item4.png",
+    "title": "Topic Item 4",
+    "description": "This is the description of Topic Item 4.",
+    "items": [
+      {
+        "id": "6",
+        "title": "Planning Your Route",
+        "description": "Determine the best public transport route for your destination."
+      },
+      {
+        "id": "7",
+        "title": "Checking the Schedule",
+        "description": "Review the timetable for the selected public transport mode."
+      },
+      {
+        "id": "8",
+        "title": "Getting to the Stop/Stations",
+        "description": "Reach the designated stop or station for your chosen mode of transport."
+      },
+      {
+        "id": "9",
+        "title": "Boarding the Vehicle",
+        "description": "Wait for the vehicle and board it when it arrives."
+      },
+      {
+        "id": "10",
+        "title": "Navigating the Route",
+        "description": "Follow the route and pay attention to any announcements or signage."
+      },
+      {
+        "id": "11",
+        "title": "Exiting the Vehicle",
+        "description": "Prepare to exit the vehicle as your destination approaches."
       }
     ]
   }

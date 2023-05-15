@@ -9,6 +9,7 @@ class TopicScreen extends StatefulWidget {
   final String itemId;
 
   const TopicScreen({
+    super.key,
     required this.itemId,
   });
 
@@ -86,7 +87,7 @@ class _TopicScreenState extends State<TopicScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
+        const Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.0),
           child: Text(
             'Topics',
@@ -95,9 +96,10 @@ class _TopicScreenState extends State<TopicScreen> {
               color: Colors.black,
               fontWeight: FontWeight.bold,
             ),
+            textAlign: TextAlign.center, // Align the text to the center
           ),
         ),
-        SizedBox(height: 16.0),
+        const SizedBox(height: 16.0),
         SizedBox(
           height: 180.0,
           child: ListView.builder(
@@ -106,7 +108,7 @@ class _TopicScreenState extends State<TopicScreen> {
             itemBuilder: (context, index) {
               final item = topicItems[index];
               return Padding(
-                padding: EdgeInsets.only(left: 16.0),
+                padding: const EdgeInsets.only(left: 16.0),
                 child: TopicItemCard(
                   id: item.id,
                   image: item.image,

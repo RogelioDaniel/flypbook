@@ -125,18 +125,6 @@ class ItemDetailScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 24.0),
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
-                  child: Text(
-                    'Related Topics',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                      letterSpacing: 1.2,
-                    ),
-                  ),
-                ),
                 SizedBox(height: 16.0),
                 Divider(
                   height: 1.0,
