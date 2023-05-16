@@ -11,7 +11,7 @@ class MenuDrawer extends StatelessWidget {
       },
       child: Drawer(
         child: Container(
-          color: Colors.grey[200], // Adjust the background color
+          color: Colors.grey[350], // Adjust the background color
           child: ListView(
             padding: EdgeInsets.zero,
             children: [
@@ -45,7 +45,7 @@ class MenuDrawer extends StatelessWidget {
               ListTile(
                 leading: Icon(
                   Icons.home,
-                  color: Colors.orange,
+                  color: Colors.grey,
                 ),
                 title: Text(
                   'Home',
@@ -62,7 +62,7 @@ class MenuDrawer extends StatelessWidget {
               ListTile(
                 leading: Icon(
                   Icons.info,
-                  color: Colors.orange,
+                  color: Colors.grey,
                 ),
                 title: Text(
                   'About',

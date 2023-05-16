@@ -90,6 +90,11 @@ flutter:
     - lib/assets/bank_b.gif
     - lib/assets/hospital_b.gif
     - lib/assets/morning_routine_b.gif
+    - lib/assets/cooking_recipes_b.gif
+    - lib/assets/fitness_exercise_b.gif
+    - lib/assets/family_b.gif
+    - lib/assets/technology_gadgets_b.gif
+    - lib/assets/weekend_plans_b.gif
     - lib/data/vertical_items.json
     - lib/data/favorite_items.json
     - lib/data/all_items.json

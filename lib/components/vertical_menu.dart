@@ -65,6 +65,25 @@ class _VerticalMenuState extends State<VerticalMenu> {
         FocusScope.of(context).unfocus();
       },
       child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(15.0),
+          color: Color.fromARGB(255, 0, 0, 0).withOpacity(0.8),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.2),
+              blurRadius: 4,
+              offset: const Offset(0, 2),
+            ),
+          ],
+          gradient: LinearGradient(
+            colors: [Colors.white, Colors.black26],
+          ),
+          image: const DecorationImage(
+            image: NetworkImage(
+                'https://images.pexels.com/photos/5202288/pexels-photo-5202288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+            fit: BoxFit.cover,
+          ),
+        ),
         width: double.infinity,
         padding: EdgeInsets.symmetric(horizontal: 16.0),
         child: SingleChildScrollView(

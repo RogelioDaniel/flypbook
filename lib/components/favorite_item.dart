@@ -53,12 +53,12 @@ class FavoriteItem extends StatelessWidget {
             ),
           ],
           gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Color.fromARGB(255, 153, 153, 153),
-              Color.fromARGB(255, 196, 195, 195),
-            ],
+            colors: [Colors.white, Colors.black26],
+          ),
+          image: const DecorationImage(
+            image: NetworkImage(
+                'https://images.pexels.com/photos/5202288/pexels-photo-5202288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+            fit: BoxFit.cover,
           ),
         ),
         child: Column(
