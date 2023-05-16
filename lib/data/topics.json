@@ -522,45 +522,399 @@
         "description": "Once you're ready to leave, exit the department store and, if applicable, thank the staff for their assistance."
       }
     ]
-  }
-,  
+  },
   {
     "id": "1",
     "itemId": "3",
-    "image": "assets/images/item4.png",
-    "title": "Topic Item 4",
-    "description": "This is the description of Topic Item 4.",
+    "image": "lib/assets/public_transports/bus.png",
+    "title": "Bus",
+    "description": "Tips for a smooth bus journey",
     "items": [
       {
+        "id": "1",
+        "title": "Plan Your Route",
+        "description": "Check the bus route and schedule in advance to plan your journey."
+      },
+      {
+        "id": "2",
+        "title": "Arrive Early",
+        "description": "Be at the bus stop a few minutes before the scheduled departure time."
+      },
+      {
+        "id": "3",
+        "title": "Check the Bus Number",
+        "description": "Verify the bus number displayed on the front of the bus to ensure it's the correct one."
+      },
+      {
+        "id": "4",
+        "title": "Signal the Bus",
+        "description": "Extend your arm to signal the bus driver that you want to board."
+      },
+      {
+        "id": "5",
+        "title": "Enter the Bus",
+        "description": "Wait for passengers to exit before boarding the bus. Use the handrails for support."
+      },
+      {
         "id": "6",
-        "title": "Planning Your Route",
-        "description": "Determine the best public transport route for your destination."
+        "title": "Find a Seat or Hold On",
+        "description": "If seats are available, find one. Otherwise, hold on to the handrails or grab straps."
       },
       {
         "id": "7",
-        "title": "Checking the Schedule",
-        "description": "Review the timetable for the selected public transport mode."
+        "title": "Pay the Fare",
+        "description": "Pay the bus fare using cash or a valid ticket. Follow the payment instructions."
       },
       {
         "id": "8",
-        "title": "Getting to the Stop/Stations",
-        "description": "Reach the designated stop or station for your chosen mode of transport."
+        "title": "Move to the Back",
+        "description": "Move to the back of the bus to allow more passengers to board."
       },
       {
         "id": "9",
-        "title": "Boarding the Vehicle",
-        "description": "Wait for the vehicle and board it when it arrives."
+        "title": "Keep Personal Belongings Secure",
+        "description": "Hold onto your personal belongings and keep them secure throughout the journey."
       },
       {
         "id": "10",
-        "title": "Navigating the Route",
-        "description": "Follow the route and pay attention to any announcements or signage."
+        "title": "Be Mindful of Other Passengers",
+        "description": "Respect other passengers' personal space and avoid loud conversations or music."
       },
       {
         "id": "11",
-        "title": "Exiting the Vehicle",
-        "description": "Prepare to exit the vehicle as your destination approaches."
+        "title": "Signal for Your Stop",
+        "description": "Press the stop button or pull the cord to signal the driver that you want to get off."
+      },
+      {
+        "id": "12",
+        "title": "Exit the Bus",
+        "description": "Wait for the bus to come to a complete stop before exiting. Use the handrails for support."
+      },
+      {
+        "id": "13",
+        "title": "Look Both Ways",
+        "description": "Before crossing the road, look both ways to ensure it's safe."
+      },
+      {
+        "id": "14",
+        "title": "Thank the Driver",
+        "description": "As you exit the bus, thank the driver for the journey."
+      },
+      {
+        "id": "15",
+        "title": "Plan for Transfers",
+        "description": "If you need to transfer to another bus, plan your connections and allow sufficient time."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "3",
+    "image": "lib/assets/public_transports/subway.gif",
+    "title": "Subway",
+    "description": "Tips for a smooth subway ride",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Route",
+        "description": "Check the subway map and schedule in advance to plan your journey."
+      },
+      {
+        "id": "2",
+        "title": "Purchase a Ticket or Card",
+        "description": "Buy a ticket or load your subway card with sufficient fare before entering the station."
+      },
+      {
+        "id": "3",
+        "title": "Check the Train Line and Direction",
+        "description": "Verify the train line and direction displayed on the platform to ensure you board the right train."
+      },
+      {
+        "id": "4",
+        "title": "Wait for the Train",
+        "description": "Stand behind the yellow line and wait for the train to arrive."
+      },
+      {
+        "id": "5",
+        "title": "Let Passengers Exit First",
+        "description": "Allow passengers inside the train to exit before boarding."
+      },
+      {
+        "id": "6",
+        "title": "Board the Train",
+        "description": "Enter the train and find an available seat or hold onto handrails or grab straps."
+      },
+      {
+        "id": "7",
+        "title": "Keep Personal Belongings Secure",
+        "description": "Hold onto your personal belongings and keep them secure throughout the journey."
+      },
+      {
+        "id": "8",
+        "title": "Be Mindful of Other Passengers",
+        "description": "Respect other passengers' personal space and avoid loud conversations or music."
+      },
+      {
+        "id": "9",
+        "title": "Listen for Announcements and Stops",
+        "description": "Pay attention to the announcements and visual displays for upcoming stops."
+      },
+      {
+        "id": "10",
+        "title": "Exit the Train",
+        "description": "Prepare to exit the train a few stops before your intended destination."
+      },
+      {
+        "id": "11",
+        "title": "Let Passengers Exit at Your Stop",
+        "description": "Allow passengers inside the train to exit before you exit at your stop."
+      },
+      {
+        "id": "12",
+        "title": "Follow Station Signs",
+        "description": "Follow the signs to exit the station and reach your desired destination."
+      },
+      {
+        "id": "13",
+        "title": "Use Escalators or Stairs",
+        "description": "Use the escalators or stairs to reach the street level or connecting areas."
+      },
+      {
+        "id": "14",
+        "title": "Thank You",
+        "description": "Thank the subway staff and have a great day!"
+      },
+      {
+        "id": "15",
+        "title": "Plan for Transfers",
+        "description": "If you need to transfer to another subway line, plan your connections and allow sufficient time."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "4",
+    "image": "lib/assets/morning_routines/morning_routine.jpg",
+    "title": "Morning Routine",
+    "description": "Tips for a productive morning routine",
+    "items": [
+      {
+        "id": "1",
+        "title": "Wake Up Early",
+        "description": "Set an alarm and wake up early to start your day with ample time."
+      },
+      {
+        "id": "2",
+        "title": "Hydrate Yourself",
+        "description": "Drink a glass of water to rehydrate your body after sleep."
+      },
+      {
+        "id": "3",
+        "title": "Stretch or Exercise",
+        "description": "Engage in light stretching or exercise to wake up your muscles and boost circulation."
+      },
+      {
+        "id": "4",
+        "title": "Freshen Up",
+        "description": "Take a shower, brush your teeth, and perform your daily grooming routine."
+      },
+      {
+        "id": "5",
+        "title": "Eat a Nutritious Breakfast",
+        "description": "Fuel your body with a healthy and balanced breakfast to kickstart your metabolism."
+      },
+      {
+        "id": "6",
+        "title": "Plan Your Day",
+        "description": "Review your schedule, to-do list, and priorities for the day ahead."
+      },
+      {
+        "id": "7",
+        "title": "Practice Mindfulness",
+        "description": "Take a few moments to practice mindfulness, meditation, or deep breathing exercises."
+      },
+      {
+        "id": "8",
+        "title": "Dress for Success",
+        "description": "Choose an outfit that makes you feel confident and ready to take on the day."
+      },
+      {
+        "id": "9",
+        "title": "Organize Your Belongings",
+        "description": "Tidy up your living space and gather the items you need for the day, such as work essentials or school supplies."
+      },
+      {
+        "id": "10",
+        "title": "Review Your Goals",
+        "description": "Remind yourself of your short-term and long-term goals to stay motivated and focused."
+      },
+      {
+        "id": "11",
+        "title": "Commute or Start Remote Work",
+        "description": "Begin your commute to work or start your remote work setup, ensuring you have everything you need."
+      },
+      {
+        "id": "12",
+        "title": "Stay Positive",
+        "description": "Maintain a positive mindset and approach the day with optimism and gratitude."
+      },
+      {
+        "id": "13",
+        "title": "Connect with Loved Ones",
+        "description": "Spend quality time with your family or send a thoughtful message to a friend or loved one."
+      },
+      {
+        "id": "14",
+        "title": "Prepare for the Day",
+        "description": "Pack your bag, check your schedule once more, and ensure you have everything in order."
+      },
+      {
+        "id": "15",
+        "title": "Leave on Time",
+        "description": "Head out of the door on time, ready to conquer the day!"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "4",
+    "image": "lib/assets/morning_routines/morning_routine_students.jpg",
+    "title": "Morning Routine for Students",
+    "description": "Tips for a productive morning routine as a student",
+    "items": [
+      {
+        "id": "1",
+        "title": "Wake Up Early",
+        "description": "Set an alarm and wake up early to have enough time for your morning routine and preparation."
+      },
+      {
+        "id": "2",
+        "title": "Hydrate Yourself",
+        "description": "Drink a glass of water to rehydrate your body after sleep."
+      },
+      {
+        "id": "3",
+        "title": "Stretch or Exercise",
+        "description": "Engage in light stretching or exercise to wake up your muscles and boost circulation."
+      },
+      {
+        "id": "4",
+        "title": "Freshen Up",
+        "description": "Take a shower, brush your teeth, and perform your daily grooming routine."
+      },
+      {
+        "id": "5",
+        "title": "Eat a Healthy Breakfast",
+        "description": "Fuel your body with a nutritious breakfast to provide energy and enhance focus."
+      },
+      {
+        "id": "6",
+        "title": "Organize Your Backpack",
+        "description": "Ensure you have all the necessary books, notebooks, and materials in your backpack."
+      },
+      {
+        "id": "7",
+        "title": "Review Your Schedule",
+        "description": "Check your timetable, assignments, and any upcoming tests or exams."
+      },
+      {
+        "id": "8",
+        "title": "Plan Your Day",
+        "description": "Take a few minutes to plan your day, prioritize tasks, and set goals."
+      },
+      {
+        "id": "9",
+        "title": "Pack Your Lunch",
+        "description": "Prepare a healthy lunch and pack it in your bag if needed."
+      },
+      {
+        "id": "10",
+        "title": "Check Your School Bag",
+        "description": "Ensure you have all the necessary supplies and materials for the day."
+      },
+      {
+        "id": "11",
+        "title": "Gather Study Materials",
+        "description": "If you have any pending assignments or need to study, gather the required materials."
+      },
+      {
+        "id": "12",
+        "title": "Double-Check Deadlines",
+        "description": "Review any deadlines for assignments, projects, or submissions."
+      },
+      {
+        "id": "13",
+        "title": "Leave on Time",
+        "description": "Plan your departure to ensure you arrive at school on time."
+      },
+      {
+        "id": "14",
+        "title": "Review Your Goals",
+        "description": "Remind yourself of your academic and personal goals to stay focused and motivated."
+      },
+      {
+        "id": "15",
+        "title": "Stay Positive",
+        "description": "Start the day with a positive mindset, ready to learn and make the most of your opportunities."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "5",
+    "image": "lib/assets/cooking_recipes/cooking_breakfast.jpg",
+    "title": "Cooking Breakfast",
+    "description": "Tips for cooking a delicious breakfast",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Menu",
+        "description": "Decide on the dishes you want to cook for breakfast."
+      },
+      {
+        "id": "2",
+        "title": "Gather Ingredients",
+        "description": "Make sure you have all the necessary ingredients for your chosen dishes."
+      },
+      {
+        "id": "3",
+        "title": "Prep Your Cooking Area",
+        "description": "Clean and organize your cooking area for an efficient cooking process."
+      },
+      {
+        "id": "4",
+        "title": "Follow Recipes",
+        "description": "If you're using recipes, follow them step by step for accurate results."
+      },
+      {
+        "id": "5",
+        "title": "Cook in Batches",
+        "description": "If cooking multiple dishes, plan your time to cook them in batches."
+      },
+      {
+        "id": "6",
+        "title": "Use Timers",
+        "description": "Set timers to ensure you don't overcook or burn your food."
+      },
+      {
+        "id": "7",
+        "title": "Plate and Serve",
+        "description": "Arrange your cooked dishes on plates and serve them while they're still hot."
+      },
+      {
+        "id": "8",
+        "title": "Clean Up",
+        "description": "After cooking, clean up your cooking area and wash the dishes."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy Your Breakfast",
+        "description": "Sit down and savor your delicious homemade breakfast."
       }
     ]
   }
+  
+  
+  
+  
 ]

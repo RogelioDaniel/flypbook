@@ -23,7 +23,7 @@
   {
     "itemId": "4",
     "id": "4",
-    "image": "assets/images/item3.png",
+    "image": "lib/assets/morning_routine_b.gif",
     "title": "Morning Routine",
     "description": "Discussing morning rituals, such as exercising, meditation, or planning for the day ahead."
   },

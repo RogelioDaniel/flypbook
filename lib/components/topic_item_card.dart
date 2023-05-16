@@ -22,7 +22,7 @@ class TopicItemCard extends StatelessWidget {
     return GestureDetector(
       onTap: onPressed,
       child: Container(
-        width: screenWidth * 0.5,
+        width: screenWidth * 0.7,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8.0),
           color: Colors.white.withOpacity(0.4),

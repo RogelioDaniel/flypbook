@@ -19,34 +19,33 @@ class TopicSubScreen extends StatelessWidget {
           body: CirclesBackground(
             circles: [
               CircleInfo(
-                size: Size(constraints.maxWidth, constraints.maxHeight * 0.5),
-                color: Color.fromARGB(255, 0, 0, 0),
+                size: const Size(300, 500),
+                color: Color.fromARGB(255, 139, 139, 139),
                 borderRadius:
                     const BorderRadius.only(bottomLeft: Radius.circular(200)),
                 alignment: Alignment.topRight,
               ),
               CircleInfo(
-                size: Size(constraints.maxWidth, constraints.maxHeight * 0.9),
-                gradient: LinearGradient(
+                size: const Size(300, 900),
+                gradient: const LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 179, 160, 24)!,
-                    Color.fromARGB(255, 211, 125, 28),
+                    Color.fromARGB(255, 138, 138, 138),
+                    Color.fromARGB(255, 97, 97, 97),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(),
                 alignment: Alignment.topLeft,
               ),
               CircleInfo(
-                size: Size(
-                    constraints.maxWidth * 0.5, constraints.maxHeight * 0.5),
+                size: const Size(200, 500),
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 179, 160, 24)!,
-                    Color.fromARGB(255, 242, 131, 4),
+                    Color.fromARGB(255, 138, 138, 138),
+                    Color.fromARGB(255, 97, 97, 97),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(
