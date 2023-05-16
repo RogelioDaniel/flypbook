@@ -22,7 +22,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
 
   Future<void> _loadMenuItems() async {
     String jsonString = await DefaultAssetBundle.of(context)
-        .loadString('lib/data/vertical_items.json');
+        .loadString('lib/data/all_items.json');
     List<dynamic> jsonData = json.decode(jsonString);
     List<MenuItemData> menuItems = [];
     for (var item in jsonData) {
@@ -32,6 +32,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
         title: item['title'],
         description: item['description'],
       );
+      menuItems.sort((a, b) => a.title.compareTo(b.title)); // Sort alpabetical
       menuItems.add(menuItem);
     }
     setState(() {
