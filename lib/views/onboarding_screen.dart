@@ -17,14 +17,14 @@ class _OnboardingPageState extends State<OnboardingScreen> {
       description: 'Focus on what matters to you.',
     ),
     OnboardingItem(
-      image: 'assets/images/onboarding2.png',
+      image: '',
       title: 'Learn at your own pace',
       description: 'And practice in your free time.',
     ),
     OnboardingItem(
-      image: 'assets/images/onboarding3.png',
+      image: '',
       title: 'Get Started Now',
-      description: 'Your context is the learning base, focus!!!.',
+      description: 'Study and learn about your environment, you can do it !.',
     ),
   ];
 
@@ -126,9 +126,16 @@ class _OnboardingPageState extends State<OnboardingScreen> {
                               fontSize: 24.0,
                               fontWeight: FontWeight.bold,
                               foreground: Paint()
-                                ..style = PaintingStyle.stroke
+                                ..style = PaintingStyle.fill
                                 ..strokeWidth = 2.5
-                                ..color = const Color.fromARGB(255, 18, 17, 17),
+                                ..color = Colors.white,
+                              shadows: [
+                                Shadow(
+                                  color: Colors.black.withOpacity(0.5),
+                                  offset: Offset(2, 2),
+                                  blurRadius: 4,
+                                ),
+                              ],
                             ),
                           ),
                           SizedBox(height: 16.0),
@@ -140,7 +147,15 @@ class _OnboardingPageState extends State<OnboardingScreen> {
                                 item.description,
                                 style: TextStyle(
                                   fontSize: maxWidth * 0.04,
-                                  color: Color.fromARGB(255, 0, 0, 0),
+                                  color: Colors.white,
+                                  fontStyle: FontStyle.italic,
+                                  shadows: [
+                                    Shadow(
+                                      color: Colors.black.withOpacity(0.3),
+                                      offset: Offset(1, 1),
+                                      blurRadius: 2,
+                                    ),
+                                  ],
                                 ),
                                 textAlign: TextAlign.center,
                               );
@@ -178,7 +193,7 @@ class _OnboardingPageState extends State<OnboardingScreen> {
                           },
                           child: Text('Next'),
                           style: ElevatedButton.styleFrom(
-                            primary: const Color.fromARGB(255, 0, 0, 0),
+                            primary: Color.fromARGB(255, 254, 254, 254),
                           ),
                         ),
                       if (_currentPageIndex == _onboardingItems.length - 1)
@@ -188,7 +203,7 @@ class _OnboardingPageState extends State<OnboardingScreen> {
                           },
                           child: Text('Get Started'),
                           style: ElevatedButton.styleFrom(
-                            primary: const Color.fromARGB(255, 0, 0, 0),
+                            primary: Color.fromARGB(255, 249, 248, 248),
                           ),
                         ),
                     ],

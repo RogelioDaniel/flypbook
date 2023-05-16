@@ -32,7 +32,8 @@ class _VerticalMenuState extends State<VerticalMenu> {
         title: item['title'],
         description: item['description'],
       );
-      menuItems.sort((a, b) => a.title.compareTo(b.title)); // Sort alpabetical
+      menuItems
+          .sort((a, b) => a.title.compareTo(b.title)); // Sort alphabeticaly
       menuItems.add(menuItem);
     }
     setState(() {
