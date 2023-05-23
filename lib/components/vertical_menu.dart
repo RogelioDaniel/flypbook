@@ -94,6 +94,10 @@ class _VerticalMenuState extends State<VerticalMenu> {
               SizedBox(height: 16.0),
               TextField(
                 onChanged: (value) => _filterMenuItems(value),
+                onTap: () {
+                  // Unfocus text field and dismiss keyboard
+                  FocusScope.of(context).unfocus();
+                },
                 decoration: InputDecoration(
                   labelText: 'Search',
                   prefixIcon: Icon(Icons.search),

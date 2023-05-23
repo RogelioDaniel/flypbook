@@ -42,6 +42,9 @@ dependencies:
   shared_preferences: ^2.0.8
   circles_background: ^0.0.2
   flutter_animate: ^4.1.1+1
+  agora_uikit: ^1.3.3
+  permission_handler: ^10.2.0
+  animations: ^2.0.7
 
 
 
@@ -72,6 +75,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - lib/assets/onboarding/first.png
+    - lib/assets/onboarding/second.png
+    - lib/assets/onboarding/three.png
+    - lib/assets/onboarding/four.png
+    - lib/assets/onboarding/five.png
     - lib/assets/restaurants/fast_food.jpg
     - lib/assets/restaurants/casual_restaurant.jpg
     - lib/assets/restaurants/cafe_restaurant.jpg
@@ -83,7 +91,7 @@ flutter:
     - lib/assets/morning_routines/morning_routine.jpg
     - lib/assets/morning_routines/morning_routine_students.jpg
     - lib/assets/cooking_recipes/cooking_breakfast.jpg
-    - lib/assets/logo.png 
+  
     - lib/assets/restaurante_b.gif
     - lib/assets/supermarket_b.gif
     - lib/assets/public_transport_b.gif
@@ -99,9 +107,7 @@ flutter:
     - lib/data/favorite_items.json
     - lib/data/all_items.json
     - lib/data/topics.json
-    - lib/assets/onboarding1.gif
-    - lib/assets/onboarding1_1.gif
-    - lib/assets/8715883.gif
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

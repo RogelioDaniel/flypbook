@@ -89,7 +89,7 @@ class ItemDetailScreen extends StatelessWidget {
                     ],
                     border: Border.all(
                       color: const Color.fromARGB(255, 23, 23,
-                          23)!, // Adjust the border color as desired
+                          23), // Adjust the border color as desired
                       width: 1.0,
                     ),
                   ),

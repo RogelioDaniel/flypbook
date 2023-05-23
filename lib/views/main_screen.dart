@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter_animate/flutter_animate.dart';
+
 import 'package:circles_background/circles_background.dart';
 import '../components/menu_drawer.dart';
 import '../components/vertical_menu.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/main_screen.dart';
-import 'package:flypbook/views/onboarding_screen.dart';
+import 'package:flypbook/views/onboarding_screen/introduction_animation_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
@@ -29,7 +29,9 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.grey,
           ),
-          home: onboardingShown ? const AllItemsScreen() : OnboardingScreen(),
+          home: onboardingShown
+              ? const AllItemsScreen()
+              : const IntroductionAnimationScreen(),
         ));
   }
 }
