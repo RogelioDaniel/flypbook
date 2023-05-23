@@ -912,9 +912,333 @@
         "description": "Sit down and savor your delicious homemade breakfast."
       }
     ]
+  },
+  {
+    "id": "2",
+    "itemId": "5",
+    "image": "lib/assets/cooking_recipes/cooking_meal.jpeg",
+    "title": "Cooking Meal",
+    "description": "Tips for cooking a delicious meal",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Menu",
+        "description": "Decide on the dishes you want to cook for your meal. Consider the cuisine, dietary preferences, and nutritional balance."
+      },
+      {
+        "id": "2",
+        "title": "Gather Ingredients",
+        "description": "Make a shopping list and ensure you have all the necessary ingredients for your chosen dishes. Check your pantry and refrigerator."
+      },
+      {
+        "id": "3",
+        "title": "Prep Your Cooking Area",
+        "description": "Clean and organize your cooking area. Set up your cutting board, knives, pots, pans, and other utensils you'll need."
+      },
+      {
+        "id": "4",
+        "title": "Follow Recipes",
+        "description": "If you're using recipes, read them thoroughly and understand the steps involved. Follow the instructions accurately for the best results."
+      },
+      {
+        "id": "5",
+        "title": "Cook in Batches",
+        "description": "If cooking multiple dishes, plan your time wisely. Start with the dishes that require the longest cooking time and work your way through."
+      },
+      {
+        "id": "6",
+        "title": "Use Timers",
+        "description": "Set timers for different cooking processes. This helps you keep track of cooking times and ensures your food is cooked to perfection."
+      },
+      {
+        "id": "7",
+        "title": "Plate and Serve",
+        "description": "Once your dishes are cooked, plate them attractively. Garnish with herbs or sauces. Serve them hot and enjoy the flavors."
+      },
+      {
+        "id": "8",
+        "title": "Clean Up",
+        "description": "After cooking, clean up your cooking area. Wash the dishes, wipe down the counters, and store any leftovers properly."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy Your Meal",
+        "description": "Sit down, relax, and savor your homemade meal. Share it with loved ones and enjoy the fruits of your cooking efforts."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "5",
+    "image": "lib/assets/cooking_recipes/cooking_dinner.jpg",
+    "title": "Cooking Dinner",
+    "description": "Tips for cooking a delicious dinner",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Dinner Menu",
+        "description": "Decide on the dishes you want to cook for dinner. Consider the cuisine, dietary preferences, and nutritional balance."
+      },
+      {
+        "id": "2",
+        "title": "Gather Ingredients",
+        "description": "Make a shopping list and ensure you have all the necessary ingredients for your chosen dinner dishes. Check your pantry and refrigerator."
+      },
+      {
+        "id": "3",
+        "title": "Prep Your Cooking Area",
+        "description": "Clean and organize your cooking area. Set up your cutting board, knives, pots, pans, and other utensils you'll need for dinner preparation."
+      },
+      {
+        "id": "4",
+        "title": "Follow Recipes",
+        "description": "If you're using recipes, read them thoroughly and understand the steps involved. Follow the instructions accurately for the best dinner results."
+      },
+      {
+        "id": "5",
+        "title": "Cook Multiple Courses",
+        "description": "Plan your dinner to include multiple courses. Start with appetizers, move on to the main course, and finish with dessert."
+      },
+      {
+        "id": "6",
+        "title": "Manage Cooking Time",
+        "description": "Coordinate cooking times for different dishes. Ensure that all components of the dinner will be ready at the same time."
+      },
+      {
+        "id": "7",
+        "title": "Plate and Garnish",
+        "description": "Plate your dinner dishes attractively. Add garnishes and sauces to enhance the presentation and flavors of the meal."
+      },
+      {
+        "id": "8",
+        "title": "Set the Table",
+        "description": "Prepare the dining table for the dinner. Arrange cutlery, plates, glasses, and any other items needed for an enjoyable dining experience."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy Your Dinner",
+        "description": "Sit down, relax, and savor your homemade dinner. Share it with loved ones and enjoy the delightful flavors of your cooking."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "6",
+    "image": "lib/assets/fitness_exercises/gym.jpg",
+    "title": "Going to the Gym",
+    "description": "Tips for an effective gym workout",
+    "items": [
+      {
+        "id": "1",
+        "title": "Set Your Fitness Goals",
+        "description": "Define your fitness goals to have a clear direction for your gym workouts. Whether it's building strength, improving endurance, or losing weight, knowing your goals will help you plan your exercises."
+      },
+      {
+        "id": "2",
+        "title": "Warm Up",
+        "description": "Start your gym session with a warm-up to prepare your body for exercise. Perform dynamic stretches, light cardio, or mobility exercises to increase blood flow and loosen up your muscles."
+      },
+      {
+        "id": "3",
+        "title": "Create a Workout Plan",
+        "description": "Design a workout plan that targets different muscle groups and incorporates a variety of exercises. Include strength training, cardio, and flexibility exercises for a well-rounded workout."
+      },
+      {
+        "id": "4",
+        "title": "Focus on Proper Form",
+        "description": "Pay attention to your form and technique while performing exercises. Proper form ensures maximum effectiveness and reduces the risk of injuries. Ask a trainer for guidance if needed."
+      },
+      {
+        "id": "5",
+        "title": "Progressive Overload",
+        "description": "Gradually increase the intensity of your workouts to challenge your body and stimulate muscle growth. Add more weight, increase repetitions, or reduce rest periods as you progress."
+      },
+      {
+        "id": "6",
+        "title": "Stay Hydrated",
+        "description": "Drink water before, during, and after your gym session to stay hydrated. Proper hydration is essential for performance and recovery."
+      },
+      {
+        "id": "7",
+        "title": "Rest and Recovery",
+        "description": "Allow your body time to rest and recover between gym sessions. Adequate rest promotes muscle growth, prevents overtraining, and reduces the risk of injuries."
+      },
+      {
+        "id": "8",
+        "title": "Track Your Progress",
+        "description": "Keep a record of your workouts, including exercises, sets, reps, and weights. Tracking your progress helps you see improvements and adjust your workout plan accordingly."
+      },
+      {
+        "id": "9",
+        "title": "Listen to Your Body",
+        "description": "Pay attention to how your body feels during workouts. If something feels painful or uncomfortable, modify the exercise or seek guidance from a fitness professional."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "6",
+    "image": "lib/assets/fitness_exercises/home_exercise.jpg",
+    "title": "Exercising at Home",
+    "description": "Tips for an effective home workout",
+    "items": [
+      {
+        "id": "1",
+        "title": "Create a Workout Space",
+        "description": "Designate an area in your home specifically for exercising. Clear out any clutter and ensure you have enough space to perform your exercises comfortably."
+      },
+      {
+        "id": "2",
+        "title": "Plan Your Workout Routine",
+        "description": "Create a workout routine that suits your fitness goals and available equipment. Include a mix of cardiovascular exercises, strength training, and flexibility exercises."
+      },
+      {
+        "id": "3",
+        "title": "Warm Up and Stretch",
+        "description": "Prior to starting your workout, perform a warm-up routine to raise your heart rate and loosen up your muscles. Follow it up with stretching exercises to improve flexibility."
+      },
+      {
+        "id": "4",
+        "title": "Bodyweight Exercises",
+        "description": "Incorporate bodyweight exercises into your routine, such as push-ups, squats, lunges, and planks. These exercises can be done without any equipment and are effective for strength building."
+      },
+      {
+        "id": "5",
+        "title": "Use Household Items as Weights",
+        "description": "If you don't have access to dumbbells or weights, get creative and use household items like water bottles, canned goods, or backpacks filled with books as makeshift weights."
+      },
+      {
+        "id": "6",
+        "title": "Follow Online Workout Videos",
+        "description": "Take advantage of online platforms that offer workout videos and classes. Follow along with professional trainers who can guide you through various exercises and routines."
+      },
+      {
+        "id": "7",
+        "title": "Cardiovascular Exercises",
+        "description": "Incorporate cardiovascular exercises into your routine, such as jumping jacks, high knees, mountain climbers, or jogging in place. These exercises elevate your heart rate and improve endurance."
+      },
+      {
+        "id": "8",
+        "title": "Stay Consistent",
+        "description": "Consistency is key. Stick to your workout schedule and aim to exercise at least a few times per week. Gradually increase the intensity and duration of your workouts as you progress."
+      },
+      {
+        "id": "9",
+        "title": "Cool Down and Stretch",
+        "description": "After completing your workout, don't forget to cool down with light exercises and stretching. This helps reduce muscle soreness and promotes recovery."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "6",
+    "image": "lib/assets/fitness_exercises/yoga.jpg",
+    "title": "Yoga Practice",
+    "description": "Tips for a fulfilling yoga session",
+    "items": [
+      {
+        "id": "1",
+        "title": "Create a Calm Space",
+        "description": "Designate a quiet and clutter-free space where you can practice yoga without distractions. Use soft lighting and play soothing music to enhance the atmosphere."
+      },
+      {
+        "id": "2",
+        "title": "Choose a Yoga Style",
+        "description": "Select a yoga style that aligns with your goals and preferences. Options include Hatha, Vinyasa, Ashtanga, Bikram, and more. Each style offers unique benefits and focuses on different aspects of yoga practice."
+      },
+      {
+        "id": "3",
+        "title": "Start with Basic Poses",
+        "description": "If you're new to yoga, begin with basic poses like Mountain Pose, Child's Pose, Downward Dog, and Corpse Pose. Familiarize yourself with proper alignment and gradually progress to more challenging poses."
+      },
+      {
+        "id": "4",
+        "title": "Practice Breathing Techniques",
+        "description": "Incorporate breathing exercises, such as Ujjayi breathing or alternate nostril breathing, to promote relaxation and mindfulness during your yoga practice."
+      },
+      {
+        "id": "5",
+        "title": "Focus on Flexibility and Strength",
+        "description": "Yoga helps improve flexibility and strength. Incorporate poses that target different muscle groups and gradually work on increasing your flexibility over time."
+      },
+      {
+        "id": "6",
+        "title": "Listen to Your Body",
+        "description": "Pay attention to your body's needs and limitations. Modify poses or take breaks as necessary. Avoid pushing yourself too hard and always prioritize safety and comfort."
+      },
+      {
+        "id": "7",
+        "title": "Follow Guided Yoga Sessions",
+        "description": "Use online resources or yoga apps to access guided yoga sessions. Follow along with experienced instructors who can guide you through different sequences and provide verbal cues for proper alignment."
+      },
+      {
+        "id": "8",
+        "title": "Set Intentions",
+        "description": "Before each yoga session, set intentions or affirmations to focus your mind and cultivate a positive mindset. Reflect on your goals or choose a mantra that resonates with you."
+      },
+      {
+        "id": "9",
+        "title": "End with Savasana",
+        "description": "Complete your yoga practice with Savasana (Corpse Pose), a final relaxation pose. Lie flat on your back, close your eyes, and allow your body to fully relax and integrate the benefits of your practice."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "7",
+    "image": "lib/assets/hobbies_interests/movie_series.jpg",
+    "title": "Watch a Movie or Series",
+    "description": "Tips for an enjoyable movie or series watching experience at home",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose a Genre or Theme",
+        "description": "Select a movie or series based on your preferred genre or theme. Whether you're in the mood for comedy, romance, action, thriller, or something else, pick something that suits your interests."
+      },
+      {
+        "id": "2",
+        "title": "Create a Cozy Environment",
+        "description": "Make your viewing area comfortable and cozy. Set up soft lighting, arrange pillows and blankets, and create a relaxing ambiance that enhances your movie or series experience."
+      },
+      {
+        "id": "3",
+        "title": "Prepare Snacks and Drinks",
+        "description": "Get your favorite snacks and drinks ready to enjoy during the movie or series. Popcorn, chips, candies, and beverages of your choice can add to the enjoyment of the viewing session."
+      },
+      {
+        "id": "4",
+        "title": "Set Up the Viewing Device",
+        "description": "Ensure your TV, computer, or other viewing device is properly set up and connected. Adjust the screen brightness, sound, and subtitles as per your preference."
+      },
+      {
+        "id": "5",
+        "title": "Find a Comfortable Seating Arrangement",
+        "description": "Choose a comfortable seating arrangement that allows you to relax and enjoy the movie or series. Whether it's a cozy couch, bean bag, or recliner, prioritize your comfort."
+      },
+      {
+        "id": "6",
+        "title": "Avoid Distractions",
+        "description": "Minimize distractions during the movie or series. Silence your phone, close unnecessary tabs on your computer, and create a quiet environment to fully immerse yourself in the story."
+      },
+      {
+        "id": "7",
+        "title": "Engage with the Story",
+        "description": "Immerse yourself in the movie or series by paying attention to the plot, characters, and dialogues. Engage emotionally and intellectually to make the experience more fulfilling."
+      },
+      {
+        "id": "8",
+        "title": "Discuss and Share Thoughts",
+        "description": "After watching, discuss the movie or series with friends or family. Share your thoughts, opinions, and favorite moments to deepen the connection and make it a social experience."
+      },
+      {
+        "id": "9",
+        "title": "Rate and Review",
+        "description": "Consider rating and reviewing the movie or series on platforms like IMDb or Rotten Tomatoes. Your feedback can help others discover great movies and series."
+      }
+    ]
   }
   
-  
+
   
   
 ]

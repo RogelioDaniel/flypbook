@@ -44,21 +44,23 @@ class FavoriteItem extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
-          color: Color.fromARGB(255, 0, 0, 0).withOpacity(0.8),
+          color: Colors.black.withOpacity(0.8),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.2),
-              blurRadius: 4,
-              offset: const Offset(0, 2),
+              color: Colors.black.withOpacity(0.4),
+              blurRadius: 6,
+              offset: Offset(0, 2),
             ),
           ],
-          gradient: LinearGradient(
-            colors: [Colors.white, Colors.black26],
-          ),
-          image: const DecorationImage(
+          image: DecorationImage(
             image: NetworkImage(
-                'https://images.pexels.com/photos/5202288/pexels-photo-5202288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+              'https://www.publicdomainpictures.net/pictures/40000/nahled/gray-background-1361959709geQ.jpg',
+            ),
             fit: BoxFit.cover,
+            colorFilter: ColorFilter.mode(
+              Colors.black.withOpacity(0.1),
+              BlendMode.lighten,
+            ),
           ),
         ),
         child: Column(
@@ -81,7 +83,7 @@ class FavoriteItem extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
               ),
-              textAlign: TextAlign.left,
+              textAlign: TextAlign.center,
             ),
             const SizedBox(height: 4.0),
             Text(
@@ -90,7 +92,7 @@ class FavoriteItem extends StatelessWidget {
                 fontSize: MediaQuery.of(context).size.width * 0.035,
                 color: Colors.black54,
               ),
-              textAlign: TextAlign.left,
+              textAlign: TextAlign.center,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
             ),

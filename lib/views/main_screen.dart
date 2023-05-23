@@ -81,7 +81,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   end: Alignment.bottomCenter,
                   colors: [
                     Color.fromARGB(255, 138, 138, 138),
-                    Color.fromARGB(255, 97, 97, 97),
+                    Color.fromARGB(255, 82, 82, 82),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(),

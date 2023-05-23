@@ -1,23 +1,23 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import '../views/item_detail_screen.dart';
 import '../views/menu_item_detail_screen.dart';
 
 class VerticalMenu extends StatefulWidget {
+  const VerticalMenu({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _VerticalMenuState createState() => _VerticalMenuState();
 }
 
 class _VerticalMenuState extends State<VerticalMenu> {
   List<MenuItemData> _menuItems = [];
   List<MenuItemData> _filteredMenuItems = []; // Added filtered list
-  String _searchQuery = '';
 
   @override
   void initState() {
     super.initState();
     _loadMenuItems();
-    _searchQuery = '';
   }
 
   Future<void> _loadMenuItems() async {
@@ -45,7 +45,6 @@ class _VerticalMenuState extends State<VerticalMenu> {
 
   void _filterMenuItems(String query) {
     setState(() {
-      _searchQuery = query;
       if (query.isNotEmpty) {
         _filteredMenuItems = _menuItems.where((menuItem) {
           return menuItem.title.toLowerCase().contains(query.toLowerCase());
@@ -58,17 +57,17 @@ class _VerticalMenuState extends State<VerticalMenu> {
   }
 
   @override
+  @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      // Add GestureDetector to handle tap anywhere on the screen
       onTap: () {
         // Unfocus text field and dismiss keyboard
         FocusScope.of(context).unfocus();
       },
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15.0),
-          color: Color.fromARGB(255, 0, 0, 0).withOpacity(0.8),
+          borderRadius: BorderRadius.circular(20.0),
+          color: const Color.fromARGB(255, 0, 0, 0).withOpacity(0.8),
           boxShadow: [
             BoxShadow(
               color: Colors.black.withOpacity(0.2),
@@ -76,12 +75,9 @@ class _VerticalMenuState extends State<VerticalMenu> {
               offset: const Offset(0, 2),
             ),
           ],
-          gradient: LinearGradient(
-            colors: [Colors.white, Colors.black26],
-          ),
           image: const DecorationImage(
             image: NetworkImage(
-                'https://images.pexels.com/photos/5202288/pexels-photo-5202288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+                'https://www.publicdomainpictures.net/pictures/40000/nahled/gray-background-1361959709geQ.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -145,6 +141,7 @@ class MenuItem extends StatelessWidget {
   final String description;
 
   const MenuItem({
+    super.key,
     required this.image,
     required this.title,
     required this.description,

@@ -5,7 +5,7 @@ import 'package:circles_background/circles_background.dart';
 class TopicSubScreen extends StatelessWidget {
   final TopicItem topicItem;
 
-  TopicSubScreen({required this.topicItem});
+  const TopicSubScreen({super.key, required this.topicItem});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class TopicSubScreen extends StatelessWidget {
             circles: [
               CircleInfo(
                 size: const Size(300, 500),
-                color: Color.fromARGB(255, 139, 139, 139),
+                color: const Color.fromARGB(255, 139, 139, 139),
                 borderRadius:
                     const BorderRadius.only(bottomLeft: Radius.circular(200)),
                 alignment: Alignment.topRight,
@@ -40,7 +40,7 @@ class TopicSubScreen extends StatelessWidget {
               ),
               CircleInfo(
                 size: const Size(200, 500),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
@@ -56,7 +56,7 @@ class TopicSubScreen extends StatelessWidget {
               ),
             ],
             child: Padding(
-              padding: EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [

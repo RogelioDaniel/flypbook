@@ -124,7 +124,18 @@ class _IntroductionAnimationScreenState
 
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => AllItemsScreen()),
+      PageRouteBuilder(
+        pageBuilder: (context, animation, secondaryAnimation) =>
+            AllItemsScreen(),
+        transitionsBuilder: (context, animation, secondaryAnimation, child) {
+          return FadeTransition(
+            opacity: animation,
+            child: child,
+          );
+        },
+        transitionDuration:
+            Duration(milliseconds: 800), // Adjust animation duration as needed
+      ),
     );
   }
 }
