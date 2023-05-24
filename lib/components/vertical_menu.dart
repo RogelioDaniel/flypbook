@@ -102,10 +102,14 @@ class _VerticalMenuState extends State<VerticalMenu> {
               SizedBox(height: 16.0),
               ListView.builder(
                 shrinkWrap: true,
+                padding: const EdgeInsets.all(0.0),
                 physics: const NeverScrollableScrollPhysics(),
+                scrollDirection: Axis.vertical,
+                primary: true,
                 itemCount: _filteredMenuItems.length,
                 itemBuilder: (context, index) {
                   MenuItemData menuItem = _filteredMenuItems[index];
+
                   return GestureDetector(
                     onTap: () {
                       // Unfocus text field and dismiss keyboard
@@ -151,13 +155,29 @@ class MenuItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(bottom: 16.0),
+      padding: EdgeInsets.all(16.0),
+      decoration: BoxDecoration(
+        color: Colors.white30,
+        borderRadius: BorderRadius.circular(10.0),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 8,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
       child: Row(
         children: [
-          Image.asset(
-            // or can 'network' from url
-            image,
-            height: MediaQuery.of(context).size.width * 0.2,
-            width: MediaQuery.of(context).size.width * 0.2,
+          ClipRRect(
+            borderRadius: BorderRadius.circular(8.0),
+            child: Image.asset(
+              // or 'network' from URL
+              image,
+              height: MediaQuery.of(context).size.width * 0.18,
+              width: MediaQuery.of(context).size.width * 0.18,
+              fit: BoxFit.cover,
+            ),
           ),
           SizedBox(width: 16.0),
           Expanded(
@@ -167,19 +187,25 @@ class MenuItem extends StatelessWidget {
                 Text(
                   title,
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width * 0.04,
+                    fontSize: 18.0,
                     fontWeight: FontWeight.bold,
+                    color: Colors.black87,
                   ),
                 ),
-                SizedBox(height: 4.0),
+                SizedBox(height: 8.0),
                 Text(
                   description,
                   style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width * 0.035,
+                    fontSize: 16.0,
+                    color: Colors.black54,
                   ),
                 ),
               ],
             ),
+          ),
+          Icon(
+            Icons.arrow_forward,
+            color: Colors.grey,
           ),
         ],
       ),

@@ -4,14 +4,12 @@ class MenuDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      // Add GestureDetector to handle tap anywhere on the screen
       onTap: () {
-        // Unfocus text field and dismiss keyboard
         FocusScope.of(context).unfocus();
       },
       child: Drawer(
         child: Container(
-          color: Colors.grey[350], // Adjust the background color
+          color: Colors.grey[350],
           child: ListView(
             padding: EdgeInsets.zero,
             children: [
@@ -20,8 +18,8 @@ class MenuDrawer extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      Colors.grey,
-                      Color.fromARGB(255, 142, 142, 142),
+                      Color.fromARGB(255, 150, 150, 150),
+                      Color.fromARGB(255, 75, 75, 75),
                     ],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
@@ -30,13 +28,20 @@ class MenuDrawer extends StatelessWidget {
                     bottomLeft: Radius.circular(32),
                     bottomRight: Radius.circular(32),
                   ),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.2),
+                      blurRadius: 6,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
                 ),
                 child: Center(
                   child: Text(
                     'Menu',
                     style: TextStyle(
-                      color: Colors.white, // Adjust the text color
-                      fontSize: 24,
+                      color: Colors.white,
+                      fontSize: 28,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -45,13 +50,14 @@ class MenuDrawer extends StatelessWidget {
               ListTile(
                 leading: Icon(
                   Icons.home,
-                  color: Colors.grey,
+                  color: Colors.grey[800],
+                  size: 28,
                 ),
                 title: Text(
                   'Home',
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 16,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -62,13 +68,14 @@ class MenuDrawer extends StatelessWidget {
               ListTile(
                 leading: Icon(
                   Icons.info,
-                  color: Colors.grey,
+                  color: Colors.grey[800],
+                  size: 28,
                 ),
                 title: Text(
                   'About',
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 16,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
