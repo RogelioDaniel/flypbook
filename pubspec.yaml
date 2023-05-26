@@ -36,19 +36,16 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  keycloak_flutter: ^0.0.20
-  cached_network_image: ^3.2.3
- 
-  page_transition: ^2.0.9
- 
-  flip_card: ^0.5.0
 
-  flippy: ^0.1.1
-  carousel_slider: ^4.2.1 
-  http: ^0.13.6
-  flutter_wallpaper_manager: ^0.0.3
-  intl: ^0.18.1
-  path_provider: ^2.0.15
+  http: ^0.13.3
+  carousel_slider: ^4.2.1
+  shared_preferences: ^2.0.8
+  circles_background: ^0.0.2
+  flutter_animate: ^4.1.1+1
+ 
+  permission_handler: ^10.2.0
+  animations: ^2.0.7
+
 
 
 dev_dependencies:
@@ -77,8 +74,45 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - lib/assets/onboarding/first.png
+    - lib/assets/onboarding/second.png
+    - lib/assets/onboarding/three.png
+    - lib/assets/onboarding/four.png
+    - lib/assets/onboarding/five.png
+    - lib/assets/restaurants/fast_food.jpg
+    - lib/assets/restaurants/casual_restaurant.jpg
+    - lib/assets/restaurants/cafe_restaurant.jpg
+    - lib/assets/stores/supermarket.jpg
+    - lib/assets/stores/hypermarket.jpg
+    - lib/assets/stores/departament_store.jpg
+    - lib/assets/public_transports/bus.png
+    - lib/assets/public_transports/subway.gif
+    - lib/assets/morning_routines/morning_routine.jpg
+    - lib/assets/morning_routines/morning_routine_students.jpg
+    - lib/assets/cooking_recipes/cooking_breakfast.jpg
+    - lib/assets/cooking_recipes/cooking_meal.jpeg
+    - lib/assets/cooking_recipes/cooking_dinner.jpg
+    - lib/assets/fitness_exercises/gym.jpg
+    - lib/assets/fitness_exercises/home_exercise.jpg
+    - lib/assets/fitness_exercises/yoga.jpg
+    - lib/assets/hobbies_interests/movie_series.jpg
+    - lib/assets/restaurante_b.gif
+    - lib/assets/supermarket_b.gif
+    - lib/assets/public_transport_b.gif
+    - lib/assets/bank_b.gif
+    - lib/assets/hospital_b.gif
+    - lib/assets/morning_routine_b.gif
+    - lib/assets/cooking_recipes_b.gif
+    - lib/assets/fitness_exercise_b.gif
+    - lib/assets/family_b.gif
+    - lib/assets/technology_gadgets_b.gif
+    - lib/assets/weekend_plans_b.gif
+    - lib/data/vertical_items.json
+    - lib/data/favorite_items.json
+    - lib/data/all_items.json
+    - lib/data/topics.json
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

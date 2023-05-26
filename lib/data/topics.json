@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "1",
+    "itemId": "1",
+    "image": "lib/assets/restaurants/fast_food.jpg",
+    "title": "Fast food restaurants",
+    "description": "Are you foodly and lazy?",
+    "items": [
+      {
+        "id": "1",
+        "title": "Greet the staff",
+        "description": "Start by greeting the cashier or staff member with a friendly \"Hello\" or \"Hi.\""
+      },
+      {
+        "id": "2",
+        "title": "Check the menu",
+        "description": "Look at the menu options displayed on the overhead boards or menu displays."
+      },
+      {
+        "id": "3",
+        "title": "Decide your order",
+        "description": "Take some time to decide what you want to eat. Consider the different options available, such as burgers, sandwiches, salads, or combo meals."
+      },
+      {
+        "id": "4",
+        "title": "Approach the counter",
+        "description": "Once you have decided, approach the cashier or the counter where you place your order."
+      },
+      {
+        "id": "5",
+        "title": "Place your order",
+        "description": "Clearly state your order to the cashier. You can say, \"I would like to order [specific item(s)].\""
+      },
+      {
+        "id": "6",
+        "title": "Customize your order",
+        "description": "If you have any specific requests or modifications, such as removing certain ingredients or adding extra toppings, communicate them to the cashier."
+      },
+      {
+        "id": "7",
+        "title": "Choose your meal size",
+        "description": "Fast food restaurants often offer different sizes for meals, such as small, medium, or large. Specify your preferred meal size when placing your order."
+      },
+      {
+        "id": "8",
+        "title": "Add side items or extras",
+        "description": "If you want to add any additional items like fries, drinks, or desserts to your order, let the cashier know."
+      },
+      {
+        "id": "9",
+        "title": "Confirm your order",
+        "description": "After placing your order, the cashier might repeat it back to you. Listen carefully and confirm if the order is correct."
+      },
+      {
+        "id": "10",
+        "title": "Make the payment",
+        "description": "Pay for your order at the counter. You can use cash or a debit/credit card, depending on the payment options available."
+      },
+      {
+        "id": "11",
+        "title": "Collect your order number or receipt",
+        "description": "If the restaurant provides order numbers or receipts, make sure to collect yours."
+      },
+      {
+        "id": "12",
+        "title": "Find a seat",
+        "description": "Look for an available table or seating area in the restaurant. Choose a spot that suits your preference."
+      },
+      {
+        "id": "13",
+        "title": "Wait for your order",
+        "description": "Relax and wait for your order to be prepared. Most fast food restaurants have a display or a screen that shows when orders are ready."
+      },
+      {
+        "id": "14",
+        "title": "Collect your food",
+        "description": "Once your order is ready, listen for your order number or name to be called, or check the display screen for your order status. Collect your tray or bag of food from the designated pickup counter."
+      },
+      {
+        "id": "15",
+        "title": "Enjoy your meal",
+        "description": "Find a comfortable spot at your chosen table and enjoy your fast food meal."
+      },
+      {
+        "id": "16",
+        "title": "Dispose of trash",
+        "description": "After finishing your meal, clean up your table by disposing of any trash in the designated bins or trash cans."
+      },
+      {
+        "id": "17",
+        "title": "Leave the restaurant",
+        "description": "When you are ready to leave, you can simply get up from your seat and exit the restaurant."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "1",
+    "image": "lib/assets/restaurants/casual_restaurant.jpg",
+    "title": "Casual Restaurants",
+    "description": "Looking for a relaxed dining experience?",
+    "items": [
+      {
+        "id": "1",
+        "title": "Greet the staff",
+        "description": "Start by greeting the host or hostess with a friendly \"Hello\" or \"Hi.\""
+      },
+      {
+        "id": "2",
+        "title": "Check the seating",
+        "description": "Follow the host or hostess to your assigned table or choose a seat if open seating is available."
+      },
+      {
+        "id": "3",
+        "title": "Browse the menu",
+        "description": "Take some time to look through the menu options and familiarize yourself with the available dishes."
+      },
+      {
+        "id": "4",
+        "title": "Order drinks",
+        "description": "Start by ordering your preferred beverages, such as water, soft drinks, or alcoholic drinks."
+      },
+      {
+        "id": "5",
+        "title": "Place your food order",
+        "description": "Once you have decided on your meal, notify the server of your food order."
+      },
+      {
+        "id": "6",
+        "title": "Special requests",
+        "description": "If you have any dietary restrictions or specific requests, communicate them to the server."
+      },
+      {
+        "id": "7",
+        "title": "Appetizers or starters",
+        "description": "If you wish to have appetizers or starters before your main course, order them accordingly."
+      },
+      {
+        "id": "8",
+        "title": "Enjoy conversation",
+        "description": "Engage in pleasant conversation with your dining companions while waiting for your food."
+      },
+      {
+        "id": "9",
+        "title": "Wait for food",
+        "description": "Relax and wait for your food to be prepared. It may take some time, as dishes are typically made to order."
+      },
+      {
+        "id": "10",
+        "title": "Food presentation",
+        "description": "Admire the presentation of your dishes when they are brought to your table."
+      },
+      {
+        "id": "11",
+        "title": "Savor your meal",
+        "description": "Take your time to enjoy each bite of your meal, appreciating the flavors and textures."
+      },
+      {
+        "id": "12",
+        "title": "Request additional items",
+        "description": "If you desire any additional items like condiments, sauces, or bread, ask your server."
+      },
+      {
+        "id": "13",
+        "title": "Refill drinks",
+        "description": "If your beverages need refills, signal your server to request more."
+      },
+      {
+        "id": "14",
+        "title": "Ask for assistance",
+        "description": "If you have any questions or need assistance during your dining experience, don't hesitate to ask the server."
+      },
+      {
+        "id": "15",
+        "title": "Dessert or coffee",
+        "description": "If you wish to end your meal with dessert or coffee, place your order accordingly."
+      },
+      {
+        "id": "16",
+        "title": "Request the bill",
+        "description": "When you are ready to pay, ask your server for the bill."
+      },
+      {
+        "id": "17",
+        "title": "Payment",
+        "description": "Pay the bill using cash, credit"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "1",
+    "image": "lib/assets/restaurants/cafe_restaurant.jpg",
+    "title": "Café Restaurants",
+    "description": "Looking for a cozy café experience?",
+    "items": [
+      {
+        "id": "1",
+        "title": "Enter the café",
+        "description": "Step inside the café and take a moment to enjoy the ambiance."
+      },
+      {
+        "id": "2",
+        "title": "Greet the staff",
+        "description": "Give a friendly greeting to the café staff upon entering."
+      },
+      {
+        "id": "3",
+        "title": "Find a seat",
+        "description": "Choose a comfortable seat at a table or a cozy corner to relax in."
+      },
+      {
+        "id": "4",
+        "title": "Browse the menu",
+        "description": "Take a look at the menu to see the variety of coffee, tea, and food options available."
+      },
+      {
+        "id": "5",
+        "title": "Order beverages",
+        "description": "Start by ordering your preferred hot or cold beverages, such as coffee, tea, or specialty drinks."
+      },
+      {
+        "id": "6",
+        "title": "Select food items",
+        "description": "Decide on any food items you would like to accompany your beverages, such as pastries, sandwiches, or salads."
+      },
+      {
+        "id": "7",
+        "title": "Place your order",
+        "description": "Notify the café staff of your beverage and food order."
+      },
+      {
+        "id": "8",
+        "title": "Special requests",
+        "description": "If you have any dietary preferences or special requests, communicate them to the café staff."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy the atmosphere",
+        "description": "Relax and soak in the cozy atmosphere of the café while waiting for your order."
+      },
+      {
+        "id": "10",
+        "title": "Engage in conversation",
+        "description": "Have meaningful conversations with friends or enjoy a peaceful moment alone with your thoughts."
+      },
+      {
+        "id": "11",
+        "title": "Wait for your order",
+        "description": "Be patient as the café staff prepares your beverages and food with care."
+      },
+      {
+        "id": "12",
+        "title": "Food and beverage presentation",
+        "description": "Appreciate the artistic presentation of your beverages and the delectable appearance of your food."
+      },
+      {
+        "id": "13",
+        "title": "Taste and savor",
+        "description": "Take small sips of your beverage and savor the flavors. Enjoy each bite of your food."
+      },
+      {
+        "id": "14",
+        "title": "Request refills",
+        "description": "If you would like a refill of your beverage, politely ask the café staff for another serving."
+      },
+      {
+        "id": "15",
+        "title": "Indulge in desserts",
+        "description": "Consider treating yourself to a delicious dessert from the café's selection, if available."
+      },
+      {
+        "id": "16",
+        "title": "Ask for the bill",
+        "description": "When you are ready to leave, ask the café staff for the bill at the counter."
+      },
+      {
+        "id": "17",
+        "title": "Payment",
+        "description": "Pay for your order at the counter using cash, credit, or any other accepted payment"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "2",
+    "image": "lib/assets/stores/supermarket.jpg",
+    "title": "Supermarket",
+    "description": "Tips for a smooth supermarket shopping experience",
+    "items": [
+      {
+        "id": "1",
+        "title": "Prepare a Shopping List",
+        "description": "Make a list of the items you need before going to the supermarket."
+      },
+      {
+        "id": "2",
+        "title": "Bring Reusable Bags",
+        "description": "Bring your own bags to carry your groceries and reduce plastic waste."
+      },
+      {
+        "id": "3",
+        "title": "Take a Shopping Cart or Basket",
+        "description": "Grab a shopping cart or basket to hold your items while you shop."
+      },
+      {
+        "id": "4",
+        "title": "Navigate the Aisles",
+        "description": "Walk through each aisle and locate the items on your shopping list."
+      },
+      {
+        "id": "5",
+        "title": "Compare Prices and Brands",
+        "description": "Compare prices and brands to make informed purchasing decisions."
+      },
+      {
+        "id": "6",
+        "title": "Check Expiry Dates",
+        "description": "Inspect the expiry dates of perishable items to ensure freshness."
+      },
+      {
+        "id": "7",
+        "title": "Read Labels and Ingredients",
+        "description": "Read product labels and ingredients to make healthier choices."
+      },
+      {
+        "id": "8",
+        "title": "Consider Bulk Buying",
+        "description": "If appropriate, consider buying items in bulk to save money."
+      },
+      {
+        "id": "9",
+        "title": "Ask for Assistance",
+        "description": "Don't hesitate to ask store staff for help if you can't find an item."
+      },
+      {
+        "id": "10",
+        "title": "Check Out and Pay",
+        "description": "Proceed to the checkout counter and pay for your groceries."
+      },
+      {
+        "id": "11",
+        "title": "Pack Your Groceries",
+        "description": "Pack your groceries carefully, separating fragile items if needed."
+      },
+      {
+        "id": "12",
+        "title": "Review Your Receipt",
+        "description": "Take a moment to review your receipt for accuracy before leaving."
+      },
+      {
+        "id": "13",
+        "title": "Return Shopping Cart",
+        "description": "Return the shopping cart to its designated area after unloading your groceries."
+      },
+      {
+        "id": "14",
+        "title": "Plan for Meal Preparation",
+        "description": "Organize your groceries based on meal plans for efficient meal preparation."
+      },
+      {
+        "id": "15",
+        "title": "Properly Store Perishables",
+        "description": "Store perishable items promptly in the appropriate storage areas."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "2",
+    "image": "lib/assets/stores/hypermarket.jpg",
+    "title": "Hypermarket",
+    "description": "Tips for a successful hypermarket shopping experience",
+    "items": [
+      {
+        "id": "1",
+        "title": "Prepare a Shopping List",
+        "description": "Make a list of the items you need before going to the hypermarket."
+      },
+      {
+        "id": "2",
+        "title": "Bring Reusable Bags",
+        "description": "Bring your own bags to carry your purchases and reduce plastic waste."
+      },
+      {
+        "id": "3",
+        "title": "Take a Shopping Cart",
+        "description": "Grab a shopping cart to hold your items while you shop."
+      },
+      {
+        "id": "4",
+        "title": "Navigate the Aisles",
+        "description": "Explore different sections and aisles to find the products you need."
+      },
+      {
+        "id": "5",
+        "title": "Compare Prices and Brands",
+        "description": "Compare prices and brands to make informed purchasing decisions."
+      },
+      {
+        "id": "6",
+        "title": "Check Expiry Dates",
+        "description": "Check the expiry dates of perishable items for freshness and quality."
+      },
+      {
+        "id": "7",
+        "title": "Read Labels and Product Information",
+        "description": "Read labels and product information to understand the features and benefits."
+      },
+      {
+        "id": "8",
+        "title": "Consider Bulk Buying",
+        "description": "If suitable, consider buying items in bulk to save money in the long run."
+      },
+      {
+        "id": "9",
+        "title": "Ask for Assistance",
+        "description": "Don't hesitate to ask store staff for help if you have any questions or need directions."
+      },
+      {
+        "id": "10",
+        "title": "Proceed to the Checkout",
+        "description": "When you have everything you need, head to the checkout counter to pay."
+      },
+      {
+        "id": "11",
+        "title": "Pack Your Purchases",
+        "description": "After paying, carefully pack your purchases, separating fragile items if necessary."
+      },
+      {
+        "id": "12",
+        "title": "Review Your Receipt",
+        "description": "Take a moment to review your receipt for accuracy before leaving the hypermarket."
+      },
+      {
+        "id": "13",
+        "title": "Return the Shopping Cart",
+        "description": "Return the shopping cart to its designated area to help maintain a tidy shopping environment."
+      },
+      {
+        "id": "14",
+        "title": "Organize Your Purchases",
+        "description": "Once you're home, organize your purchases for easy access and storage."
+      },
+      {
+        "id": "15",
+        "title": "Dispose of Packaging",
+        "description": "Properly dispose of packaging materials and recycle whenever possible."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "2",
+    "image": "lib/assets/stores/departament_store.jpg",
+    "title": "Department Store",
+    "description": "Tips for a smooth department store shopping experience",
+    "items": [
+      {
+        "id": "1",
+        "title": "Greet the Staff",
+        "description": "Start by greeting the store employees with a friendly 'Hello' or 'Hi.'"
+      },
+      {
+        "id": "2",
+        "title": "Explore Different Departments",
+        "description": "Department stores have various departments offering a wide range of products. Take your time to browse through different sections."
+      },
+      {
+        "id": "3",
+        "title": "Check for Sales and Discounts",
+        "description": "Look for signs or banners indicating any ongoing sales or discounts. Take advantage of these offers if interested."
+      },
+      {
+        "id": "4",
+        "title": "Seek Assistance if Needed",
+        "description": "If you have any questions or need help finding specific items, don't hesitate to ask a store employee for assistance."
+      },
+      {
+        "id": "5",
+        "title": "Try on or Test Products",
+        "description": "If you're interested in purchasing clothing, accessories, or any other items that can be tried on or tested, take advantage of the fitting rooms or testing areas available."
+      },
+      {
+        "id": "6",
+        "title": "Compare Prices and Products",
+        "description": "Since department stores offer a wide variety of products, take the time to compare prices, brands, and quality before making a final decision."
+      },
+      {
+        "id": "7",
+        "title": "Make Your Selections",
+        "description": "Once you've decided on the items you want to purchase, gather them and keep them with you while you continue exploring the store."
+      },
+      {
+        "id": "8",
+        "title": "Proceed to the Checkout Counter",
+        "description": "When you're ready to make your purchase, head to the checkout counter or cash registers located within the department store."
+      },
+      {
+        "id": "9",
+        "title": "Wait in Line",
+        "description": "If there are other customers ahead of you, patiently wait in line for your turn to pay for your items."
+      },
+      {
+        "id": "10",
+        "title": "Pay for Your Items",
+        "description": "Once it's your turn, present your items to the cashier, who will scan or enter them into the system. Pay for your items using the available payment methods."
+      },
+      {
+        "id": "11",
+        "title": "Collect Your Receipt and Bags",
+        "description": "After completing the payment, collect your receipt and any shopping bags provided by the store."
+      },
+      {
+        "id": "12",
+        "title": "Enjoy Your Purchases",
+        "description": "Take a moment to appreciate your new purchases and ensure you have everything before leaving the store."
+      },
+      {
+        "id": "13",
+        "title": "Leave the Store",
+        "description": "Once you're ready to leave, exit the department store and, if applicable, thank the staff for their assistance."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "3",
+    "image": "lib/assets/public_transports/bus.png",
+    "title": "Bus",
+    "description": "Tips for a smooth bus journey",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Route",
+        "description": "Check the bus route and schedule in advance to plan your journey."
+      },
+      {
+        "id": "2",
+        "title": "Arrive Early",
+        "description": "Be at the bus stop a few minutes before the scheduled departure time."
+      },
+      {
+        "id": "3",
+        "title": "Check the Bus Number",
+        "description": "Verify the bus number displayed on the front of the bus to ensure it's the correct one."
+      },
+      {
+        "id": "4",
+        "title": "Signal the Bus",
+        "description": "Extend your arm to signal the bus driver that you want to board."
+      },
+      {
+        "id": "5",
+        "title": "Enter the Bus",
+        "description": "Wait for passengers to exit before boarding the bus. Use the handrails for support."
+      },
+      {
+        "id": "6",
+        "title": "Find a Seat or Hold On",
+        "description": "If seats are available, find one. Otherwise, hold on to the handrails or grab straps."
+      },
+      {
+        "id": "7",
+        "title": "Pay the Fare",
+        "description": "Pay the bus fare using cash or a valid ticket. Follow the payment instructions."
+      },
+      {
+        "id": "8",
+        "title": "Move to the Back",
+        "description": "Move to the back of the bus to allow more passengers to board."
+      },
+      {
+        "id": "9",
+        "title": "Keep Personal Belongings Secure",
+        "description": "Hold onto your personal belongings and keep them secure throughout the journey."
+      },
+      {
+        "id": "10",
+        "title": "Be Mindful of Other Passengers",
+        "description": "Respect other passengers' personal space and avoid loud conversations or music."
+      },
+      {
+        "id": "11",
+        "title": "Signal for Your Stop",
+        "description": "Press the stop button or pull the cord to signal the driver that you want to get off."
+      },
+      {
+        "id": "12",
+        "title": "Exit the Bus",
+        "description": "Wait for the bus to come to a complete stop before exiting. Use the handrails for support."
+      },
+      {
+        "id": "13",
+        "title": "Look Both Ways",
+        "description": "Before crossing the road, look both ways to ensure it's safe."
+      },
+      {
+        "id": "14",
+        "title": "Thank the Driver",
+        "description": "As you exit the bus, thank the driver for the journey."
+      },
+      {
+        "id": "15",
+        "title": "Plan for Transfers",
+        "description": "If you need to transfer to another bus, plan your connections and allow sufficient time."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "3",
+    "image": "lib/assets/public_transports/subway.gif",
+    "title": "Subway",
+    "description": "Tips for a smooth subway ride",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Route",
+        "description": "Check the subway map and schedule in advance to plan your journey."
+      },
+      {
+        "id": "2",
+        "title": "Purchase a Ticket or Card",
+        "description": "Buy a ticket or load your subway card with sufficient fare before entering the station."
+      },
+      {
+        "id": "3",
+        "title": "Check the Train Line and Direction",
+        "description": "Verify the train line and direction displayed on the platform to ensure you board the right train."
+      },
+      {
+        "id": "4",
+        "title": "Wait for the Train",
+        "description": "Stand behind the yellow line and wait for the train to arrive."
+      },
+      {
+        "id": "5",
+        "title": "Let Passengers Exit First",
+        "description": "Allow passengers inside the train to exit before boarding."
+      },
+      {
+        "id": "6",
+        "title": "Board the Train",
+        "description": "Enter the train and find an available seat or hold onto handrails or grab straps."
+      },
+      {
+        "id": "7",
+        "title": "Keep Personal Belongings Secure",
+        "description": "Hold onto your personal belongings and keep them secure throughout the journey."
+      },
+      {
+        "id": "8",
+        "title": "Be Mindful of Other Passengers",
+        "description": "Respect other passengers' personal space and avoid loud conversations or music."
+      },
+      {
+        "id": "9",
+        "title": "Listen for Announcements and Stops",
+        "description": "Pay attention to the announcements and visual displays for upcoming stops."
+      },
+      {
+        "id": "10",
+        "title": "Exit the Train",
+        "description": "Prepare to exit the train a few stops before your intended destination."
+      },
+      {
+        "id": "11",
+        "title": "Let Passengers Exit at Your Stop",
+        "description": "Allow passengers inside the train to exit before you exit at your stop."
+      },
+      {
+        "id": "12",
+        "title": "Follow Station Signs",
+        "description": "Follow the signs to exit the station and reach your desired destination."
+      },
+      {
+        "id": "13",
+        "title": "Use Escalators or Stairs",
+        "description": "Use the escalators or stairs to reach the street level or connecting areas."
+      },
+      {
+        "id": "14",
+        "title": "Thank You",
+        "description": "Thank the subway staff and have a great day!"
+      },
+      {
+        "id": "15",
+        "title": "Plan for Transfers",
+        "description": "If you need to transfer to another subway line, plan your connections and allow sufficient time."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "4",
+    "image": "lib/assets/morning_routines/morning_routine.jpg",
+    "title": "Morning Routine",
+    "description": "Tips for a productive morning routine",
+    "items": [
+      {
+        "id": "1",
+        "title": "Wake Up Early",
+        "description": "Set an alarm and wake up early to start your day with ample time."
+      },
+      {
+        "id": "2",
+        "title": "Hydrate Yourself",
+        "description": "Drink a glass of water to rehydrate your body after sleep."
+      },
+      {
+        "id": "3",
+        "title": "Stretch or Exercise",
+        "description": "Engage in light stretching or exercise to wake up your muscles and boost circulation."
+      },
+      {
+        "id": "4",
+        "title": "Freshen Up",
+        "description": "Take a shower, brush your teeth, and perform your daily grooming routine."
+      },
+      {
+        "id": "5",
+        "title": "Eat a Nutritious Breakfast",
+        "description": "Fuel your body with a healthy and balanced breakfast to kickstart your metabolism."
+      },
+      {
+        "id": "6",
+        "title": "Plan Your Day",
+        "description": "Review your schedule, to-do list, and priorities for the day ahead."
+      },
+      {
+        "id": "7",
+        "title": "Practice Mindfulness",
+        "description": "Take a few moments to practice mindfulness, meditation, or deep breathing exercises."
+      },
+      {
+        "id": "8",
+        "title": "Dress for Success",
+        "description": "Choose an outfit that makes you feel confident and ready to take on the day."
+      },
+      {
+        "id": "9",
+        "title": "Organize Your Belongings",
+        "description": "Tidy up your living space and gather the items you need for the day, such as work essentials or school supplies."
+      },
+      {
+        "id": "10",
+        "title": "Review Your Goals",
+        "description": "Remind yourself of your short-term and long-term goals to stay motivated and focused."
+      },
+      {
+        "id": "11",
+        "title": "Commute or Start Remote Work",
+        "description": "Begin your commute to work or start your remote work setup, ensuring you have everything you need."
+      },
+      {
+        "id": "12",
+        "title": "Stay Positive",
+        "description": "Maintain a positive mindset and approach the day with optimism and gratitude."
+      },
+      {
+        "id": "13",
+        "title": "Connect with Loved Ones",
+        "description": "Spend quality time with your family or send a thoughtful message to a friend or loved one."
+      },
+      {
+        "id": "14",
+        "title": "Prepare for the Day",
+        "description": "Pack your bag, check your schedule once more, and ensure you have everything in order."
+      },
+      {
+        "id": "15",
+        "title": "Leave on Time",
+        "description": "Head out of the door on time, ready to conquer the day!"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "4",
+    "image": "lib/assets/morning_routines/morning_routine_students.jpg",
+    "title": "Morning Routine for Students",
+    "description": "Tips for a productive morning routine as a student",
+    "items": [
+      {
+        "id": "1",
+        "title": "Wake Up Early",
+        "description": "Set an alarm and wake up early to have enough time for your morning routine and preparation."
+      },
+      {
+        "id": "2",
+        "title": "Hydrate Yourself",
+        "description": "Drink a glass of water to rehydrate your body after sleep."
+      },
+      {
+        "id": "3",
+        "title": "Stretch or Exercise",
+        "description": "Engage in light stretching or exercise to wake up your muscles and boost circulation."
+      },
+      {
+        "id": "4",
+        "title": "Freshen Up",
+        "description": "Take a shower, brush your teeth, and perform your daily grooming routine."
+      },
+      {
+        "id": "5",
+        "title": "Eat a Healthy Breakfast",
+        "description": "Fuel your body with a nutritious breakfast to provide energy and enhance focus."
+      },
+      {
+        "id": "6",
+        "title": "Organize Your Backpack",
+        "description": "Ensure you have all the necessary books, notebooks, and materials in your backpack."
+      },
+      {
+        "id": "7",
+        "title": "Review Your Schedule",
+        "description": "Check your timetable, assignments, and any upcoming tests or exams."
+      },
+      {
+        "id": "8",
+        "title": "Plan Your Day",
+        "description": "Take a few minutes to plan your day, prioritize tasks, and set goals."
+      },
+      {
+        "id": "9",
+        "title": "Pack Your Lunch",
+        "description": "Prepare a healthy lunch and pack it in your bag if needed."
+      },
+      {
+        "id": "10",
+        "title": "Check Your School Bag",
+        "description": "Ensure you have all the necessary supplies and materials for the day."
+      },
+      {
+        "id": "11",
+        "title": "Gather Study Materials",
+        "description": "If you have any pending assignments or need to study, gather the required materials."
+      },
+      {
+        "id": "12",
+        "title": "Double-Check Deadlines",
+        "description": "Review any deadlines for assignments, projects, or submissions."
+      },
+      {
+        "id": "13",
+        "title": "Leave on Time",
+        "description": "Plan your departure to ensure you arrive at school on time."
+      },
+      {
+        "id": "14",
+        "title": "Review Your Goals",
+        "description": "Remind yourself of your academic and personal goals to stay focused and motivated."
+      },
+      {
+        "id": "15",
+        "title": "Stay Positive",
+        "description": "Start the day with a positive mindset, ready to learn and make the most of your opportunities."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "5",
+    "image": "lib/assets/cooking_recipes/cooking_breakfast.jpg",
+    "title": "Cooking Breakfast",
+    "description": "Tips for cooking a delicious breakfast",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Menu",
+        "description": "Decide on the dishes you want to cook for breakfast."
+      },
+      {
+        "id": "2",
+        "title": "Gather Ingredients",
+        "description": "Make sure you have all the necessary ingredients for your chosen dishes."
+      },
+      {
+        "id": "3",
+        "title": "Prep Your Cooking Area",
+        "description": "Clean and organize your cooking area for an efficient cooking process."
+      },
+      {
+        "id": "4",
+        "title": "Follow Recipes",
+        "description": "If you're using recipes, follow them step by step for accurate results."
+      },
+      {
+        "id": "5",
+        "title": "Cook in Batches",
+        "description": "If cooking multiple dishes, plan your time to cook them in batches."
+      },
+      {
+        "id": "6",
+        "title": "Use Timers",
+        "description": "Set timers to ensure you don't overcook or burn your food."
+      },
+      {
+        "id": "7",
+        "title": "Plate and Serve",
+        "description": "Arrange your cooked dishes on plates and serve them while they're still hot."
+      },
+      {
+        "id": "8",
+        "title": "Clean Up",
+        "description": "After cooking, clean up your cooking area and wash the dishes."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy Your Breakfast",
+        "description": "Sit down and savor your delicious homemade breakfast."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "5",
+    "image": "lib/assets/cooking_recipes/cooking_meal.jpeg",
+    "title": "Cooking Meal",
+    "description": "Tips for cooking a delicious meal",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Menu",
+        "description": "Decide on the dishes you want to cook for your meal. Consider the cuisine, dietary preferences, and nutritional balance."
+      },
+      {
+        "id": "2",
+        "title": "Gather Ingredients",
+        "description": "Make a shopping list and ensure you have all the necessary ingredients for your chosen dishes. Check your pantry and refrigerator."
+      },
+      {
+        "id": "3",
+        "title": "Prep Your Cooking Area",
+        "description": "Clean and organize your cooking area. Set up your cutting board, knives, pots, pans, and other utensils you'll need."
+      },
+      {
+        "id": "4",
+        "title": "Follow Recipes",
+        "description": "If you're using recipes, read them thoroughly and understand the steps involved. Follow the instructions accurately for the best results."
+      },
+      {
+        "id": "5",
+        "title": "Cook in Batches",
+        "description": "If cooking multiple dishes, plan your time wisely. Start with the dishes that require the longest cooking time and work your way through."
+      },
+      {
+        "id": "6",
+        "title": "Use Timers",
+        "description": "Set timers for different cooking processes. This helps you keep track of cooking times and ensures your food is cooked to perfection."
+      },
+      {
+        "id": "7",
+        "title": "Plate and Serve",
+        "description": "Once your dishes are cooked, plate them attractively. Garnish with herbs or sauces. Serve them hot and enjoy the flavors."
+      },
+      {
+        "id": "8",
+        "title": "Clean Up",
+        "description": "After cooking, clean up your cooking area. Wash the dishes, wipe down the counters, and store any leftovers properly."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy Your Meal",
+        "description": "Sit down, relax, and savor your homemade meal. Share it with loved ones and enjoy the fruits of your cooking efforts."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "5",
+    "image": "lib/assets/cooking_recipes/cooking_dinner.jpg",
+    "title": "Cooking Dinner",
+    "description": "Tips for cooking a delicious dinner",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Dinner Menu",
+        "description": "Decide on the dishes you want to cook for dinner. Consider the cuisine, dietary preferences, and nutritional balance."
+      },
+      {
+        "id": "2",
+        "title": "Gather Ingredients",
+        "description": "Make a shopping list and ensure you have all the necessary ingredients for your chosen dinner dishes. Check your pantry and refrigerator."
+      },
+      {
+        "id": "3",
+        "title": "Prep Your Cooking Area",
+        "description": "Clean and organize your cooking area. Set up your cutting board, knives, pots, pans, and other utensils you'll need for dinner preparation."
+      },
+      {
+        "id": "4",
+        "title": "Follow Recipes",
+        "description": "If you're using recipes, read them thoroughly and understand the steps involved. Follow the instructions accurately for the best dinner results."
+      },
+      {
+        "id": "5",
+        "title": "Cook Multiple Courses",
+        "description": "Plan your dinner to include multiple courses. Start with appetizers, move on to the main course, and finish with dessert."
+      },
+      {
+        "id": "6",
+        "title": "Manage Cooking Time",
+        "description": "Coordinate cooking times for different dishes. Ensure that all components of the dinner will be ready at the same time."
+      },
+      {
+        "id": "7",
+        "title": "Plate and Garnish",
+        "description": "Plate your dinner dishes attractively. Add garnishes and sauces to enhance the presentation and flavors of the meal."
+      },
+      {
+        "id": "8",
+        "title": "Set the Table",
+        "description": "Prepare the dining table for the dinner. Arrange cutlery, plates, glasses, and any other items needed for an enjoyable dining experience."
+      },
+      {
+        "id": "9",
+        "title": "Enjoy Your Dinner",
+        "description": "Sit down, relax, and savor your homemade dinner. Share it with loved ones and enjoy the delightful flavors of your cooking."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "6",
+    "image": "lib/assets/fitness_exercises/gym.jpg",
+    "title": "Going to the Gym",
+    "description": "Tips for an effective gym workout",
+    "items": [
+      {
+        "id": "1",
+        "title": "Set Your Fitness Goals",
+        "description": "Define your fitness goals to have a clear direction for your gym workouts. Whether it's building strength, improving endurance, or losing weight, knowing your goals will help you plan your exercises."
+      },
+      {
+        "id": "2",
+        "title": "Warm Up",
+        "description": "Start your gym session with a warm-up to prepare your body for exercise. Perform dynamic stretches, light cardio, or mobility exercises to increase blood flow and loosen up your muscles."
+      },
+      {
+        "id": "3",
+        "title": "Create a Workout Plan",
+        "description": "Design a workout plan that targets different muscle groups and incorporates a variety of exercises. Include strength training, cardio, and flexibility exercises for a well-rounded workout."
+      },
+      {
+        "id": "4",
+        "title": "Focus on Proper Form",
+        "description": "Pay attention to your form and technique while performing exercises. Proper form ensures maximum effectiveness and reduces the risk of injuries. Ask a trainer for guidance if needed."
+      },
+      {
+        "id": "5",
+        "title": "Progressive Overload",
+        "description": "Gradually increase the intensity of your workouts to challenge your body and stimulate muscle growth. Add more weight, increase repetitions, or reduce rest periods as you progress."
+      },
+      {
+        "id": "6",
+        "title": "Stay Hydrated",
+        "description": "Drink water before, during, and after your gym session to stay hydrated. Proper hydration is essential for performance and recovery."
+      },
+      {
+        "id": "7",
+        "title": "Rest and Recovery",
+        "description": "Allow your body time to rest and recover between gym sessions. Adequate rest promotes muscle growth, prevents overtraining, and reduces the risk of injuries."
+      },
+      {
+        "id": "8",
+        "title": "Track Your Progress",
+        "description": "Keep a record of your workouts, including exercises, sets, reps, and weights. Tracking your progress helps you see improvements and adjust your workout plan accordingly."
+      },
+      {
+        "id": "9",
+        "title": "Listen to Your Body",
+        "description": "Pay attention to how your body feels during workouts. If something feels painful or uncomfortable, modify the exercise or seek guidance from a fitness professional."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "6",
+    "image": "lib/assets/fitness_exercises/home_exercise.jpg",
+    "title": "Exercising at Home",
+    "description": "Tips for an effective home workout",
+    "items": [
+      {
+        "id": "1",
+        "title": "Create a Workout Space",
+        "description": "Designate an area in your home specifically for exercising. Clear out any clutter and ensure you have enough space to perform your exercises comfortably."
+      },
+      {
+        "id": "2",
+        "title": "Plan Your Workout Routine",
+        "description": "Create a workout routine that suits your fitness goals and available equipment. Include a mix of cardiovascular exercises, strength training, and flexibility exercises."
+      },
+      {
+        "id": "3",
+        "title": "Warm Up and Stretch",
+        "description": "Prior to starting your workout, perform a warm-up routine to raise your heart rate and loosen up your muscles. Follow it up with stretching exercises to improve flexibility."
+      },
+      {
+        "id": "4",
+        "title": "Bodyweight Exercises",
+        "description": "Incorporate bodyweight exercises into your routine, such as push-ups, squats, lunges, and planks. These exercises can be done without any equipment and are effective for strength building."
+      },
+      {
+        "id": "5",
+        "title": "Use Household Items as Weights",
+        "description": "If you don't have access to dumbbells or weights, get creative and use household items like water bottles, canned goods, or backpacks filled with books as makeshift weights."
+      },
+      {
+        "id": "6",
+        "title": "Follow Online Workout Videos",
+        "description": "Take advantage of online platforms that offer workout videos and classes. Follow along with professional trainers who can guide you through various exercises and routines."
+      },
+      {
+        "id": "7",
+        "title": "Cardiovascular Exercises",
+        "description": "Incorporate cardiovascular exercises into your routine, such as jumping jacks, high knees, mountain climbers, or jogging in place. These exercises elevate your heart rate and improve endurance."
+      },
+      {
+        "id": "8",
+        "title": "Stay Consistent",
+        "description": "Consistency is key. Stick to your workout schedule and aim to exercise at least a few times per week. Gradually increase the intensity and duration of your workouts as you progress."
+      },
+      {
+        "id": "9",
+        "title": "Cool Down and Stretch",
+        "description": "After completing your workout, don't forget to cool down with light exercises and stretching. This helps reduce muscle soreness and promotes recovery."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "6",
+    "image": "lib/assets/fitness_exercises/yoga.jpg",
+    "title": "Yoga Practice",
+    "description": "Tips for a fulfilling yoga session",
+    "items": [
+      {
+        "id": "1",
+        "title": "Create a Calm Space",
+        "description": "Designate a quiet and clutter-free space where you can practice yoga without distractions. Use soft lighting and play soothing music to enhance the atmosphere."
+      },
+      {
+        "id": "2",
+        "title": "Choose a Yoga Style",
+        "description": "Select a yoga style that aligns with your goals and preferences. Options include Hatha, Vinyasa, Ashtanga, Bikram, and more. Each style offers unique benefits and focuses on different aspects of yoga practice."
+      },
+      {
+        "id": "3",
+        "title": "Start with Basic Poses",
+        "description": "If you're new to yoga, begin with basic poses like Mountain Pose, Child's Pose, Downward Dog, and Corpse Pose. Familiarize yourself with proper alignment and gradually progress to more challenging poses."
+      },
+      {
+        "id": "4",
+        "title": "Practice Breathing Techniques",
+        "description": "Incorporate breathing exercises, such as Ujjayi breathing or alternate nostril breathing, to promote relaxation and mindfulness during your yoga practice."
+      },
+      {
+        "id": "5",
+        "title": "Focus on Flexibility and Strength",
+        "description": "Yoga helps improve flexibility and strength. Incorporate poses that target different muscle groups and gradually work on increasing your flexibility over time."
+      },
+      {
+        "id": "6",
+        "title": "Listen to Your Body",
+        "description": "Pay attention to your body's needs and limitations. Modify poses or take breaks as necessary. Avoid pushing yourself too hard and always prioritize safety and comfort."
+      },
+      {
+        "id": "7",
+        "title": "Follow Guided Yoga Sessions",
+        "description": "Use online resources or yoga apps to access guided yoga sessions. Follow along with experienced instructors who can guide you through different sequences and provide verbal cues for proper alignment."
+      },
+      {
+        "id": "8",
+        "title": "Set Intentions",
+        "description": "Before each yoga session, set intentions or affirmations to focus your mind and cultivate a positive mindset. Reflect on your goals or choose a mantra that resonates with you."
+      },
+      {
+        "id": "9",
+        "title": "End with Savasana",
+        "description": "Complete your yoga practice with Savasana (Corpse Pose), a final relaxation pose. Lie flat on your back, close your eyes, and allow your body to fully relax and integrate the benefits of your practice."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "7",
+    "image": "lib/assets/hobbies_interests/movie_series.jpg",
+    "title": "Watch a Movie or Series",
+    "description": "Tips for an enjoyable movie or series watching experience at home",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose a Genre or Theme",
+        "description": "Select a movie or series based on your preferred genre or theme. Whether you're in the mood for comedy, romance, action, thriller, or something else, pick something that suits your interests."
+      },
+      {
+        "id": "2",
+        "title": "Create a Cozy Environment",
+        "description": "Make your viewing area comfortable and cozy. Set up soft lighting, arrange pillows and blankets, and create a relaxing ambiance that enhances your movie or series experience."
+      },
+      {
+        "id": "3",
+        "title": "Prepare Snacks and Drinks",
+        "description": "Get your favorite snacks and drinks ready to enjoy during the movie or series. Popcorn, chips, candies, and beverages of your choice can add to the enjoyment of the viewing session."
+      },
+      {
+        "id": "4",
+        "title": "Set Up the Viewing Device",
+        "description": "Ensure your TV, computer, or other viewing device is properly set up and connected. Adjust the screen brightness, sound, and subtitles as per your preference."
+      },
+      {
+        "id": "5",
+        "title": "Find a Comfortable Seating Arrangement",
+        "description": "Choose a comfortable seating arrangement that allows you to relax and enjoy the movie or series. Whether it's a cozy couch, bean bag, or recliner, prioritize your comfort."
+      },
+      {
+        "id": "6",
+        "title": "Avoid Distractions",
+        "description": "Minimize distractions during the movie or series. Silence your phone, close unnecessary tabs on your computer, and create a quiet environment to fully immerse yourself in the story."
+      },
+      {
+        "id": "7",
+        "title": "Engage with the Story",
+        "description": "Immerse yourself in the movie or series by paying attention to the plot, characters, and dialogues. Engage emotionally and intellectually to make the experience more fulfilling."
+      },
+      {
+        "id": "8",
+        "title": "Discuss and Share Thoughts",
+        "description": "After watching, discuss the movie or series with friends or family. Share your thoughts, opinions, and favorite moments to deepen the connection and make it a social experience."
+      },
+      {
+        "id": "9",
+        "title": "Rate and Review",
+        "description": "Consider rating and reviewing the movie or series on platforms like IMDb or Rotten Tomatoes. Your feedback can help others discover great movies and series."
+      }
+    ]
+  }
+  
+
+  
+  
+]

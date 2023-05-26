@@ -1,0 +1,72 @@
+[
+    {
+        "itemId": "1",
+        "id": "1",
+        "image": "lib/assets/restaurante_b.gif",
+        "title": "Restaurant",
+        "description": "I can help you when you need to gotta a restaurant"
+    },
+    {
+        "itemId": "2",
+        "id": "2",
+        "image": "lib/assets/supermarket_b.gif",
+        "title": "Stores",
+        "description": "You will need to buy somethings."
+    },
+    {
+        "itemId": "3",
+        "id": "3",
+        "image": "lib/assets/public_transport_b.gif",
+        "title": "Public transport",
+        "description": "Move on."
+    },
+    {
+        "itemId": "4",
+        "id": "4",
+        "image": "lib/assets/morning_routine_b.gif",
+        "title": "Morning Routine",
+        "description": "Discussing morning rituals, such as exercising, meditation, or planning for the day ahead."
+    },
+    {
+        "itemId": "5",
+        "id": "5",
+        "image": "lib/assets/cooking_recipes_b.gif",
+        "title": "Cooking and Recipes",
+        "description": "Sharing favorite recipes, cooking techniques, and discussing culinary experiences."
+    },
+    {
+        "itemId": "6",
+        "id": "6",
+        "image": "lib/assets/fitness_exercise_b.gif",
+        "title": "Fitness and Exercise",
+        "description": "Discussing workout routines, fitness goals, and sharing tips for staying active."
+    },
+    {
+        "itemId": "7",
+        "id": "7",
+        "image": "lib/assets/bank_b.gif",
+        "title": "Hobbies and Interests:",
+        "description": "Sharing hobbies and interests, such as painting, photography, gardening, or playing musical instruments."
+    },
+    {
+        "itemId": "8",
+        "id": "8",
+        "image": "lib/assets/family_b.gif",
+        "title": "Family Time",
+        "description": "Discussing the importance of spending quality time with family, sharing activities, and creating meaningful memories."
+    },
+    {
+        "itemId": "9",
+        "id": "9",
+        "image": "lib/assets/technology_gadgets_b.gif",
+        "title": "Technology and Gadgets",
+        "description": "Talking about the latest gadgets, technological advancements, and their impact on daily life."
+    },
+    {
+        "itemId": "10",
+        "id": "10",
+        "image": "lib/assets/weekend_plans_b.gif",
+        "title": "Weekend Plans",
+        "description": "Sharing weekend activities, such as hiking, exploring new places, attending events, or relaxing at home."
+    }
+]
