@@ -101,46 +101,46 @@ class TopicSubScreen extends StatelessWidget {
                       itemBuilder: (context, index) {
                         final item = topicItem.items[index];
                         return Card(
-                            elevation: 4.0,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(4),
-                            ),
-                            clipBehavior: Clip.antiAliasWithSaveLayer,
-                            // Define how the card's content should be clipped
-                            child: Container(
-                                decoration: BoxDecoration(
-                                  border: Border(
-                                    bottom: BorderSide(
-                                      color: Color.fromRGBO(0, 0, 0, 1),
-                                      width: 1.0,
-                                    ),
-                                  ),
+                          elevation: 4.0,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          clipBehavior: Clip.antiAliasWithSaveLayer,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white10,
+                              borderRadius: BorderRadius.circular(10.0),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.1),
+                                  blurRadius: 8,
+                                  offset: const Offset(0, 4),
                                 ),
-                                child: Container(
-                                  color: Color.fromARGB(255, 239, 238, 238),
-                                  child: ListTile(
-                                    contentPadding: EdgeInsets.symmetric(
-                                        horizontal: 16.0, vertical: 12.0),
-                                    title: Text(
-                                      item.title,
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16.0,
-                                        color: Colors.black,
-                                      ),
-                                    ),
-                                    subtitle: Text(
-                                      item.description,
-                                      style: TextStyle(
-                                        fontSize: 14.0,
-                                        color: Colors.grey[600],
-                                      ),
-                                    ),
-                                    onTap: () {
-                                      // Navigate to subtopic screen
-                                    },
-                                  ),
-                                )));
+                              ],
+                            ),
+                            child: ListTile(
+                              contentPadding: EdgeInsets.all(16.0),
+                              title: Text(
+                                item.title,
+                                style: TextStyle(
+                                  fontSize: 18.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black87,
+                                ),
+                              ),
+                              subtitle: Text(
+                                item.description,
+                                style: TextStyle(
+                                  fontSize: 16.0,
+                                  color: Colors.grey[800],
+                                ),
+                              ),
+                              onTap: () {
+                                // Navigate to subtopic screen
+                              },
+                            ),
+                          ),
+                        );
                       },
                     ),
                   ),
