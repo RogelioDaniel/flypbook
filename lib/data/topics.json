@@ -1236,9 +1236,1370 @@
         "description": "Consider rating and reviewing the movie or series on platforms like IMDb or Rotten Tomatoes. Your feedback can help others discover great movies and series."
       }
     ]
+  },
+  {
+    "id": "2",
+    "itemId": "7",
+    "image": "lib/assets/bank_b.gif",
+    "title": "Playing Musical Instruments",
+    "description": "Discover the joy of playing musical instruments and let the melodies ignite your passion.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose Your Instrument",
+        "description": "Explore different musical instruments and choose the one that resonates with you. Whether it's guitar, piano, violin, or drums, find your musical calling."
+      },
+      {
+        "id": "2",
+        "title": "Take Lessons",
+        "description": "Enroll in music lessons to learn the fundamentals and techniques of playing your chosen instrument. A skilled instructor can guide you on your musical journey."
+      },
+      {
+        "id": "3",
+        "title": "Practice Regularly",
+        "description": "Dedicate time to practice regularly. Practice scales, chords, and songs to improve your skills and develop muscle memory for playing your instrument."
+      },
+      {
+        "id": "4",
+        "title": "Join a Band or Ensemble",
+        "description": "Collaborate with other musicians by joining a band or ensemble. Playing with others can enhance your musical abilities and provide a fulfilling social experience."
+      },
+      {
+        "id": "5",
+        "title": "Explore Different Genres",
+        "description": "Broaden your musical horizons by exploring different genres. Experiment with classical, rock, jazz, blues, or any other style that captures your interest."
+      },
+      {
+        "id": "6",
+        "title": "Perform for Others",
+        "description": "Share your musical talent by performing for others. Whether it's at open mic nights, family gatherings, or local events, performing can boost your confidence and showcase your skills."
+      },
+      {
+        "id": "7",
+        "title": "Compose Your Own Music",
+        "description": "Unleash your creativity by composing your own music. Experiment with melodies, harmonies, and lyrics to express yourself through original compositions."
+      },
+      {
+        "id": "8",
+        "title": "Attend Concerts and Music Events",
+        "description": "Immerse yourself in the world of music by attending concerts and music events. Witness live performances, discover new artists, and gain inspiration from seasoned musicians."
+      },
+      {
+        "id": "9",
+        "title": "Record Your Music",
+        "description": "Capture your musical creations by recording them. Set up a home recording studio or visit a professional studio to preserve your performances and share them with others."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "7",
+    "image": "lib/assets/hobbies_interests/gardening.jpg",
+    "title": "Gardening",
+    "description": "Explore the world of gardening and cultivate your own oasis of beauty and tranquility.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose Your Garden Space",
+        "description": "Select an area for your garden, whether it's a backyard, balcony, or indoor space. Consider the available sunlight, soil quality, and space requirements for different plants."
+      },
+      {
+        "id": "2",
+        "title": "Plan Your Garden",
+        "description": "Design a garden layout based on your preferences and the types of plants you want to grow. Consider factors like color schemes, plant heights, and compatibility."
+      },
+      {
+        "id": "3",
+        "title": "Select Plants",
+        "description": "Choose plants that thrive in your climate and align with your gardening goals. Decide between flowers, herbs, vegetables, or a combination to create a diverse and vibrant garden."
+      },
+      {
+        "id": "4",
+        "title": "Prepare the Soil",
+        "description": "Prepare the soil by removing weeds, loosening the earth, and adding compost or fertilizer to provide essential nutrients for healthy plant growth."
+      },
+      {
+        "id": "5",
+        "title": "Plant and Water",
+        "description": "Plant your chosen plants in the designated areas according to their specific requirements. Water them regularly, ensuring adequate hydration without overwatering."
+      },
+      {
+        "id": "6",
+        "title": "Provide Care and Maintenance",
+        "description": "Take care of your garden by monitoring its growth, pruning plants when necessary, and protecting them from pests and diseases. Regular maintenance helps your garden thrive."
+      },
+      {
+        "id": "7",
+        "title": "Create a Relaxing Garden Space",
+        "description": "Design a serene and inviting garden space by adding elements like comfortable seating, pathways, decorative features, and relaxing sounds of water or wind chimes."
+      },
+      {
+        "id": "8",
+        "title": "Harvest and Enjoy",
+        "description": "Experience the satisfaction of harvesting your own crops or enjoying the blossoms of your flowers. Incorporate fresh herbs and vegetables into your meals for added flavor and nutrition."
+      },
+      {
+        "id": "9",
+        "title": "Share and Learn",
+        "description": "Connect with other gardening enthusiasts in your community or online. Share your experiences, exchange tips and knowledge, and learn from each other's gardening journeys."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "8",
+    "image": "lib/assets/family_time/board_games.jpg",
+    "title": "Board Games Night",
+    "description": "Organize a fun and engaging board games night with your family for quality bonding time.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose the Games",
+        "description": "Select a variety of board games that cater to different age groups and interests within your family. Include classics, strategy games, and cooperative games."
+      },
+      {
+        "id": "2",
+        "title": "Set Up a Game Area",
+        "description": "Designate a comfortable and well-lit area for playing board games. Arrange seating, ensure a smooth playing surface, and have a table for snacks and drinks."
+      },
+      {
+        "id": "3",
+        "title": "Read the Rules",
+        "description": "Familiarize yourself with the rules of each game before starting. Ensure everyone understands the gameplay and any special instructions or variations."
+      },
+      {
+        "id": "4",
+        "title": "Take Turns",
+        "description": "Establish a turn-taking system to ensure fairness and inclusiveness. Encourage patience and good sportsmanship among family members."
+      },
+      {
+        "id": "5",
+        "title": "Encourage Communication",
+        "description": "Board games provide an opportunity for communication and interaction. Encourage players to discuss strategies, make alliances, and engage in friendly banter."
+      },
+      {
+        "id": "6",
+        "title": "Plan Regular Game Nights",
+        "description": "Make board games a regular part of your family routine. Set aside dedicated nights or weekends for game sessions to create anticipation and consistency."
+      },
+      {
+        "id": "7",
+        "title": "Try New Games",
+        "description": "Explore new board games to keep the experience fresh and exciting. Research and introduce games that are unfamiliar to your family for added variety."
+      },
+      {
+        "id": "8",
+        "title": "Create a Scoreboard",
+        "description": "Maintain a scoreboard or record of wins and achievements. Celebrate accomplishments and foster healthy competition within the family."
+      },
+      {
+        "id": "9",
+        "title": "Host Family Tournaments",
+        "description": "Organize family tournaments or competitions to elevate the excitement. Award prizes or create personalized certificates for winners and participants."
+      },
+      {
+        "id": "10",
+        "title": "Capture Memorable Moments",
+        "description": "Take photos or videos during board game nights to capture the fun-filled moments. Create a family album or digital gallery to reminisce about the experiences."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "8",
+    "image": "lib/assets/family_time/family_cooking.jpg",
+    "title": "Family Cooking",
+    "description": "Enjoy quality time with your family while cooking and preparing delicious meals together.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan a Menu",
+        "description": "Sit down with your family and plan a menu for your cooking session. Choose recipes that everyone can participate in and enjoy."
+      },
+      {
+        "id": "2",
+        "title": "Assign Roles",
+        "description": "Assign different roles to each family member based on their age and skill level. Divide tasks such as chopping, measuring ingredients, stirring, and plating."
+      },
+      {
+        "id": "3",
+        "title": "Grocery Shopping",
+        "description": "Go grocery shopping together as a family. Create a shopping list and let everyone contribute by selecting the items needed for the recipes."
+      },
+      {
+        "id": "4",
+        "title": "Preparation and Organization",
+        "description": "Prepare the ingredients in advance and organize them in separate bowls or containers. This makes the cooking process smoother and allows everyone to focus on their tasks."
+      },
+      {
+        "id": "5",
+        "title": "Follow Recipes",
+        "description": "Read and follow the recipes together, step by step. Discuss each instruction and involve everyone in the cooking process, from mixing ingredients to setting timers."
+      },
+      {
+        "id": "6",
+        "title": "Taste Testing",
+        "description": "Take breaks to taste and adjust the flavors of the dishes. Encourage everyone to share their opinions and make modifications as desired."
+      },
+      {
+        "id": "7",
+        "title": "Table Setting",
+        "description": "Set the table together, arranging plates, utensils, and napkins. Create an inviting ambiance for the meal, including candles or decorations if desired."
+      },
+      {
+        "id": "8",
+        "title": "Enjoy the Meal",
+        "description": "Sit down as a family and savor the meal you've prepared together. Share stories, laughter, and create lasting memories around the dining table."
+      },
+      {
+        "id": "9",
+        "title": "Clean Up as a Team",
+        "description": "After the meal, clean up the kitchen as a team. Assign tasks such as washing dishes, wiping countertops, and putting away leftovers."
+      },
+      {
+        "id": "10",
+        "title": "Document the Experience",
+        "description": "Capture photos or videos of your family cooking sessions. Create a scrapbook or digital album to preserve these special moments and revisit them in the future."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "8",
+    "image": "lib/assets/family_time/board_games.jpg",
+    "title": "Family Board Games",
+    "description": "Engage in fun and entertaining board games with your family for quality bonding time.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose the Games",
+        "description": "Select a variety of board games suitable for different ages and preferences within your family. Include both classic and modern games."
+      },
+      {
+        "id": "2",
+        "title": "Create a Game Schedule",
+        "description": "Set aside specific times for family game sessions. Establish a regular schedule to ensure everyone can participate and look forward to it."
+      },
+      {
+        "id": "3",
+        "title": "Learn the Rules",
+        "description": "Familiarize yourselves with the rules of each game before starting. Read the instructions or watch tutorial videos together to understand the gameplay."
+      },
+      {
+        "id": "4",
+        "title": "Teach and Learn",
+        "description": "Encourage family members to take turns teaching and explaining the rules of different games. This allows everyone to be involved and learn new games."
+      },
+      {
+        "id": "5",
+        "title": "Friendly Competition",
+        "description": "Embrace friendly competition while playing board games. Celebrate successes and show good sportsmanship, regardless of the outcome."
+      },
+      {
+        "id": "6",
+        "title": "Snacks and Refreshments",
+        "description": "Prepare snacks and refreshments to enjoy during the game sessions. Have a variety of treats and beverages that cater to everyone's preferences."
+      },
+      {
+        "id": "7",
+        "title": "Create a Game Night Ambiance",
+        "description": "Set the mood for game nights by dimming the lights, playing background music, or creating a cozy atmosphere. Make it a special and memorable experience."
+      },
+      {
+        "id": "8",
+        "title": "Team Up or Play Individually",
+        "description": "Depending on the game, you can form teams or play individually. Switch up the dynamics to keep things interesting and foster teamwork and camaraderie."
+      },
+      {
+        "id": "9",
+        "title": "Unplug from Technology",
+        "description": "Designate game nights as technology-free time. Put away smartphones, tablets, and other distractions to fully engage and connect with your family."
+      },
+      {
+        "id": "10",
+        "title": "Celebrate Victories and Fun Moments",
+        "description": "Celebrate victories, funny moments, and memorable experiences during the game sessions. Create a positive and joyful atmosphere that strengthens family bonds."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "9",
+    "image": "lib/assets/technology_gadgets/virtual_reality.jpg",
+    "title": "Virtual Reality Experience",
+    "description": "Immerse yourself in the exciting world of virtual reality with these tips and suggestions.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose a VR Headset",
+        "description": "Select a virtual reality headset that suits your needs and budget. There are various options available, from standalone headsets to PC-connected devices."
+      },
+      {
+        "id": "2",
+        "title": "Explore VR Games and Experiences",
+        "description": "Discover a wide range of VR games and experiences available. Try different genres, such as action, adventure, simulation, or puzzle games."
+      },
+      {
+        "id": "3",
+        "title": "Set Up the VR System",
+        "description": "Follow the instructions to set up your VR system correctly. Ensure that the sensors are properly positioned and the headset is calibrated for optimal performance."
+      },
+      {
+        "id": "4",
+        "title": "Create a Comfortable Play Area",
+        "description": "Designate a clear and spacious area for your virtual reality experiences. Remove obstacles and ensure that you have enough room to move around safely."
+      },
+      {
+        "id": "5",
+        "title": "Adjust the VR Settings",
+        "description": "Take the time to customize the VR settings according to your preferences. Adjust factors like brightness, sound, movement sensitivity, and comfort settings."
+      },
+      {
+        "id": "6",
+        "title": "Take Breaks and Stay Hydrated",
+        "description": "Remember to take breaks during extended VR sessions to prevent discomfort or fatigue. Drink water and stay hydrated throughout your virtual adventures."
+      },
+      {
+        "id": "7",
+        "title": "Join VR Communities",
+        "description": "Connect with other virtual reality enthusiasts by joining online communities or forums. Share experiences, game recommendations, and troubleshooting tips."
+      },
+      {
+        "id": "8",
+        "title": "Watch VR Videos and Movies",
+        "description": "Explore VR content beyond gaming. Watch immersive 360-degree videos, documentaries, or virtual reality movies for a unique cinematic experience."
+      },
+      {
+        "id": "9",
+        "title": "Try Social VR Experiences",
+        "description": "Engage in social VR experiences that allow you to interact with friends or meet new people in virtual environments. Attend virtual events or join multiplayer games."
+      },
+      {
+        "id": "10",
+        "title": "Stay Safe and Mindful",
+        "description": "When using virtual reality, prioritize your safety and be mindful of your surroundings. Avoid potential hazards and respect any health or age restrictions."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "9",
+    "image": "lib/assets/technology_gadgets/virtual_reality.jpg",
+    "title": "Virtual Reality Experience",
+    "description": "Immerse yourself in the exciting world of virtual reality with these tips and suggestions.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose a VR Headset",
+        "description": "Select a virtual reality headset that suits your needs and budget. There are various options available, from standalone headsets to PC-connected devices."
+      },
+      {
+        "id": "2",
+        "title": "Explore VR Games and Experiences",
+        "description": "Discover a wide range of VR games and experiences available. Try different genres, such as action, adventure, simulation, or puzzle games."
+      },
+      {
+        "id": "3",
+        "title": "Set Up the VR System",
+        "description": "Follow the instructions to set up your VR system correctly. Ensure that the sensors are properly positioned and the headset is calibrated for optimal performance."
+      },
+      {
+        "id": "4",
+        "title": "Create a Comfortable Play Area",
+        "description": "Designate a clear and spacious area for your virtual reality experiences. Remove obstacles and ensure that you have enough room to move around safely."
+      },
+      {
+        "id": "5",
+        "title": "Adjust the VR Settings",
+        "description": "Take the time to customize the VR settings according to your preferences. Adjust factors like brightness, sound, movement sensitivity, and comfort settings."
+      },
+      {
+        "id": "6",
+        "title": "Take Breaks and Stay Hydrated",
+        "description": "Remember to take breaks during extended VR sessions to prevent discomfort or fatigue. Drink water and stay hydrated throughout your virtual adventures."
+      },
+      {
+        "id": "7",
+        "title": "Join VR Communities",
+        "description": "Connect with other virtual reality enthusiasts by joining online communities or forums. Share experiences, game recommendations, and troubleshooting tips."
+      },
+      {
+        "id": "8",
+        "title": "Watch VR Videos and Movies",
+        "description": "Explore VR content beyond gaming. Watch immersive 360-degree videos, documentaries, or virtual reality movies for a unique cinematic experience."
+      },
+      {
+        "id": "9",
+        "title": "Try Social VR Experiences",
+        "description": "Engage in social VR experiences that allow you to interact with friends or meet new people in virtual environments. Attend virtual events or join multiplayer games."
+      },
+      {
+        "id": "10",
+        "title": "Stay Safe and Mindful",
+        "description": "When using virtual reality, prioritize your safety and be mindful of your surroundings. Avoid potential hazards and respect any health or age restrictions."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "9",
+    "image": "lib/assets/technology_gadgets/smart_home.jpg",
+    "title": "Smart Home Automation",
+    "description": "Transform your living space into a smart home with these automation ideas and tips.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Choose a Smart Hub",
+        "description": "Select a central smart hub that integrates and controls various smart devices in your home. Ensure compatibility with your preferred ecosystem (e.g., Google Home, Amazon Alexa)."
+      },
+      {
+        "id": "2",
+        "title": "Install Smart Lighting",
+        "description": "Replace traditional bulbs with smart LED lights that can be controlled remotely or through voice commands. Set up automated lighting schedules or adjust brightness and color."
+      },
+      {
+        "id": "3",
+        "title": "Enhance Security with Smart Cameras",
+        "description": "Install smart security cameras that provide live streaming, motion detection, and remote access. Monitor your home and receive alerts on your smartphone when activity is detected."
+      },
+      {
+        "id": "4",
+        "title": "Manage Energy Usage with Smart Thermostats",
+        "description": "Optimize energy consumption by installing a smart thermostat. Set schedules, remotely adjust temperature, and receive energy usage reports to save on heating and cooling costs."
+      },
+      {
+        "id": "5",
+        "title": "Control Home Entertainment with Smart Devices",
+        "description": "Sync your entertainment devices with smart remotes or voice assistants. Control your TV, speakers, streaming devices, and gaming consoles using a single interface."
+      },
+      {
+        "id": "6",
+        "title": "Automate Household Chores",
+        "description": "Use smart appliances like robotic vacuum cleaners, smart washing machines, or automated pet feeders to simplify and streamline daily household tasks."
+      },
+      {
+        "id": "7",
+        "title": "Create Customized Scenes",
+        "description": "Set up customized scenes to create the perfect ambiance for different occasions. Dim the lights, adjust the thermostat, and play your favorite music with a single command."
+      },
+      {
+        "id": "8",
+        "title": "Integrate Voice Control",
+        "description": "Enable voice control by connecting smart speakers or voice assistants to your smart home ecosystem. Use voice commands to control devices, ask questions, or play music."
+      },
+      {
+        "id": "9",
+        "title": "Monitor and Conserve Water",
+        "description": "Install smart irrigation systems or water monitoring devices to track and optimize water usage in your garden or home. Set up automated watering schedules based on weather conditions."
+      },
+      {
+        "id": "10",
+        "title": "Expand Your Smart Home Ecosystem",
+        "description": "Discover new smart devices and expand your home automation system over time. Explore smart door locks, smart plugs, smart speakers, or even voice-controlled kitchen appliances."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "9",
+    "image": "lib/assets/technology_gadgets/wearable_tech.jpg",
+    "title": "Wearable Technology",
+    "description": "Explore the world of wearable technology and how it can enhance your daily life.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Fitness Trackers",
+        "description": "Track your physical activity, monitor your heart rate, and analyze your sleep patterns with a fitness tracker. Set goals, challenge yourself, and stay motivated."
+      },
+      {
+        "id": "2",
+        "title": "Smartwatches",
+        "description": "Stay connected and organized with a smartwatch on your wrist. Receive notifications, make calls, track workouts, and even make payments on the go."
+      },
+      {
+        "id": "3",
+        "title": "Augmented Reality Glasses",
+        "description": "Experience the blending of virtual and real worlds with augmented reality glasses. Explore interactive games, immersive learning, and practical applications."
+      },
+      {
+        "id": "4",
+        "title": "Smart Clothing",
+        "description": "Wear clothing embedded with smart sensors and technologies. Monitor body temperature, track posture, or even receive haptic feedback for enhanced performance."
+      },
+      {
+        "id": "5",
+        "title": "Smart Jewelry",
+        "description": "Combine fashion with functionality by wearing smart jewelry. Access notifications discreetly, track activity, or even use it as a personal safety device."
+      },
+      {
+        "id": "6",
+        "title": "Health Monitoring Devices",
+        "description": "Monitor your health and well-being with wearable devices such as blood pressure monitors, glucose trackers, or ECG monitors. Keep tabs on your vital signs."
+      },
+      {
+        "id": "7",
+        "title": "Virtual Reality Headsets",
+        "description": "Immerse yourself in virtual worlds with a virtual reality headset. Enjoy gaming, 360-degree videos, or virtual travel experiences from the comfort of your home."
+      },
+      {
+        "id": "8",
+        "title": "Smart Hearing Devices",
+        "description": "Enhance your hearing with smart hearing devices that provide personalized sound amplification and noise cancellation. Connect to your smartphone for added convenience."
+      },
+      {
+        "id": "9",
+        "title": "Gesture Control Devices",
+        "description": "Interact with technology through gestures with devices that use motion tracking and gesture recognition. Control presentations, games, or home automation systems."
+      },
+      {
+        "id": "10",
+        "title": "Smart Eyewear",
+        "description": "Wear smart glasses that provide heads-up displays, hands-free navigation, or real-time information. Stay connected and access information without using your hands."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "10",
+    "image": "lib/assets/weekend_plans/new_subtopic_image.jpg",
+    "title": "Outdoor Adventures",
+    "description": "Discover thrilling outdoor activities for your weekend adventures.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Hiking",
+        "description": "Explore scenic trails and hike through beautiful landscapes."
+      },
+      {
+        "id": "2",
+        "title": "Camping",
+        "description": "Pitch a tent, build a campfire, and enjoy a night under the stars."
+      },
+      {
+        "id": "3",
+        "title": "Kayaking",
+        "description": "Paddle along rivers, lakes, or coastal areas and experience the serenity of the water."
+      },
+      {
+        "id": "4",
+        "title": "Rock Climbing",
+        "description": "Challenge yourself on rock faces and cliffs, and enjoy breathtaking views from the top."
+      },
+      {
+        "id": "5",
+        "title": "Cycling",
+        "description": "Go on a biking adventure and explore scenic routes and trails."
+      },
+      {
+        "id": "6",
+        "title": "Fishing",
+        "description": "Cast a line and enjoy a peaceful day of fishing in rivers, lakes, or the open sea."
+      },
+      {
+        "id": "7",
+        "title": "Picnicking",
+        "description": "Pack a delicious picnic and relax in a scenic spot surrounded by nature."
+      },
+      {
+        "id": "8",
+        "title": "Wildlife Watching",
+        "description": "Observe and appreciate the diverse wildlife in their natural habitats."
+      },
+      {
+        "id": "9",
+        "title": "Photography",
+        "description": "Capture stunning photos of landscapes, wildlife, and outdoor moments."
+      },
+      {
+        "id": "10",
+        "title": "Outdoor Yoga",
+        "description": "Find peace and serenity while practicing yoga in nature's embrace."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "10",
+    "image": "lib/assets/weekend_plans/new_subtopic_image.jpg",
+    "title": "Culinary Delights",
+    "description": "Indulge in delicious culinary adventures during your weekend plans.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Cooking Classes",
+        "description": "Expand your culinary skills by joining cooking classes and learning new recipes."
+      },
+      {
+        "id": "2",
+        "title": "Food Markets",
+        "description": "Explore local food markets and discover fresh ingredients and unique flavors."
+      },
+      {
+        "id": "3",
+        "title": "Gourmet Dining",
+        "description": "Treat yourself to a gourmet dining experience at a top-rated restaurant."
+      },
+      {
+        "id": "4",
+        "title": "Wine Tasting",
+        "description": "Embark on a wine tasting journey and savor exquisite wines from different regions."
+      },
+      {
+        "id": "5",
+        "title": "Baking and Pastry",
+        "description": "Unleash your inner pastry chef and create delectable baked goods and pastries."
+      },
+      {
+        "id": "6",
+        "title": "Street Food Tour",
+        "description": "Explore the local street food scene and indulge in flavorful and diverse dishes."
+      },
+      {
+        "id": "7",
+        "title": "Farm-to-Table Experience",
+        "description": "Visit a farm-to-table restaurant or participate in a farm tour and enjoy fresh, organic meals."
+      },
+      {
+        "id": "8",
+        "title": "Cocktail Mixology",
+        "description": "Learn the art of cocktail mixology and create unique and refreshing drinks."
+      },
+      {
+        "id": "9",
+        "title": "Food Photography",
+        "description": "Capture stunning food photos and share your culinary adventures on social media."
+      },
+      {
+        "id": "10",
+        "title": "Cuisine Exploration",
+        "description": "Explore different cuisines from around the world and try new dishes and flavors."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "10",
+    "image": "lib/assets/weekend_plans/new_subtopic_image.jpg",
+    "title": "Artistic Pursuits",
+    "description": "Indulge in artistic pursuits and unleash your creativity during your weekend plans.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Painting Workshop",
+        "description": "Join a painting workshop and learn various painting techniques and styles."
+      },
+      {
+        "id": "2",
+        "title": "Photography Expedition",
+        "description": "Embark on a photography expedition and capture stunning images of landscapes or cityscapes."
+      },
+      {
+        "id": "3",
+        "title": "Pottery Class",
+        "description": "Get your hands dirty in a pottery class and create beautiful ceramic artworks."
+      },
+      {
+        "id": "4",
+        "title": "Music Jam Session",
+        "description": "Gather with fellow musicians for a music jam session and create harmonious melodies."
+      },
+      {
+        "id": "5",
+        "title": "Creative Writing Retreat",
+        "description": "Attend a creative writing retreat and explore the art of storytelling and expression."
+      },
+      {
+        "id": "6",
+        "title": "Dance Workshop",
+        "description": "Join a dance workshop to learn new dance styles and express yourself through movement."
+      },
+      {
+        "id": "7",
+        "title": "Sculpture Making",
+        "description": "Unleash your sculpting skills in a sculpture making class and bring your ideas to life."
+      },
+      {
+        "id": "8",
+        "title": "Theater Performance",
+        "description": "Participate in a theater performance or attend a live theater show for an immersive experience."
+      },
+      {
+        "id": "9",
+        "title": "Calligraphy Lessons",
+        "description": "Master the art of calligraphy through dedicated lessons and practice sessions."
+      },
+      {
+        "id": "10",
+        "title": "Art Exhibition Visit",
+        "description": "Explore local art exhibitions and get inspired by the works of talented artists."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "11",
+    "image": "lib/assets/commuting/subtopic_image.jpg",
+    "title": "Eco-Friendly Commuting",
+    "description": "Discover eco-friendly commuting options to reduce your carbon footprint while traveling.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Cycling",
+        "description": "Choose cycling as your commuting method to enjoy exercise and minimize pollution."
+      },
+      {
+        "id": "2",
+        "title": "Public Transportation",
+        "description": "Utilize public transportation like buses, trains, or trams for efficient and eco-friendly commuting."
+      },
+      {
+        "id": "3",
+        "title": "Carpooling",
+        "description": "Share rides with colleagues or neighbors to reduce the number of vehicles on the road."
+      },
+      {
+        "id": "4",
+        "title": "Electric Vehicles",
+        "description": "Consider electric vehicles (EVs) or hybrids as an eco-friendly alternative to traditional cars."
+      },
+      {
+        "id": "5",
+        "title": "Walking",
+        "description": "Opt for walking short distances to minimize environmental impact and improve your health."
+      },
+      {
+        "id": "6",
+        "title": "Telecommuting",
+        "description": "Work from home or remotely to eliminate the need for daily commuting altogether."
+      },
+      {
+        "id": "7",
+        "title": "Scooter Sharing",
+        "description": "Rent or share electric scooters for convenient and eco-friendly last-mile commuting."
+      },
+      {
+        "id": "8",
+        "title": "Car Sharing",
+        "description": "Use car-sharing services to access vehicles only when necessary, reducing overall car usage."
+      },
+      {
+        "id": "9",
+        "title": "Rail Commuting",
+        "description": "Take advantage of rail transportation for longer distances to reduce emissions from individual cars."
+      },
+      {
+        "id": "10",
+        "title": "Work-From-Anywhere",
+        "description": "Embrace flexible work arrangements that allow you to work from any location, reducing the need for daily commuting."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "11",
+    "image": "lib/assets/commuting/subtopic_image.jpg",
+    "title": "Smart Commuting Tips",
+    "description": "Discover smart commuting tips and strategies to make your daily commute more efficient and enjoyable.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Plan Your Route",
+        "description": "Research and plan your commuting route in advance to avoid traffic and minimize delays."
+      },
+      {
+        "id": "2",
+        "title": "Utilize Real-Time Traffic Apps",
+        "description": "Use real-time traffic apps to stay updated on traffic conditions and find the fastest routes."
+      },
+      {
+        "id": "3",
+        "title": "Consider Flexible Working Hours",
+        "description": "Negotiate flexible working hours with your employer to avoid peak traffic times and have a smoother commute."
+      },
+      {
+        "id": "4",
+        "title": "Car Maintenance",
+        "description": "Regularly maintain your car to ensure it's in optimal condition, reducing the chances of breakdowns and delays."
+      },
+      {
+        "id": "5",
+        "title": "Explore Carpooling Services",
+        "description": "Join carpooling services or connect with colleagues to share rides and reduce the number of vehicles on the road."
+      },
+      {
+        "id": "6",
+        "title": "Upgrade to a Fuel-Efficient Vehicle",
+        "description": "Consider upgrading to a fuel-efficient vehicle to save on fuel costs and reduce your environmental impact."
+      },
+      {
+        "id": "7",
+        "title": "Use Public Wi-Fi and Productivity Apps",
+        "description": "Make use of public Wi-Fi and productivity apps during your commute to stay connected and get work done."
+      },
+      {
+        "id": "8",
+        "title": "Try Alternative Commuting Modes",
+        "description": "Experiment with alternative commuting modes like skateboarding, electric scooters, or segways for short distances."
+      },
+      {
+        "id": "9",
+        "title": "Stay Entertained with Podcasts and Audiobooks",
+        "description": "Listen to podcasts or audiobooks during your commute to make the time more enjoyable and productive."
+      },
+      {
+        "id": "10",
+        "title": "Stay Active with Walking or Biking",
+        "description": "If feasible, incorporate walking or biking into your commute to add physical activity to your daily routine."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "11",
+    "image": "lib/assets/commuting/subtopic_image.jpg",
+    "title": "Alternative Commuting Methods",
+    "description": "Explore alternative commuting methods that offer convenience and reduce the reliance on traditional transportation.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Scooter Sharing",
+        "description": "Try scooter-sharing services for short-distance commutes. They provide a convenient and eco-friendly way to navigate busy city streets."
+      },
+      {
+        "id": "2",
+        "title": "Electric Skateboarding",
+        "description": "Consider electric skateboards as a fun and efficient way to commute short distances while enjoying the thrill of riding."
+      },
+      {
+        "id": "3",
+        "title": "Segway Personal Transporter",
+        "description": "Experience the ease of gliding on a Segway personal transporter for your daily commute. They are efficient and easy to maneuver."
+      },
+      {
+        "id": "4",
+        "title": "Hoverboard Commuting",
+        "description": "Embrace the futuristic feel of hoverboard commuting. These self-balancing devices are compact and agile for navigating through crowded areas."
+      },
+      {
+        "id": "5",
+        "title": "Electric Unicycle",
+        "description": "Master the art of riding an electric unicycle for a unique and eco-friendly commuting experience. It's compact and highly maneuverable."
+      },
+      {
+        "id": "6",
+        "title": "Foldable Electric Bike",
+        "description": "Invest in a foldable electric bike for a versatile commuting option. It combines the benefits of cycling with the convenience of electric power."
+      },
+      {
+        "id": "7",
+        "title": "Electric Scooter",
+        "description": "Consider an electric scooter as a practical and efficient way to travel short to medium distances without relying on traditional transportation."
+      },
+      {
+        "id": "8",
+        "title": "One-Wheel Electric Transport",
+        "description": "Experience the thrill of riding a one-wheel electric transport device. It offers a compact and agile option for urban commuting."
+      },
+      {
+        "id": "9",
+        "title": "Foldable Kick Scooter",
+        "description": "Opt for a foldable kick scooter for a lightweight and portable commuting solution. It's ideal for short trips and can be easily carried when not in use."
+      },
+      {
+        "id": "10",
+        "title": "Electric Moped",
+        "description": "Consider an electric moped as a practical and efficient alternative to traditional gasoline-powered mopeds for your daily commuting needs."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "12",
+    "image": "lib/assets/pet_ownership/subtopic_image.jpg",
+    "title": "Choosing the Right Pet",
+    "description": "Explore the considerations and factors to help you choose the perfect pet for your lifestyle and preferences.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Research Different Breeds",
+        "description": "Learn about different pet breeds, including their temperament, exercise needs, and grooming requirements, to find a suitable match."
+      },
+      {
+        "id": "2",
+        "title": "Consider Size and Space",
+        "description": "Take into account the size of your home and available space when choosing a pet. Some breeds require more room to roam than others."
+      },
+      {
+        "id": "3",
+        "title": "Evaluate Exercise Needs",
+        "description": "Determine how much time and energy you can dedicate to exercising and playing with a pet. Some breeds require more activity than others."
+      },
+      {
+        "id": "4",
+        "title": "Assess Allergy Considerations",
+        "description": "If you or your family members have allergies, research hypoallergenic pet breeds or consider alternative pets such as reptiles or fish."
+      },
+      {
+        "id": "5",
+        "title": "Think about Lifestyle Compatibility",
+        "description": "Consider your lifestyle, work schedule, and social activities when choosing a pet. Some pets require more attention and companionship than others."
+      },
+      {
+        "id": "6",
+        "title": "Consider Long-Term Commitment",
+        "description": "Pets are a long-term commitment. Think about the lifespan of the pet you're interested in and ensure you're ready for the responsibilities that come with it."
+      },
+      {
+        "id": "7",
+        "title": "Research Care Requirements",
+        "description": "Understand the care requirements of different pets, including grooming, feeding, and veterinary needs, to ensure you can meet their specific needs."
+      },
+      {
+        "id": "8",
+        "title": "Interact with Different Breeds",
+        "description": "Visit animal shelters, pet stores, or breeders to interact with different breeds and get a feel for their personalities and compatibility with your lifestyle."
+      },
+      {
+        "id": "9",
+        "title": "Consider Adoption",
+        "description": "Explore adoption options and rescue organizations to give a loving home to a pet in need. Many wonderful pets are looking for their forever homes."
+      },
+      {
+        "id": "10",
+        "title": "Consult with a Veterinarian",
+        "description": "Before making a final decision, consult with a veterinarian to get professional advice on the best pet choices based on your lifestyle and preferences."
+      }
+    ]
+  },{
+    "id": "2",
+    "itemId": "12",
+    "image": "lib/assets/pet_ownership/subtopic_image.jpg",
+    "title": "Preparing Your Home for a Pet",
+    "description": "Get your home ready to welcome a new pet with these essential preparations and safety measures.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Create a Pet-Friendly Space",
+        "description": "Designate an area in your home where your pet can feel comfortable and safe, with their bed, toys, and water and food bowls."
+      },
+      {
+        "id": "2",
+        "title": "Secure Hazardous Items",
+        "description": "Identify and secure potentially hazardous items such as cleaning supplies, toxic plants, electrical cords, and small objects that could be swallowed."
+      },
+      {
+        "id": "3",
+        "title": "Set Up Pet Gates or Barriers",
+        "description": "Install pet gates or barriers to restrict access to certain areas of your home, ensuring your pet's safety and preventing them from entering off-limits areas."
+      },
+      {
+        "id": "4",
+        "title": "Store Medications Properly",
+        "description": "Keep all medications, including prescription drugs and over-the-counter products, securely stored in cabinets or drawers to prevent accidental ingestion by your pet."
+      },
+      {
+        "id": "5",
+        "title": "Check for Household Toxins",
+        "description": "Thoroughly inspect your home for potential toxins like cleaning chemicals, antifreeze, pest control products, and certain houseplants that could be harmful to your pet."
+      },
+      {
+        "id": "6",
+        "title": "Remove Small Chewable Items",
+        "description": "Remove small items, such as toys, socks, or loose wires, that could be easily chewed and swallowed by your pet, posing a choking hazard or gastrointestinal blockage."
+      },
+      {
+        "id": "7",
+        "title": "Secure Trash and Recycling Bins",
+        "description": "Make sure your trash and recycling bins have secure lids to prevent your pet from accessing potentially harmful or toxic materials."
+      },
+      {
+        "id": "8",
+        "title": "Protect Cords and Wires",
+        "description": "Cover or secure electrical cords and wires to prevent your pet from chewing on them, which can lead to electric shock or other injuries."
+      },
+      {
+        "id": "9",
+        "title": "Install Window Screens",
+        "description": "Install sturdy window screens to prevent your pet from accidentally falling out of windows or accessing unsafe areas like balconies or rooftops."
+      },
+      {
+        "id": "10",
+        "title": "Create an Outdoor Pet-Safe Area",
+        "description": "If you have an outdoor space, create a pet-safe area by ensuring it is securely fenced, free from toxic plants, and has adequate shade and shelter."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "12",
+    "image": "lib/assets/pet_ownership/subtopic_image.jpg",
+    "title": "Training and Socializing Your Pet",
+    "description": "Guide your pet to become well-behaved and socially confident through effective training and socialization techniques.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Basic Obedience Training",
+        "description": "Teach your pet fundamental commands like sit, stay, come, and heel. Use positive reinforcement, rewards, and consistency to reinforce desired behaviors."
+      },
+      {
+        "id": "2",
+        "title": "House Training",
+        "description": "Establish a routine and use positive reinforcement to teach your pet appropriate bathroom behaviors. Provide frequent opportunities for outdoor elimination."
+      },
+      {
+        "id": "3",
+        "title": "Leash Training",
+        "description": "Introduce your pet to leash walking gradually. Teach them to walk calmly on a leash without pulling, and reward them for good leash manners."
+      },
+      {
+        "id": "4",
+        "title": "Socialization with People",
+        "description": "Expose your pet to various people of different ages, genders, and appearances. Encourage positive interactions and reward calm and friendly behavior."
+      },
+      {
+        "id": "5",
+        "title": "Socialization with Other Animals",
+        "description": "Gradually introduce your pet to other animals, starting with controlled and supervised interactions. Monitor their behavior and reward appropriate socialization."
+      },
+      {
+        "id": "6",
+        "title": "Crate Training",
+        "description": "Introduce your pet to a crate as a safe and comfortable space. Use positive reinforcement and gradually increase the duration of time spent in the crate."
+      },
+      {
+        "id": "7",
+        "title": "Preventing Separation Anxiety",
+        "description": "Gradually acclimate your pet to being alone for increasing periods. Provide mental stimulation, toys, and a safe environment to alleviate separation anxiety."
+      },
+      {
+        "id": "8",
+        "title": "Training for Specific Behaviors",
+        "description": "Address specific behaviors like jumping, barking, chewing, or digging through targeted training techniques. Seek professional help if needed."
+      },
+      {
+        "id": "9",
+        "title": "Clicker Training",
+        "description": "Use a clicker to mark desired behaviors and associate them with positive rewards. Clicker training can be effective for teaching complex commands."
+      },
+      {
+        "id": "10",
+        "title": "Continued Training and Enrichment",
+        "description": "Maintain regular training sessions and provide ongoing mental stimulation through interactive toys, puzzles, and activities to keep your pet engaged and well-behaved."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "13",
+    "image": "lib/assets/music/subtopic_image.jpg",
+    "title": "Exploring Different Music Genres",
+    "description": "Dive into the diverse world of music by exploring various genres and expanding your musical horizons.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Rock",
+        "description": "Discover the powerful sound of rock music with its energetic guitar riffs, driving rhythms, and passionate lyrics. Explore subgenres like classic rock, alternative rock, and hard rock."
+      },
+      {
+        "id": "2",
+        "title": "Pop",
+        "description": "Immerse yourself in catchy melodies, upbeat rhythms, and infectious hooks of pop music. From chart-topping hits to bubblegum pop and dance-pop, there's something for everyone."
+      },
+      {
+        "id": "3",
+        "title": "Hip Hop",
+        "description": "Explore the rhythmic beats, poetic lyrics, and cultural significance of hip hop music. From old-school rap to modern trap, hip hop offers a platform for self-expression and storytelling."
+      },
+      {
+        "id": "4",
+        "title": "Jazz",
+        "description": "Indulge in the improvisational nature, complex harmonies, and soulful melodies of jazz music. From smooth jazz to bebop and fusion, jazz is a genre rich in history and innovation."
+      },
+      {
+        "id": "5",
+        "title": "Electronic",
+        "description": "Experience the mesmerizing world of electronic music with its synthesizers, electronic beats, and captivating soundscapes. From ambient and house to techno and trance, electronic music offers endless sonic possibilities."
+      },
+      {
+        "id": "6",
+        "title": "Country",
+        "description": "Explore the heartfelt stories, twangy guitars, and down-to-earth charm of country music. From classic country to modern country-pop, this genre celebrates life, love, and the great outdoors."
+      },
+      {
+        "id": "7",
+        "title": "R&B",
+        "description": "Immerse yourself in the smooth vocals, soulful melodies, and groovy rhythms of R&B music. From classic Motown to contemporary R&B, this genre is a blend of rhythm, blues, and pop influences."
+      },
+      {
+        "id": "8",
+        "title": "Classical",
+        "description": "Appreciate the timeless beauty, intricate compositions, and rich orchestral arrangements of classical music. From symphonies and concertos to sonatas and operas, classical music is a window into the past."
+      },
+      {
+        "id": "9",
+        "title": "Reggae",
+        "description": "Immerse yourself in the laid-back rhythms, uplifting lyrics, and positive vibes of reggae music. Originating from Jamaica, reggae is a genre that promotes peace, love, and social justice."
+      },
+      {
+        "id": "10",
+        "title": "Metal",
+        "description": "Dive into the heavy, aggressive sound of metal music with its distorted guitars, intense drumming, and powerful vocals. From classic heavy metal to subgenres like thrash, death, and black metal, this genre pushes boundaries."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "13",
+    "image": "lib/assets/music/subtopic_image.jpg",
+    "title": "Music Production Basics",
+    "description": "Explore the fundamentals of music production and learn how to create your own music tracks.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Digital Audio Workstations (DAWs)",
+        "description": "Discover popular digital audio workstations like Ableton Live, FL Studio, or Logic Pro. Learn how to use these software to compose, record, and arrange your music."
+      },
+      {
+        "id": "2",
+        "title": "MIDI Controllers",
+        "description": "Explore MIDI controllers such as keyboards, drum pads, and MIDI guitars. Understand how MIDI technology allows you to control virtual instruments and software plugins."
+      },
+      {
+        "id": "3",
+        "title": "Recording Techniques",
+        "description": "Learn about microphone types, placement, and recording techniques to capture high-quality audio. Dive into topics like mic positioning for vocals, miking instruments, and room acoustics."
+      },
+      {
+        "id": "4",
+        "title": "Virtual Instruments",
+        "description": "Discover a wide range of virtual instruments such as synthesizers, samplers, and drum machines. Explore different sound libraries and experiment with creating unique sounds."
+      },
+      {
+        "id": "5",
+        "title": "Audio Effects and Processing",
+        "description": "Learn about audio effects like EQ, compression, reverb, and delay. Understand how to apply these effects to enhance your recordings and create a professional mix."
+      },
+      {
+        "id": "6",
+        "title": "Arrangement and Composition",
+        "description": "Explore techniques for structuring and arranging your music. Learn about chord progressions, melodies, harmonies, and songwriting principles."
+      },
+      {
+        "id": "7",
+        "title": "Beat Making and Drum Programming",
+        "description": "Master the art of creating beats and programming drums. Explore different drum sounds, patterns, and styles to add rhythm and groove to your music."
+      },
+      {
+        "id": "8",
+        "title": "Sampling and Looping",
+        "description": "Discover the art of sampling and looping. Learn how to chop and manipulate audio samples, create loops, and integrate them into your music productions."
+      },
+      {
+        "id": "9",
+        "title": "Mixing and Mastering",
+        "description": "Gain an understanding of the mixing and mastering process. Learn how to balance levels, EQ, apply dynamics processing, and finalize your music for distribution."
+      },
+      {
+        "id": "10",
+        "title": "Music Collaboration and Distribution",
+        "description": "Explore platforms and techniques for collaborating with other musicians and sharing your music with the world. Discover online distribution platforms and strategies for reaching your audience."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "itemId": "13",
+    "image": "lib/assets/music/subtopic_image.jpg",
+    "title": "Music Theory Fundamentals",
+    "description": "Discover the essential elements of music theory and deepen your understanding of how music works.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Notes and Scales",
+        "description": "Learn about musical notes, intervals, and scales. Explore major and minor scales, pentatonic scales, and modes."
+      },
+      {
+        "id": "2",
+        "title": "Chords and Harmony",
+        "description": "Understand chord construction, progressions, and harmonic relationships. Learn how to build triads, seventh chords, and extended chords."
+      },
+      {
+        "id": "3",
+        "title": "Rhythm and Time Signatures",
+        "description": "Dive into rhythm notation, time signatures, and rhythmic patterns. Explore concepts like quarter notes, eighth notes, and syncopation."
+      },
+      {
+        "id": "4",
+        "title": "Key Signatures and Transposition",
+        "description": "Learn about key signatures, key changes, and transposition. Understand how to transpose music to different keys."
+      },
+      {
+        "id": "5",
+        "title": "Melody and Counterpoint",
+        "description": "Explore melody construction, melodic contour, and counterpoint. Learn how to create memorable melodies and combine multiple melodic lines."
+      },
+      {
+        "id": "6",
+        "title": "Chord Progressions",
+        "description": "Discover common chord progressions used in various genres. Study chord functions, cadences, and harmonic analysis."
+      },
+      {
+        "id": "7",
+        "title": "Music Notation",
+        "description": "Master the basics of music notation. Learn how to read and write sheet music, including clefs, notes, rests, and dynamics."
+      },
+      {
+        "id": "8",
+        "title": "Ear Training",
+        "description": "Develop your ear and improve your ability to identify intervals, chords, and melodies by ear. Practice interval recognition and chord progression identification."
+      },
+      {
+        "id": "9",
+        "title": "Music Analysis",
+        "description": "Analyze songs and musical compositions to understand their structure, harmony, and melodic elements. Explore different musical forms and techniques."
+      },
+      {
+        "id": "10",
+        "title": "Composition Techniques",
+        "description": "Learn techniques for composing music. Explore melody writing, chord progressions, and arranging for different instruments and genres."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "itemId": "14",
+    "image": "lib/assets/travel/subtopic_image.jpg",
+    "title": "Adventure Travel Destinations",
+    "description": "Explore thrilling and adventurous travel destinations around the world.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Hiking in the Himalayas",
+        "description": "Embark on an exhilarating journey through the breathtaking landscapes of the Himalayas. Experience high-altitude trekking and witness stunning mountain vistas."
+      },
+      {
+        "id": "2",
+        "title": "Scuba Diving in the Great Barrier Reef",
+        "description": "Dive into the world's largest coral reef system and explore vibrant underwater ecosystems teeming with marine life. Discover colorful coral formations and encounter exotic fish species."
+      },
+      {
+        "id": "3",
+        "title": "Safari in the Serengeti",
+        "description": "Embark on a thrilling safari adventure in the vast plains of the Serengeti. Encounter majestic wildlife, including lions, elephants, zebras, and giraffes."
+      },
+      {
+        "id": "4",
+        "title": "Climbing Mount Kilimanjaro",
+        "description": "Challenge yourself by summiting Africa's highest peak, Mount Kilimanjaro. Experience the awe-inspiring views from the summit and conquer a personal feat."
+      },
+      {
+        "id": "5",
+        "title": "Rafting in the Grand Canyon",
+        "description": "Navigate the wild rapids of the Colorado River as it cuts through the majestic Grand Canyon. Experience the thrill of white-water rafting in one of the world's most iconic landscapes."
+      },
+      {
+        "id": "6",
+        "title": "Exploring the Amazon Rainforest",
+        "description": "Immerse yourself in the rich biodiversity of the Amazon Rainforest. Trek through dense jungles, spot exotic wildlife, and learn about indigenous cultures."
+      },
+      {
+        "id": "7",
+        "title": "Dog Sledding in Alaska",
+        "description": "Experience the adrenaline rush of dog sledding through the snowy wilderness of Alaska. Drive a team of huskies and witness the stunning northern landscapes."
+      },
+      {
+        "id": "8",
+        "title": "Paragliding in the Swiss Alps",
+        "description": "Soar through the pristine alpine air and enjoy panoramic views of the Swiss Alps while paragliding. Feel the exhilaration of flying and freedom."
+      },
+      {
+        "id": "9",
+        "title": "Camping in the Australian Outback",
+        "description": "Embark on an unforgettable camping adventure in the vast and remote Australian Outback. Sleep under the stars, explore ancient rock formations, and connect with nature."
+      },
+      {
+        "id": "10",
+        "title": "Trekking the Inca Trail to Machu Picchu",
+        "description": "Embark on a multi-day trek along the ancient Inca Trail to the mystical city of Machu Picchu. Witness breathtaking mountain scenery and explore fascinating Incan ruins."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "itemId": "14",
+    "image": "lib/assets/travel/subtopic_image.jpg",
+    "title": "Adventure Destinations",
+    "description": "Embark on thrilling adventures at these breathtaking destinations around the world.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Patagonia, Argentina",
+        "description": "Experience the raw beauty of Patagonia through hiking, trekking, and exploring its stunning landscapes and glaciers."
+      },
+      {
+        "id": "2",
+        "title": "Queenstown, New Zealand",
+        "description": "Indulge in adrenaline-pumping activities like bungee jumping, skydiving, and jet boating in the adventure capital of the world."
+      },
+      {
+        "id": "3",
+        "title": "Yosemite National Park, USA",
+        "description": "Discover the wonders of Yosemite National Park through rock climbing, hiking, and capturing breathtaking views of its iconic landmarks."
+      },
+      {
+        "id": "4",
+        "title": "Serengeti National Park, Tanzania",
+        "description": "Embark on a thrilling safari adventure in the Serengeti and witness the annual wildebeest migration, along with diverse wildlife."
+      },
+      {
+        "id": "5",
+        "title": "Interlaken, Switzerland",
+        "description": "Engage in thrilling activities like paragliding, canyoning, and skiing in the picturesque town nestled between stunning Swiss Alps."
+      },
+      {
+        "id": "6",
+        "title": "Great Barrier Reef, Australia",
+        "description": "Dive into the vibrant underwater world of the Great Barrier Reef, snorkel among colorful coral reefs, and encounter diverse marine life."
+      },
+      {
+        "id": "7",
+        "title": "Whistler, Canada",
+        "description": "Experience exhilarating winter sports such as skiing, snowboarding, and snowmobiling in the renowned alpine resort of Whistler."
+      },
+      {
+        "id": "8",
+        "title": "The Amazon Rainforest, Brazil",
+        "description": "Embark on an immersive jungle adventure, explore the Amazon River, encounter unique wildlife, and learn about indigenous cultures."
+      },
+      {
+        "id": "9",
+        "title": "Bora Bora, French Polynesia",
+        "description": "Escape to the paradise of Bora Bora, where you can indulge in snorkeling, scuba diving, and unwind on pristine white sandy beaches."
+      },
+      {
+        "id": "10",
+        "title": "Machu Picchu, Peru",
+        "description": "Embark on a remarkable journey to the ancient Inca city of Machu Picchu, hike the Inca Trail, and immerse yourself in rich history and breathtaking mountain scenery."
+      }
+    ]
   }
   
+  
+  
+  
+  
+    
 
   
   
+  
+  
+  
+    
+  
+  
+  
+  
+  
 ]
+

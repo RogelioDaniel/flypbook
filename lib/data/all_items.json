@@ -4,69 +4,272 @@
         "id": "1",
         "image": "lib/assets/restaurante_b.gif",
         "title": "Restaurant",
-        "description": "I can help you when you need to gotta a restaurant"
+        "description": "I can help you when you need to find a restaurant."
     },
     {
         "itemId": "2",
         "id": "2",
         "image": "lib/assets/supermarket_b.gif",
         "title": "Stores",
-        "description": "You will need to buy somethings."
+        "description": "You will need to buy some things."
     },
     {
         "itemId": "3",
         "id": "3",
         "image": "lib/assets/public_transport_b.gif",
         "title": "Public transport",
-        "description": "Move on."
+        "description": "Get around easily using public transportation."
     },
     {
         "itemId": "4",
         "id": "4",
         "image": "lib/assets/morning_routine_b.gif",
         "title": "Morning Routine",
-        "description": "Discussing morning rituals, such as exercising, meditation, or planning for the day ahead."
+        "description": "Discuss morning rituals like exercising, meditation, or planning for the day ahead."
     },
     {
         "itemId": "5",
         "id": "5",
         "image": "lib/assets/cooking_recipes_b.gif",
         "title": "Cooking and Recipes",
-        "description": "Sharing favorite recipes, cooking techniques, and discussing culinary experiences."
+        "description": "Share favorite recipes, cooking techniques, and discuss culinary experiences."
     },
     {
         "itemId": "6",
         "id": "6",
         "image": "lib/assets/fitness_exercise_b.gif",
         "title": "Fitness and Exercise",
-        "description": "Discussing workout routines, fitness goals, and sharing tips for staying active."
+        "description": "Discuss workout routines, fitness goals, and share tips for staying active."
     },
     {
         "itemId": "7",
         "id": "7",
         "image": "lib/assets/bank_b.gif",
-        "title": "Hobbies and Interests:",
-        "description": "Sharing hobbies and interests, such as painting, photography, gardening, or playing musical instruments."
+        "title": "Hobbies and Interests",
+        "description": "Share hobbies and interests like painting, photography, gardening, or playing musical instruments."
     },
     {
         "itemId": "8",
         "id": "8",
         "image": "lib/assets/family_b.gif",
         "title": "Family Time",
-        "description": "Discussing the importance of spending quality time with family, sharing activities, and creating meaningful memories."
+        "description": "Discuss the importance of spending quality time with family, share activities, and create meaningful memories."
     },
     {
         "itemId": "9",
         "id": "9",
         "image": "lib/assets/technology_gadgets_b.gif",
         "title": "Technology and Gadgets",
-        "description": "Talking about the latest gadgets, technological advancements, and their impact on daily life."
+        "description": "Talk about the latest gadgets, technological advancements, and their impact on daily life."
     },
     {
         "itemId": "10",
         "id": "10",
         "image": "lib/assets/weekend_plans_b.gif",
         "title": "Weekend Plans",
-        "description": "Sharing weekend activities, such as hiking, exploring new places, attending events, or relaxing at home."
+        "description": "Share weekend activities like hiking, exploring new places, attending events, or relaxing at home."
+    },
+    {
+        "itemId": "11",
+        "id": "11",
+        "image": "lib/assets/commuting_b.gif",
+        "title": "Commuting",
+        "description": "Discuss the challenges and experiences of daily commuting, including traffic, public transportation, and carpooling."
+    },
+    {
+        "itemId": "12",
+        "id": "12",
+        "image": "lib/assets/pet_ownership_b.gif",
+        "title": "Pet Ownership",
+        "description": "Share stories and advice about taking care of pets, including dogs, cats, birds, and other popular companions."
+    },
+    {
+        "itemId": "13",
+        "id": "13",
+        "image": "lib/assets/music_b.gif",
+        "title": "Music",
+        "description": "Discuss different music genres, favorite artists, concerts, and the influence of music on emotions and moods."
+    },
+    {
+        "itemId": "14",
+        "id": "14",
+        "image": "lib/assets/travel_b.gif",
+        "title": "Travel",
+        "description": "Share travel experiences, destinations, tips for packing, and memorable adventures from around the world."
+    },
+    {
+        "itemId": "15",
+        "id": "15",
+        "image": "lib/assets/work_life_balance_b.gif",
+        "title": "Work-Life Balance",
+        "description": "Discuss strategies for maintaining a healthy balance between work and personal life, managing stress, and finding time for hobbies and relaxation."
+    },
+    {
+        "itemId": "16",
+        "id": "16",
+        "image": "lib/assets/learning_languages_b.gif",
+        "title": "Learning Languages",
+        "description": "Share tips, resources, and experiences related to learning new languages, including language exchange programs and immersion techniques."
+    },
+    {
+        "itemId": "17",
+        "id": "17",
+        "image": "lib/assets/parenting_tips_b.gif",
+        "title": "Parenting Tips",
+        "description": "Discuss parenting strategies, child development milestones, and share advice and experiences related to raising children."
+    },
+    {
+        "itemId": "18",
+        "id": "18",
+        "image": "lib/assets/home_decor_b.gif",
+        "title": "Home Decor",
+        "description": "Share interior design ideas, DIY projects, and tips for creating a cozy and stylish home environment."
+    },
+    {
+        "itemId": "19",
+        "id": "19",
+        "image": "lib/assets/book_recommendations_b.gif",
+        "title": "Book Recommendations",
+        "description": "Share favorite books, authors, and engage in discussions about literature, genres, and storytelling."
+    },
+    {
+        "itemId": "20",
+        "id": "20",
+        "image": "lib/assets/financial_planning_b.gif",
+        "title": "Financial Planning",
+        "description": "Discuss personal finance, budgeting, saving strategies, and investments for a secure financial future."
+    },
+    {
+        "itemId": "21",
+        "id": "21",
+        "image": "lib/assets/friendships_b.gif",
+        "title": "Friendships",
+        "description": "Explore the dynamics of friendships, maintaining healthy relationships, and creating lifelong connections."
+    },
+    {
+        "itemId": "22",
+        "id": "22",
+        "image": "lib/assets/fashion_trends_b.gif",
+        "title": "Fashion Trends",
+        "description": "Discuss the latest fashion trends, styling tips, and share outfit inspiration for different occasions."
+    },
+    {
+        "itemId": "23",
+        "id": "23",
+        "image": "lib/assets/mental_health_b.gif",
+        "title": "Mental Health",
+        "description": "Raise awareness about mental health, share self-care practices, and provide support and resources for mental well-being."
+    },
+    {
+        "itemId": "24",
+        "id": "24",
+        "image": "lib/assets/productivity_tips_b.gif",
+        "title": "Productivity Tips",
+        "description": "Share techniques and tools for enhancing productivity, time management, and achieving goals effectively."
+    },
+    {
+        "itemId": "25",
+        "id": "25",
+        "image": "lib/assets/gaming_b.gif",
+        "title": "Gaming",
+        "description": "Discuss video games, gaming platforms, game reviews, and connect with fellow gamers."
+    },
+    {
+        "itemId": "26",
+        "id": "26",
+        "image": "lib/assets/art_crafts_b_.gif",
+        "title": "Art and Crafts",
+        "description": "Share artistic creations, DIY projects, and techniques for various art forms like painting, sculpting, and crafting."
+    },
+    {
+        "itemId": "27",
+        "id": "27",
+        "image": "lib/assets/healthy_eating_b.gif",
+        "title": "Healthy Eating",
+        "description": "Explore nutritious food choices, meal planning, and discuss the benefits of a balanced diet for overall health."
+    },
+    {
+        "itemId": "28",
+        "id": "28",
+        "image": "lib/assets/job_search_tips_b.gif",
+        "title": "Job Search Tips",
+        "description": "Share job search strategies, resume writing tips, and insights on navigating the professional world."
+    },
+    {
+        "itemId": "29",
+        "id": "29",
+        "image": "lib/assets/relationship_advice_b.gif",
+        "title": "Relationship Advice",
+        "description": "Discuss relationship dynamics, communication, and provide advice for building and maintaining healthy relationships."
+    },
+    {
+        "itemId": "30",
+        "id": "30",
+        "image": "lib/assets/sustainable_living_b.gif",
+        "title": "Sustainable Living",
+        "description": "Explore eco-friendly practices, sustainable lifestyle choices, and discuss the importance of environmental conservation."
+    },
+    {
+        "itemId": "31",
+        "id": "31",
+        "image": "lib/assets/self_improvement_b.gif",
+        "title": "Self-Improvement",
+        "description": "Share personal growth strategies, self-reflection exercises, and tips for achieving personal development goals."
+    },
+    {
+        "itemId": "32",
+        "id": "32",
+        "image": "lib/assets/wellness_tips_b.gif",
+        "title": "Wellness Tips",
+        "description": "Discuss holistic well-being, mindfulness, self-care routines, and strategies for maintaining a healthy lifestyle."
+    },
+    {
+        "itemId": "33",
+        "id": "33",
+        "image": "lib/assets/entrepreneurship_b.gif",
+        "title": "Entrepreneurship",
+        "description": "Explore the world of entrepreneurship, share startup experiences, and discuss business strategies and innovation."
+    },
+    {
+        "itemId": "34",
+        "id": "34",
+        "image": "lib/assets/gardening_tips_b.gif",
+        "title": "Gardening Tips",
+        "description": "Share gardening techniques, plant care tips, and inspire fellow gardeners with beautiful garden designs."
+    },
+    {
+        "itemId": "35",
+        "id": "35",
+        "image": "lib/assets/positive_affirmations_b.gif",
+        "title": "Positive Affirmations",
+        "description": "Discuss the power of positive affirmations, self-talk, and how they can improve self-esteem and overall well-being."
+    },
+    {
+        "itemId": "36",
+        "id": "36",
+        "image": "lib/assets/online_learning_b.gif",
+        "title": "Online Learning",
+        "description": "Share online courses, e-learning platforms, and discuss the benefits of continuous learning in the digital age."
+    },
+    {
+        "itemId": "37",
+        "id": "37",
+        "image": "lib/assets/fundraising_ideas_b.gif",
+        "title": "Fundraising Ideas",
+        "description": "Share creative fundraising ideas, tips for organizing events, and raising funds for charitable causes."
+    },
+    {
+        "itemId": "38",
+        "id": "38",
+        "image": "lib/assets/sports_b.gif",
+        "title": "Sports",
+        "description": "Discuss different sports, share favorite teams, and engage in conversations about sporting events and athletes."
+    },
+    {
+        "itemId": "39",
+        "id": "39",
+        "image": "lib/assets/mindfulness_meditation_b.gif",
+        "title": "Mindfulness Meditation",
+        "description": "Explore mindfulness meditation techniques, benefits, and share experiences in cultivating mindfulness in daily life."
     }
 ]

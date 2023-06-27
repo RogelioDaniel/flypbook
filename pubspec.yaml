@@ -97,6 +97,11 @@ flutter:
     - lib/assets/fitness_exercises/home_exercise.jpg
     - lib/assets/fitness_exercises/yoga.jpg
     - lib/assets/hobbies_interests/movie_series.jpg
+    - lib/assets/art_crafts_b_.gif
+    - lib/assets/book_recommendations_b.gif
+    - lib/assets/commuting_b.gif
+    - lib/assets/pet_ownership_b.gif
+    - lib/assets/music_b.gif
     - lib/assets/restaurante_b.gif
     - lib/assets/supermarket_b.gif
     - lib/assets/public_transport_b.gif
