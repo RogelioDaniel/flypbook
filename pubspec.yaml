@@ -102,6 +102,32 @@ flutter:
     - lib/assets/commuting_b.gif
     - lib/assets/pet_ownership_b.gif
     - lib/assets/music_b.gif
+    - lib/assets/travel_b.gif
+    - lib/assets/work_life_balance_b.gif
+    - lib/assets/learning_languages_b.gif
+    - lib/assets/parenting_tips_b.gif
+    - lib/assets/home_decor_b.gif
+    - lib/assets/book_recommendations_b.gif
+    - lib/assets/financial_planning_b.gif
+    - lib/assets/friendships_b.gif
+    - lib/assets/fashion_trends_b.gif
+    - lib/assets/mental_health_b.gif
+    - lib/assets/productivity_tips_b.gif
+    - lib/assets/gaming_b.gif
+    - lib/assets/art_crafts_b_.gif
+    - lib/assets/healthy_eating_b.gif
+    - lib/assets/job_search_tips_b.gif
+    - lib/assets/relationship_advice_b.gif
+    - lib/assets/sustainable_living_b.gif
+    - lib/assets/self_improvement_b.gif
+    - lib/assets/wellness_tips_b.gif
+    - lib/assets/entrepreneurship_b.gif
+    - lib/assets/gardening_tips_b.gif
+    - lib/assets/positive_affirmations_b.gif
+    - lib/assets/online_learning_b.gif
+    - lib/assets/fundraising_ideas_b.gif
+    - lib/assets/sports_b.gif
+    - lib/assets/mindfulness_meditation_b.gif
     - lib/assets/restaurante_b.gif
     - lib/assets/supermarket_b.gif
     - lib/assets/public_transport_b.gif

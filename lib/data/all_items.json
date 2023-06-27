@@ -264,12 +264,5 @@
         "image": "lib/assets/sports_b.gif",
         "title": "Sports",
         "description": "Discuss different sports, share favorite teams, and engage in conversations about sporting events and athletes."
-    },
-    {
-        "itemId": "39",
-        "id": "39",
-        "image": "lib/assets/mindfulness_meditation_b.gif",
-        "title": "Mindfulness Meditation",
-        "description": "Explore mindfulness meditation techniques, benefits, and share experiences in cultivating mindfulness in daily life."
     }
 ]
