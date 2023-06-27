@@ -45,6 +45,8 @@ dependencies:
  
   permission_handler: ^10.2.0
   animations: ^2.0.7
+  google_mobile_ads: ^3.0.0
+  
 
 
 
@@ -127,7 +129,6 @@ flutter:
     - lib/assets/online_learning_b.gif
     - lib/assets/fundraising_ideas_b.gif
     - lib/assets/sports_b.gif
-    - lib/assets/mindfulness_meditation_b.gif
     - lib/assets/restaurante_b.gif
     - lib/assets/supermarket_b.gif
     - lib/assets/public_transport_b.gif

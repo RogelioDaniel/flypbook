@@ -44,3 +44,5 @@ app.*.map.json
 /android/app/release
 /android/key.properties
 key.jks
+lib/services/ad_mob_service.dart
+android/app/src/main/AndroidManifest.xml

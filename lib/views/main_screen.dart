@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
 import 'package:circles_background/circles_background.dart';
+import 'package:flypbook/services/ad_mob_service.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../components/menu_drawer.dart';
 import '../components/vertical_menu.dart';
 import '../components/favorite_item.dart';
@@ -16,7 +18,7 @@ class AllItemsScreen extends StatefulWidget {
 
 class _AllItemsScreenState extends State<AllItemsScreen> {
   List<Widget> allItems = [];
-
+  BannerAd? _banner;
   bool animate = true; // Placeholder value for animate variable
 
   @override
@@ -24,6 +26,17 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
     super.initState();
 
     _loadAllItems();
+    _createBannerAd(); // anuncios
+  }
+
+  void _createBannerAd() {
+    // anuncios
+    _banner = BannerAd(
+      size: AdSize.fullBanner,
+      adUnitId: AdMobService.bannerAdUnitId!,
+      listener: AdMobService.bannerAdListener,
+      request: const AdRequest(),
+    )..load();
   }
 
   @override
@@ -144,23 +157,29 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   ),
                   SizedBox(height: 16.0),
                   AnimatedContainer(
-                    duration: Duration(seconds: 1),
-                    curve: Curves.easeInOut,
-                    margin: EdgeInsets.symmetric(
-                      horizontal: animate ? 16.0 : 0.0,
-                    ),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8.0),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.1),
-                          offset: Offset(0, 2),
-                          blurRadius: 4.0,
-                        ),
-                      ],
-                    ),
-                    child: VerticalMenu(),
-                  ),
+                      duration: Duration(seconds: 1),
+                      curve: Curves.easeInOut,
+                      margin: EdgeInsets.symmetric(
+                        horizontal: animate ? 16.0 : 0.0,
+                      ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8.0),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.1),
+                            offset: Offset(0, 2),
+                            blurRadius: 4.0,
+                          ),
+                        ],
+                      ),
+                      child: _banner == null
+                          ? VerticalMenu()
+                          : Container(
+                              // anuncios
+                              margin: const EdgeInsets.only(bottom: 12),
+                              height: 52,
+                              child: AdWidget(ad: _banner!), // anuncios
+                            )),
                   SizedBox(height: 16.0),
                 ],
               ),

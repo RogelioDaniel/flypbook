@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/main_screen.dart';
 import 'package:flypbook/views/onboarding_screen/introduction_animation_screen.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize(); //Comentar esta linea para ejecutar
   SharedPreferences prefs = await SharedPreferences.getInstance();
   bool onboardingShown = prefs.getBool('onboarding_shown') ?? false;
 
