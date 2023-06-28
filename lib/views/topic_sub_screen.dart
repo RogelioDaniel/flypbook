@@ -1,11 +1,42 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/models/topic_item.dart';
 import 'package:circles_background/circles_background.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-class TopicSubScreen extends StatelessWidget {
+import '../services/ad_mob_service.dart';
+
+class TopicSubScreen extends StatefulWidget {
   final TopicItem topicItem;
 
-  const TopicSubScreen({super.key, required this.topicItem});
+  const TopicSubScreen({Key? key, required this.topicItem}) : super(key: key);
+
+  @override
+  _TopicSubScreenState createState() => _TopicSubScreenState();
+}
+
+class _TopicSubScreenState extends State<TopicSubScreen> {
+  BannerAd? _banner;
+
+  @override
+  void initState() {
+    super.initState();
+    _createBannerAd();
+  }
+
+  @override
+  void dispose() {
+    _banner?.dispose();
+    super.dispose();
+  }
+
+  void _createBannerAd() {
+    _banner = BannerAd(
+      size: AdSize.fullBanner,
+      adUnitId: AdMobService.bannerAdUnitId!,
+      listener: AdMobService.bannerAdListener,
+      request: const AdRequest(),
+    )..load();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +44,7 @@ class TopicSubScreen extends StatelessWidget {
       builder: (context, constraints) {
         return Scaffold(
           appBar: AppBar(
-            title: Text(topicItem.title),
+            title: Text(widget.topicItem.title),
           ),
           extendBodyBehindAppBar: false,
           body: CirclesBackground(
@@ -63,7 +94,7 @@ class TopicSubScreen extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
                     child: Image.asset(
-                      topicItem.image,
+                      widget.topicItem.image,
                       height: constraints.maxHeight * 0.25,
                       width: double.infinity,
                       fit: BoxFit.cover,
@@ -71,7 +102,7 @@ class TopicSubScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 16.0),
                   Text(
-                    topicItem.title,
+                    widget.topicItem.title,
                     style: TextStyle(
                       fontSize: 24.0,
                       fontWeight: FontWeight.bold,
@@ -87,7 +118,7 @@ class TopicSubScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 8.0),
                   Text(
-                    topicItem.description,
+                    widget.topicItem.description,
                     style: TextStyle(
                       fontSize: 16.0,
                       color: Colors.black87,
@@ -97,9 +128,9 @@ class TopicSubScreen extends StatelessWidget {
                   SizedBox(height: 16.0),
                   Expanded(
                     child: ListView.builder(
-                      itemCount: topicItem.items.length,
+                      itemCount: widget.topicItem.items.length,
                       itemBuilder: (context, index) {
-                        final item = topicItem.items[index];
+                        final item = widget.topicItem.items[index];
                         return Card(
                           elevation: 4.0,
                           shape: RoundedRectangleBorder(
@@ -143,6 +174,19 @@ class TopicSubScreen extends StatelessWidget {
                         );
                       },
                     ),
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      if (_banner != null)
+                        Center(
+                          child: Container(
+                            margin: const EdgeInsets.only(bottom: 12),
+                            height: 52,
+                            child: AdWidget(ad: _banner!),
+                          ),
+                        ),
+                    ],
                   ),
                 ],
               ),

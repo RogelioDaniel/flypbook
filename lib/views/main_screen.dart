@@ -74,9 +74,9 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
           FocusScope.of(context).unfocus();
         },
         child: Scaffold(
-          appBar: AppBar(
-            title: Text('Principal'),
-          ),
+          // appBar: AppBar(
+          //   title: Text('Principal'),
+          // ),
           drawer: MenuDrawer(),
           body: CirclesBackground(
             circles: [
@@ -117,72 +117,101 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                 alignment: Alignment.bottomRight,
               ),
             ],
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  SizedBox(height: 16.0),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Text(
-                      'Favorite',
-                      style: TextStyle(
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                        decoration: TextDecoration.none,
-                      ),
-                    ),
+            child: CustomScrollView(
+              slivers: <Widget>[
+                SliverAppBar(
+                  pinned: true,
+                  expandedHeight: 0, // Ajusta esto según tus necesidades
+                  flexibleSpace: FlexibleSpaceBar(
+                    title: Text('Principal'),
                   ),
-                  SizedBox(height: 16.0),
-                  CarouselSlider(
-                    items: allItems,
-                    options: CarouselOptions(
-                      height: MediaQuery.of(context).size.width * 0.5,
-                      autoPlay: true,
-                      enlargeCenterPage: true,
-                    ),
-                  ),
-                  SizedBox(height: 32.0),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Text(
-                      'Principal Menu',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                        decoration: TextDecoration.none,
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 16.0),
-                  AnimatedContainer(
-                      duration: Duration(seconds: 1),
-                      curve: Curves.easeInOut,
-                      margin: EdgeInsets.symmetric(
-                        horizontal: animate ? 16.0 : 0.0,
-                      ),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8.0),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.1),
-                            offset: Offset(0, 2),
-                            blurRadius: 4.0,
+                ),
+                SliverPadding(
+                  padding: EdgeInsets.all(16.0),
+                  sliver: SliverList(
+                    delegate: SliverChildListDelegate(
+                      [
+                        Text(
+                          'Favorite',
+                          style: TextStyle(
+                            fontSize: 24.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
+                            decoration: TextDecoration.none,
                           ),
-                        ],
-                      ),
-                      child: _banner == null
-                          ? VerticalMenu()
-                          : Container(
-                              // anuncios
-                              margin: const EdgeInsets.only(bottom: 12),
-                              height: 52,
-                              child: AdWidget(ad: _banner!), // anuncios
-                            )),
-                  SizedBox(height: 16.0),
-                ],
-              ),
+                        ),
+                        SizedBox(height: 16.0),
+                        CarouselSlider(
+                          items: allItems,
+                          options: CarouselOptions(
+                            height: MediaQuery.of(context).size.width * 0.5,
+                            autoPlay: true,
+                            enlargeCenterPage: true,
+                          ),
+                        ),
+                        SizedBox(height: 32.0),
+                        Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 16.0),
+                          child: Container(
+                            alignment: Alignment.center,
+                            child: Text(
+                              'Principal Menu',
+                              style: TextStyle(
+                                fontSize: 24.0,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black,
+                                decoration: TextDecoration.none,
+                                shadows: [
+                                  Shadow(
+                                    color: Colors.grey,
+                                    offset: Offset(1, 1),
+                                    blurRadius: 2.0,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 16.0),
+                        AnimatedContainer(
+                          duration: Duration(seconds: 1),
+                          curve: Curves.easeInOut,
+                          margin: EdgeInsets.symmetric(
+                            horizontal: animate ? 16.0 : 0.0,
+                          ),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8.0),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                                offset: Offset(0, 2),
+                                blurRadius: 4.0,
+                              ),
+                            ],
+                          ),
+                          child: Center(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                _banner == null
+                                    ? Container()
+                                    : Container(
+                                        margin:
+                                            const EdgeInsets.only(bottom: 12),
+                                        height: 52,
+                                        child: AdWidget(ad: _banner!),
+                                      ),
+                                VerticalMenu(),
+                              ],
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 16.0),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ));

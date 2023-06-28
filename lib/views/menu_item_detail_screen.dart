@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flypbook/views/topic_screen.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
-class MenuItemDetailScreen extends StatelessWidget {
+import '../services/ad_mob_service.dart';
+
+class MenuItemDetailScreen extends StatefulWidget {
   final String itemId;
   final String image;
   final String title;
@@ -13,6 +16,34 @@ class MenuItemDetailScreen extends StatelessWidget {
     required this.title,
     required this.description,
   });
+
+  @override
+  _MenuItemDetailScreenState createState() => _MenuItemDetailScreenState();
+}
+
+class _MenuItemDetailScreenState extends State<MenuItemDetailScreen> {
+  late BannerAd _banner;
+
+  @override
+  void initState() {
+    super.initState();
+    _createBannerAd();
+  }
+
+  void _createBannerAd() {
+    _banner = BannerAd(
+      size: AdSize.fullBanner,
+      adUnitId: AdMobService.bannerAdUnitId!,
+      listener: AdMobService.bannerAdListener,
+      request: const AdRequest(),
+    )..load();
+  }
+
+  @override
+  void dispose() {
+    _banner.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +63,7 @@ class MenuItemDetailScreen extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(image),
+                image: AssetImage(widget.image),
                 fit: BoxFit.cover,
               ),
             ),
@@ -61,7 +92,7 @@ class MenuItemDetailScreen extends StatelessWidget {
                     child: AspectRatio(
                       aspectRatio: 1.0,
                       child: Image.asset(
-                        image,
+                        widget.image,
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -89,7 +120,7 @@ class MenuItemDetailScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       Text(
-                        title,
+                        widget.title,
                         style: TextStyle(
                           fontSize: 24.0,
                           fontWeight: FontWeight.bold,
@@ -102,7 +133,7 @@ class MenuItemDetailScreen extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 16.0),
                         child: Text(
-                          description,
+                          widget.description,
                           style: TextStyle(
                             fontSize: 16.0,
                             color: Colors.black87,
@@ -118,14 +149,19 @@ class MenuItemDetailScreen extends StatelessWidget {
                 SizedBox(height: 24.0),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
-                  child: Text(
-                    'Related Topics',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                      letterSpacing: 1.2,
-                    ),
+                  child: Column(
+                    children: [
+                      Text(
+                        'Related Topics',
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                          letterSpacing: 1.2,
+                        ),
+                      ),
+                      SizedBox(height: 16.0),
+                    ],
                   ),
                 ),
                 SizedBox(height: 16.0),
@@ -152,7 +188,18 @@ class MenuItemDetailScreen extends StatelessWidget {
                     ),
                   ),
                   padding: EdgeInsets.all(16.0),
-                  child: TopicScreen(itemId: itemId),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      if (_banner != null)
+                        Container(
+                          margin: const EdgeInsets.only(bottom: 12),
+                          height: 52,
+                          child: AdWidget(ad: _banner),
+                        ),
+                      Container(child: TopicScreen(itemId: widget.itemId)),
+                    ],
+                  ),
                 ),
               ],
             ),
