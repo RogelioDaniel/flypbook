@@ -1,9 +1,19 @@
 # flypbook
 
-A new Flutter project.
+Read about general Topics
 
+Aplicación creada en Flutter consumiendo información desde archivos json, tratando de implementar modelo vista controlador
 ## Getting Started
 
-Aplicación creada en flutter consumiendo información desde archivos json, tratando de implementar modelo vista controlador
+git clone https://github.com/RogelioDaniel/flypbook.git
+cd flypbook
+flutter pub get
+flutter run
 
-![](https://raw.githubusercontent.com/RogelioDaniel/flypbook/master/Dise%C3%B1o%20sin%20t%C3%ADtulo.png)
+
+https://github.com/RogelioDaniel/flypbook/assets/55957565/7cd8a7f3-f0df-43ea-8d9e-e93f0372694f
+
+
+
+
+
