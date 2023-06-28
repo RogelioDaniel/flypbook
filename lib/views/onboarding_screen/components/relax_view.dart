@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:circles_background/circles_background.dart';
 
 class RelaxView extends StatelessWidget {
   final AnimationController animationController;
@@ -64,41 +65,68 @@ class RelaxView extends StatelessWidget {
         ),
       ),
     );
+
     return SlideTransition(
       position: _firstHalfAnimation,
       child: SlideTransition(
         position: _secondHalfAnimation,
-        child: Padding(
-          padding: const EdgeInsets.only(bottom: 100),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Color(0xFF4B79A1), Color(0xFF283E51)],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            ),
+          ),
+          child: Stack(
             children: [
-              SlideTransition(
-                position: _relaxAnimation,
-                child: Text(
-                  "Relax",
-                  style: TextStyle(fontSize: 26.0, fontWeight: FontWeight.bold),
-                ),
-              ),
-              SlideTransition(
-                position: _textAnimation,
-                child: Padding(
-                  padding:
-                      EdgeInsets.only(left: 64, right: 64, top: 16, bottom: 16),
-                  child: Text(
-                    "Learn at your own pace and practice in your free time",
-                    textAlign: TextAlign.center,
+              CirclesBackground(
+                circles: [
+                  CircleInfo(
+                    color: Colors.white.withOpacity(0.2),
+                    size: Size(260, 260),
                   ),
-                ),
+                ],
               ),
-              SlideTransition(
-                position: _imageAnimation,
-                child: Container(
-                  constraints: BoxConstraints(maxWidth: 350, maxHeight: 250),
-                  child: Image.asset(
-                    'lib/assets/onboarding/second.png',
-                    fit: BoxFit.contain,
-                  ),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 100),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SlideTransition(
+                      position: _relaxAnimation,
+                      child: Text(
+                        "Relax",
+                        style: TextStyle(
+                            fontSize: 26.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                    ),
+                    SlideTransition(
+                      position: _textAnimation,
+                      child: Padding(
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 64, vertical: 16),
+                        child: Text(
+                          "Learn at your own pace and practice in your free time",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                    SlideTransition(
+                      position: _imageAnimation,
+                      child: Container(
+                        constraints:
+                            BoxConstraints(maxWidth: 350, maxHeight: 250),
+                        child: Image.asset(
+                          'lib/assets/onboarding/second.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],

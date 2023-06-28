@@ -82,7 +82,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
             circles: [
               CircleInfo(
                 size: const Size(300, 500),
-                color: Color.fromARGB(255, 139, 139, 139),
+                color: Color(0xFF4B79A1),
                 borderRadius:
                     const BorderRadius.only(bottomLeft: Radius.circular(200)),
                 alignment: Alignment.topRight,
@@ -93,8 +93,8 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 138, 138, 138),
-                    Color.fromARGB(255, 82, 82, 82),
+                    Color(0xFF4B79A1),
+                    Color(0xFF283E51),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(),
@@ -106,8 +106,8 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Color.fromARGB(255, 138, 138, 138),
-                    Color.fromARGB(255, 97, 97, 97),
+                    Color(0xFF4B79A1),
+                    Color(0xFF616161),
                   ],
                 ),
                 borderRadius: const BorderRadius.only(
@@ -122,6 +122,7 @@ class _AllItemsScreenState extends State<AllItemsScreen> {
                 SliverAppBar(
                   pinned: true,
                   expandedHeight: 0, // Ajusta esto según tus necesidades
+
                   flexibleSpace: FlexibleSpaceBar(
                     title: Text('Principal'),
                   ),

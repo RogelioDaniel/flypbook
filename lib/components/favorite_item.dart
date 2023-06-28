@@ -44,24 +44,14 @@ class FavoriteItem extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
-          color: Colors.black.withOpacity(0.8),
+          color: Color.fromARGB(255, 152, 184, 217).withOpacity(0.5),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.4),
+              color: Colors.black.withOpacity(0.5),
               blurRadius: 6,
               offset: Offset(0, 2),
             ),
           ],
-          image: DecorationImage(
-            image: NetworkImage(
-              'https://www.publicdomainpictures.net/pictures/40000/nahled/gray-background-1361959709geQ.jpg',
-            ),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(
-              Colors.black.withOpacity(0.1),
-              BlendMode.lighten,
-            ),
-          ),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,

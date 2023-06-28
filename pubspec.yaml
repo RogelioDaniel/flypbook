@@ -46,6 +46,7 @@ dependencies:
   permission_handler: ^10.2.0
   animations: ^2.0.7
   google_mobile_ads: ^3.0.0
+  animated_background: ^2.0.0
   
 
 
@@ -82,6 +83,7 @@ flutter:
     - lib/assets/onboarding/three.png
     - lib/assets/onboarding/four.png
     - lib/assets/onboarding/five.png
+    - lib/assets/onboarding/first.jpg
     - lib/assets/restaurants/fast_food.jpg
     - lib/assets/restaurants/casual_restaurant.jpg
     - lib/assets/restaurants/cafe_restaurant.jpg

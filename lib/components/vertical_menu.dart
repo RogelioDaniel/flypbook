@@ -67,7 +67,7 @@ class _VerticalMenuState extends State<VerticalMenu> {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20.0),
-          color: const Color.fromARGB(255, 0, 0, 0).withOpacity(0.8),
+          color: Color.fromARGB(255, 152, 184, 217).withOpacity(0.5),
           boxShadow: [
             BoxShadow(
               color: Colors.black.withOpacity(0.2),
@@ -75,11 +75,6 @@ class _VerticalMenuState extends State<VerticalMenu> {
               offset: const Offset(0, 2),
             ),
           ],
-          image: const DecorationImage(
-            image: NetworkImage(
-                'https://www.publicdomainpictures.net/pictures/40000/nahled/gray-background-1361959709geQ.jpg'),
-            fit: BoxFit.cover,
-          ),
         ),
         width: double.infinity,
         padding: EdgeInsets.symmetric(horizontal: 16.0),
@@ -157,11 +152,11 @@ class MenuItem extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 16.0),
       padding: EdgeInsets.all(16.0),
       decoration: BoxDecoration(
-        color: Colors.white30,
+        color: Color.fromARGB(77, 55, 98, 146).withOpacity(0.5),
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withOpacity(0.3),
             blurRadius: 8,
             offset: const Offset(0, 4),
           ),
@@ -205,7 +200,7 @@ class MenuItem extends StatelessWidget {
           ),
           Icon(
             Icons.arrow_forward,
-            color: Colors.grey,
+            color: const Color.fromARGB(255, 0, 0, 0),
           ),
         ],
       ),

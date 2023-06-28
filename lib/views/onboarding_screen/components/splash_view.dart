@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:circles_background/circles_background.dart';
 
 class SplashView extends StatefulWidget {
   final AnimationController animationController;
@@ -10,77 +11,110 @@ class SplashView extends StatefulWidget {
   _SplashViewState createState() => _SplashViewState();
 }
 
-class _SplashViewState extends State<SplashView> {
+class _SplashViewState extends State<SplashView>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _animationController;
+  late Animation<Offset> _introductionAnimation;
+
+  @override
+  void initState() {
+    _animationController = widget.animationController;
+    _introductionAnimation = Tween<Offset>(
+      begin: Offset(0, 0),
+      end: Offset(0.0, -1.0),
+    ).animate(
+      CurvedAnimation(
+        parent: _animationController,
+        curve: Interval(
+          0.0,
+          0.2,
+          curve: Curves.fastOutSlowIn,
+        ),
+      ),
+    );
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    final _introductionanimation =
-        Tween<Offset>(begin: Offset(0, 0), end: Offset(0.0, -1.0))
-            .animate(CurvedAnimation(
-      parent: widget.animationController,
-      curve: Interval(
-        0.0,
-        0.2,
-        curve: Curves.fastOutSlowIn,
-      ),
-    ));
     return SlideTransition(
-      position: _introductionanimation,
-      child: SingleChildScrollView(
-        child: Column(
+      position: _introductionAnimation,
+      child: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Color(0xFF4B79A1), Color(0xFF283E51)],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+          ),
+        ),
+        child: Stack(
           children: [
-            Padding(
-              padding: EdgeInsets.only(top: 80.0, bottom: 8.0),
-              child: SizedBox(
-                width: MediaQuery.of(context).size.width,
-                child: Image.asset(
-                  'lib/assets/onboarding/first.png',
-                  fit: BoxFit.cover,
+            CirclesBackground(
+              circles: [
+                CircleInfo(
+                  color: Colors.white.withOpacity(0.2),
+                  size: Size(260, 260),
                 ),
-              ),
+              ],
             ),
-            Padding(
-              padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
-              child: Text(
-                "FlypBook",
-                style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 8.0, left: 64, right: 64),
-              child: Text(
-                "Welcome focus on what matters to you.",
-                textAlign: TextAlign.center,
-              ),
-            ),
-            SizedBox(
-              height: 48,
-            ),
-            Padding(
-              padding: EdgeInsets.only(
-                  bottom: MediaQuery.of(context).padding.bottom + 16),
-              child: InkWell(
-                onTap: () {
-                  widget.animationController.animateTo(0.2);
-                },
-                child: Container(
-                  height: 58,
-                  padding: EdgeInsets.only(
-                    left: 56.0,
-                    right: 56.0,
-                    top: 16,
-                    bottom: 16,
-                  ),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(38.0),
-                    color: Color(0xff132137),
-                  ),
-                  child: Text(
-                    "Let's begin",
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.white,
+            Center(
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width,
+                      child: Image.asset(
+                        'lib/assets/onboarding/first.jpg',
+                        fit: BoxFit.fill,
+                      ),
                     ),
-                  ),
+                    SizedBox(height: 16.0),
+                    Text(
+                      "FlypBook",
+                      style: TextStyle(
+                        fontSize: 35.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                    SizedBox(height: 8.0),
+                    Text(
+                      "Focus on what matters to you.",
+                      style: TextStyle(
+                        fontSize: 15.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    SizedBox(height: 48.0),
+                    InkWell(
+                      onTap: () {
+                        _animationController.animateTo(0.2);
+                      },
+                      child: Container(
+                        height: 58,
+                        width: MediaQuery.of(context).size.width,
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 56.0, vertical: 16.0),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(38.0),
+                          color: Color(0xFF132137),
+                        ),
+                        child: Center(
+                          child: Text(
+                            "Let's begin",
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
