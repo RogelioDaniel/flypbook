@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_translate/flutter_translate.dart';
 import 'package:flypbook/views/main_screen.dart';
 import 'package:flypbook/views/onboarding_screen/introduction_animation_screen.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';

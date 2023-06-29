@@ -1240,7 +1240,7 @@
   {
     "id": "2",
     "itemId": "7",
-    "image": "lib/assets/bank_b.gif",
+    "image": "lib/assets/hobbies_interests/music_instruments.jpg",
     "title": "Playing Musical Instruments",
     "description": "Discover the joy of playing musical instruments and let the melodies ignite your passion.",
     "items": [
@@ -1466,7 +1466,7 @@
   {
     "id": "3",
     "itemId": "8",
-    "image": "lib/assets/family_time/board_games.jpg",
+    "image": "lib/assets/family_time/board_games2.jpg",
     "title": "Family Board Games",
     "description": "Engage in fun and entertaining board games with your family for quality bonding time.",
     "items": [
@@ -1519,65 +1519,6 @@
         "id": "10",
         "title": "Celebrate Victories and Fun Moments",
         "description": "Celebrate victories, funny moments, and memorable experiences during the game sessions. Create a positive and joyful atmosphere that strengthens family bonds."
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "itemId": "9",
-    "image": "lib/assets/technology_gadgets/virtual_reality.jpg",
-    "title": "Virtual Reality Experience",
-    "description": "Immerse yourself in the exciting world of virtual reality with these tips and suggestions.",
-    "items": [
-      {
-        "id": "1",
-        "title": "Choose a VR Headset",
-        "description": "Select a virtual reality headset that suits your needs and budget. There are various options available, from standalone headsets to PC-connected devices."
-      },
-      {
-        "id": "2",
-        "title": "Explore VR Games and Experiences",
-        "description": "Discover a wide range of VR games and experiences available. Try different genres, such as action, adventure, simulation, or puzzle games."
-      },
-      {
-        "id": "3",
-        "title": "Set Up the VR System",
-        "description": "Follow the instructions to set up your VR system correctly. Ensure that the sensors are properly positioned and the headset is calibrated for optimal performance."
-      },
-      {
-        "id": "4",
-        "title": "Create a Comfortable Play Area",
-        "description": "Designate a clear and spacious area for your virtual reality experiences. Remove obstacles and ensure that you have enough room to move around safely."
-      },
-      {
-        "id": "5",
-        "title": "Adjust the VR Settings",
-        "description": "Take the time to customize the VR settings according to your preferences. Adjust factors like brightness, sound, movement sensitivity, and comfort settings."
-      },
-      {
-        "id": "6",
-        "title": "Take Breaks and Stay Hydrated",
-        "description": "Remember to take breaks during extended VR sessions to prevent discomfort or fatigue. Drink water and stay hydrated throughout your virtual adventures."
-      },
-      {
-        "id": "7",
-        "title": "Join VR Communities",
-        "description": "Connect with other virtual reality enthusiasts by joining online communities or forums. Share experiences, game recommendations, and troubleshooting tips."
-      },
-      {
-        "id": "8",
-        "title": "Watch VR Videos and Movies",
-        "description": "Explore VR content beyond gaming. Watch immersive 360-degree videos, documentaries, or virtual reality movies for a unique cinematic experience."
-      },
-      {
-        "id": "9",
-        "title": "Try Social VR Experiences",
-        "description": "Engage in social VR experiences that allow you to interact with friends or meet new people in virtual environments. Attend virtual events or join multiplayer games."
-      },
-      {
-        "id": "10",
-        "title": "Stay Safe and Mindful",
-        "description": "When using virtual reality, prioritize your safety and be mindful of your surroundings. Avoid potential hazards and respect any health or age restrictions."
       }
     ]
   },
@@ -1761,7 +1702,7 @@
   {
     "id": "1",
     "itemId": "10",
-    "image": "lib/assets/weekend_plans/new_subtopic_image.jpg",
+    "image": "lib/assets/weekend_plans/outdoor_adventures.jpg",
     "title": "Outdoor Adventures",
     "description": "Discover thrilling outdoor activities for your weekend adventures.",
     "items": [
@@ -1820,7 +1761,7 @@
   {
     "id": "2",
     "itemId": "10",
-    "image": "lib/assets/weekend_plans/new_subtopic_image.jpg",
+    "image": "lib/assets/weekend_plans/culinary_delights.jpg",
     "title": "Culinary Delights",
     "description": "Indulge in delicious culinary adventures during your weekend plans.",
     "items": [
@@ -1879,7 +1820,7 @@
   {
     "id": "3",
     "itemId": "10",
-    "image": "lib/assets/weekend_plans/new_subtopic_image.jpg",
+    "image": "lib/assets/weekend_plans/artistic_pursuits.jpg",
     "title": "Artistic Pursuits",
     "description": "Indulge in artistic pursuits and unleash your creativity during your weekend plans.",
     "items": [
@@ -1938,7 +1879,7 @@
   {
     "id": "1",
     "itemId": "11",
-    "image": "lib/assets/commuting/subtopic_image.jpg",
+    "image": "lib/assets/commuting/eco_friendly_commuting.jpg",
     "title": "Eco-Friendly Commuting",
     "description": "Discover eco-friendly commuting options to reduce your carbon footprint while traveling.",
     "items": [
@@ -1997,7 +1938,7 @@
   {
     "id": "2",
     "itemId": "11",
-    "image": "lib/assets/commuting/subtopic_image.jpg",
+    "image": "lib/assets/commuting/smart_commuting_tips.jpg",
     "title": "Smart Commuting Tips",
     "description": "Discover smart commuting tips and strategies to make your daily commute more efficient and enjoyable.",
     "items": [
@@ -2056,7 +1997,7 @@
   {
     "id": "3",
     "itemId": "11",
-    "image": "lib/assets/commuting/subtopic_image.jpg",
+    "image": "lib/assets/commuting/alternative_commuting_methods.jpg",
     "title": "Alternative Commuting Methods",
     "description": "Explore alternative commuting methods that offer convenience and reduce the reliance on traditional transportation.",
     "items": [
@@ -2115,7 +2056,7 @@
   {
     "id": "1",
     "itemId": "12",
-    "image": "lib/assets/pet_ownership/subtopic_image.jpg",
+    "image": "lib/assets/pet_ownership/choosing_the_right_pet.jpg",
     "title": "Choosing the Right Pet",
     "description": "Explore the considerations and factors to help you choose the perfect pet for your lifestyle and preferences.",
     "items": [
@@ -2170,10 +2111,11 @@
         "description": "Before making a final decision, consult with a veterinarian to get professional advice on the best pet choices based on your lifestyle and preferences."
       }
     ]
-  },{
+  },
+  {
     "id": "2",
     "itemId": "12",
-    "image": "lib/assets/pet_ownership/subtopic_image.jpg",
+    "image": "lib/assets/pet_ownership/preparing_your_home_for_a_pet.jpg",
     "title": "Preparing Your Home for a Pet",
     "description": "Get your home ready to welcome a new pet with these essential preparations and safety measures.",
     "items": [
@@ -2232,7 +2174,7 @@
   {
     "id": "3",
     "itemId": "12",
-    "image": "lib/assets/pet_ownership/subtopic_image.jpg",
+    "image": "lib/assets/pet_ownership/training_and_socializing_your_pet.jpg",
     "title": "Training and Socializing Your Pet",
     "description": "Guide your pet to become well-behaved and socially confident through effective training and socialization techniques.",
     "items": [
@@ -2291,7 +2233,7 @@
   {
     "id": "1",
     "itemId": "13",
-    "image": "lib/assets/music/subtopic_image.jpg",
+    "image": "lib/assets/music/exploring_different_music_genres.jpg",
     "title": "Exploring Different Music Genres",
     "description": "Dive into the diverse world of music by exploring various genres and expanding your musical horizons.",
     "items": [
@@ -2350,7 +2292,7 @@
   {
     "id": "2",
     "itemId": "13",
-    "image": "lib/assets/music/subtopic_image.jpg",
+    "image": "lib/assets/music/music_production_basics.jpg",
     "title": "Music Production Basics",
     "description": "Explore the fundamentals of music production and learn how to create your own music tracks.",
     "items": [
@@ -2409,7 +2351,7 @@
   {
     "id": "3",
     "itemId": "13",
-    "image": "lib/assets/music/subtopic_image.jpg",
+    "image": "lib/assets/music/music_theory_fundamentals.jpg",
     "title": "Music Theory Fundamentals",
     "description": "Discover the essential elements of music theory and deepen your understanding of how music works.",
     "items": [
@@ -2468,7 +2410,7 @@
   {
     "id": "1",
     "itemId": "14",
-    "image": "lib/assets/travel/subtopic_image.jpg",
+    "image": "lib/assets/travel/adventure_travel_destinations.jpg",
     "title": "Adventure Travel Destinations",
     "description": "Explore thrilling and adventurous travel destinations around the world.",
     "items": [
@@ -2527,7 +2469,7 @@
   {
     "id": "2",
     "itemId": "14",
-    "image": "lib/assets/travel/subtopic_image.jpg",
+    "image": "lib/assets/travel/adventure_destinations.jpg",
     "title": "Adventure Destinations",
     "description": "Embark on thrilling adventures at these breathtaking destinations around the world.",
     "items": [
@@ -2586,7 +2528,7 @@
   {
     "id": "1",
     "itemId": "15",
-    "image": "lib/assets/work_life_balance/subtopic_image.jpg",
+    "image": "lib/assets/work_life_balance/healthy_work-life_balance.jpg",
     "title": "Healthy Work-Life Balance",
     "description": "Achieve a healthy work-life balance with these strategies and tips.",
     "items": [
@@ -2645,7 +2587,7 @@
   {
     "id": "2",
     "itemId": "15",
-    "image": "lib/assets/work_life_balance/subtopic_image.jpg",
+    "image": "lib/assets/work_life_balance/managing_stress_and_burnout.jpg",
     "title": "Managing Stress and Burnout",
     "description": "Learn effective strategies to manage stress and prevent burnout for a healthier work-life balance.",
     "items": [
@@ -2704,7 +2646,7 @@
   {
     "id": "3",
     "itemId": "15",
-    "image": "lib/assets/work_life_balance/subtopic_image.jpg",
+    "image": "lib/assets/work_life_balance/building_supportive_relationships.jpg",
     "title": "Building Supportive Relationships",
     "description": "Explore the importance of building supportive relationships for a well-rounded work-life balance.",
     "items": [
@@ -2763,7 +2705,7 @@
   {
     "id": "1",
     "itemId": "16",
-    "image": "lib/assets/learning_languages/subtopic_image.jpg",
+    "image": "lib/assets/learning_languages/effective_language_learning_strategies.jpg",
     "title": "Effective Language Learning Strategies",
     "description": "Discover effective strategies and techniques to enhance your language learning journey.",
     "items": [
@@ -2822,7 +2764,7 @@
   {
     "id": "2",
     "itemId": "16",
-    "image": "lib/assets/learning_languages/subtopic_image.jpg",
+    "image": "lib/assets/learning_languages/exploring_language_learning_apps.png",
     "title": "Exploring Language Learning Apps",
     "description": "Discover popular language learning apps and how they can assist you in your language learning journey.",
     "items": [
@@ -2881,7 +2823,7 @@
   {
     "id": "3",
     "itemId": "16",
-    "image": "lib/assets/learning_languages/subtopic_image.jpg",
+    "image": "lib/assets/learning_languages/tips_for_effective_language_learning.jpg",
     "title": "Tips for Effective Language Learning",
     "description": "Discover valuable tips and strategies to enhance your language learning journey and make your study sessions more efficient.",
     "items": [
@@ -2940,7 +2882,7 @@
   {
     "id": "1",
     "itemId": "17",
-    "image": "lib/assets/parent_tips/subtopic_image.jpg",
+    "image": "lib/assets/parent_tips/effective_parenting_strategies.jpg",
     "title": "Effective Parenting Strategies",
     "description": "Discover valuable tips and strategies to enhance your parenting skills and foster a positive and nurturing environment for your children.",
     "items": [
@@ -2999,7 +2941,7 @@
   {
     "id": "2",
     "itemId": "17",
-    "image": "lib/assets/parent_tips/subtopic_image.jpg",
+    "image": "lib/assets/parent_tips/effective_communication_with_teenagers.jpg",
     "title": "Effective Communication with Teenagers",
     "description": "Learn effective communication strategies to maintain a healthy and supportive relationship with your teenage children.",
     "items": [
@@ -3058,7 +3000,7 @@
   {
     "id": "3",
     "itemId": "17",
-    "image": "lib/assets/parent_tips/subtopic_image.jpg",
+    "image": "lib/assets/parent_tips/promoting_healthy_eating_habits.jpg",
     "title": "Promoting Healthy Eating Habits",
     "description": "Discover tips and strategies to promote healthy eating habits in your children and encourage a balanced and nutritious diet.",
     "items": [
@@ -3117,7 +3059,7 @@
   {
     "id": "1",
     "itemId": "18",
-    "image": "lib/assets/home_decor/subtopic_image.jpg",
+    "image": "lib/assets/home_decor/creating_a_cozy_living_room.jpg",
     "title": "Creating a Cozy Living Room",
     "description": "Discover tips and ideas to create a cozy and inviting living room where you can relax, entertain, and spend quality time with family and friends.",
     "items": [
@@ -3176,7 +3118,7 @@
   {
     "id": "2",
     "itemId": "18",
-    "image": "lib/assets/home_decor/subtopic_image.jpg",
+    "image": "lib/assets/home_decor/organizing_small_spaces.jpg",
     "title": "Organizing Small Spaces",
     "description": "Discover effective tips and ideas to maximize storage and create an organized and functional living environment in small spaces.",
     "items": [
@@ -3235,7 +3177,7 @@
   {
     "id": "3",
     "itemId": "18",
-    "image": "lib/assets/home_decor/subtopic_image.jpg",
+    "image": "lib/assets/home_decor/creating_a_relaxing_bedroom_retreat.jpg",
     "title": "Creating a Relaxing Bedroom Retreat",
     "description": "Discover tips and ideas to transform your bedroom into a relaxing and peaceful retreat, where you can unwind, recharge, and enjoy restful nights of sleep.",
     "items": [
@@ -3294,7 +3236,7 @@
   {
     "id": "1",
     "itemId": "19",
-    "image": "lib/assets/book_recommendations/subtopic_image.jpg",
+    "image": "lib/assets/book_recommendations/classic_novels_for_every_bookworm.jpg",
     "title": "Classic Novels for Every Bookworm",
     "description": "Explore a selection of timeless classic novels that have captivated readers for generations. Dive into these literary masterpieces and discover the magic of storytelling.",
     "items": [
@@ -3363,76 +3305,7 @@
   {
     "id": "2",
     "itemId": "19",
-    "image": "lib/assets/book_recommendations/subtopic_image.jpg",
-    "title": "Contemporary Fiction Must-Reads",
-    "description": "Explore a collection of contemporary fiction novels that have garnered critical acclaim and captured the hearts of readers worldwide. Immerse yourself in these compelling stories that tackle a range of themes and perspectives.",
-    "items": [
-      {
-        "id": "1",
-        "title": "The Goldfinch by Donna Tartt",
-        "author": "Donna Tartt",
-        "description": "Follow Theo Decker's journey as he navigates loss, art, and the intricacies of life after a tragic event reshapes his world."
-      },
-      {
-        "id": "2",
-        "title": "Eleanor Oliphant Is Completely Fine by Gail Honeyman",
-        "author": "Gail Honeyman",
-        "description": "Meet Eleanor Oliphant, a quirky and endearing character whose carefully constructed life is disrupted when she forms an unlikely friendship."
-      },
-      {
-        "id": "3",
-        "title": "The Nightingale by Kristin Hannah",
-        "author": "Kristin Hannah",
-        "description": "Set in World War II, this powerful story follows two sisters in German-occupied France as they navigate love, sacrifice, and the resilience of the human spirit."
-      },
-      {
-        "id": "4",
-        "title": "Circe by Madeline Miller",
-        "author": "Madeline Miller",
-        "description": "Enter the enchanting world of Greek mythology through the eyes of Circe, the witch-goddess, as she explores her own power, love, and destiny."
-      },
-      {
-        "id": "5",
-        "title": "Educated by Tara Westover",
-        "author": "Tara Westover",
-        "description": "Embark on a remarkable memoir that recounts the author's journey from a strict and isolated upbringing in rural Idaho to earning a PhD from Cambridge University."
-      },
-      {
-        "id": "6",
-        "title": "Normal People by Sally Rooney",
-        "author": "Sally Rooney",
-        "description": "Follow the complex relationship between Connell and Marianne as they navigate social class, love, and the challenges of young adulthood."
-      },
-      {
-        "id": "7",
-        "title": "The Underground Railroad by Colson Whitehead",
-        "author": "Colson Whitehead",
-        "description": "Experience a gripping tale of escape and resilience as Cora, a young slave in the antebellum South, seeks freedom via a network of hidden routes."
-      },
-      {
-        "id": "8",
-        "title": "The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid",
-        "author": "Taylor Jenkins Reid",
-        "description": "Enter the glamorous and tumultuous world of Hollywood icon Evelyn Hugo as she reveals the truth about her extraordinary life and loves."
-      },
-      {
-        "id": "9",
-        "title": "The Kite Runner by Khaled Hosseini",
-        "author": "Khaled Hosseini",
-        "description": "Delve into a powerful story of friendship and redemption set against the backdrop of Afghanistan's tumultuous history."
-      },
-      {
-        "id": "10",
-        "title": "The Song of Achilles by Madeline Miller",
-        "author": "Madeline Miller",
-        "description": "Experience the epic love story of Achilles and Patroclus as they navigate honor, destiny, and the Trojan War."
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "itemId": "19",
-    "image": "lib/assets/book_recommendations/subtopic_image.jpg",
+    "image": "lib/assets/book_recommendations/contemporary_fiction_must_reads.jpg",
     "title": "Contemporary Fiction Must-Reads",
     "description": "Explore a collection of contemporary fiction novels that have garnered critical acclaim and captured the hearts of readers worldwide. Immerse yourself in these compelling stories that tackle a range of themes and perspectives.",
     "items": [
@@ -3501,7 +3374,7 @@
   {
     "id": "3",
     "itemId": "19",
-    "image": "lib/assets/book_recommendations/subtopic_image.jpg",
+    "image": "lib/assets/book_recommendations/sci-Fi_classics.jpg",
     "title": "Sci-Fi Classics",
     "description": "Embark on a thrilling journey through the realms of science fiction with these timeless classics that have shaped the genre. From mind-bending concepts to epic space adventures, these books will transport you to imaginative worlds and explore the boundaries of human imagination.",
     "items": [
@@ -3570,7 +3443,7 @@
   {
     "id": "1",
     "itemId": "20",
-    "image": "lib/assets/financial_planning/subtopic_image.jpg",
+    "image": "lib/assets/financial_planning/building_an_emergency_fund.jpg",
     "title": "Building an Emergency Fund",
     "description": "Secure your financial future by establishing an emergency fund. Learn how to save money for unexpected expenses, create a safety net, and gain peace of mind.",
     "items": [
@@ -3629,7 +3502,7 @@
   {
     "id": "2",
     "itemId": "20",
-    "image": "lib/assets/financial_planning/subtopic_image.jpg",
+    "image": "lib/assets/financial_planning/retirement_savings_strategies.jpg",
     "title": "Retirement Savings Strategies",
     "description": "Secure your financial future by implementing effective retirement savings strategies. Learn about different retirement accounts, investment options, and tips for maximizing your savings.",
     "items": [
@@ -3688,7 +3561,7 @@
   {
     "id": "3",
     "itemId": "20",
-    "image": "lib/assets/financial_planning/subtopic_image.jpg",
+    "image": "lib/assets/financial_planning/debt_management_strategies.jpg",
     "title": "Debt Management Strategies",
     "description": "Take control of your finances by implementing effective debt management strategies. Learn how to reduce debt, prioritize payments, and establish healthy financial habits.",
     "items": [
@@ -3747,7 +3620,7 @@
   {
     "id": "1",
     "itemId": "21",
-    "image": "lib/assets/friendships/subtopic_image.jpg",
+    "image": "lib/assets/friendships/building_strong_and_meaningful_friendships.jpg",
     "title": "Building Strong and Meaningful Friendships",
     "description": "Discover the key ingredients for cultivating strong and meaningful friendships. Learn how to establish connections, nurture relationships, and create lasting bonds with friends.",
     "items": [
@@ -3806,7 +3679,7 @@
   {
     "id": "2",
     "itemId": "21",
-    "image": "lib/assets/friendships/subtopic_image.jpg",
+    "image": "lib/assets/friendships/nurturing_long-distance_friendships.jpg",
     "title": "Nurturing Long-Distance Friendships",
     "description": "Explore effective strategies for maintaining and nurturing long-distance friendships. Learn how to overcome distance barriers, stay connected, and strengthen your bonds.",
     "items": [
@@ -3865,7 +3738,7 @@
   {
     "id": "3",
     "itemId": "21",
-    "image": "lib/assets/friendships/subtopic_image.jpg",
+    "image": "lib/assets/friendships/maintaining_healthy_boundaries_in_friendships.jpg",
     "title": "Maintaining Healthy Boundaries in Friendships",
     "description": "Explore the importance of establishing and maintaining healthy boundaries in your friendships. Learn how to communicate boundaries effectively and foster relationships built on respect and mutual understanding.",
     "items": [
@@ -3924,7 +3797,7 @@
   {
     "id": "1",
     "itemId": "22",
-    "image": "lib/assets/fashion_trends/subtopic_image.jpg",
+    "image": "lib/assets/fashion_trends/current_fashion_trends_2023_edition.jpg",
     "title": "Current Fashion Trends: 2023 Edition",
     "description": "Explore the latest fashion trends for the year 2023. Stay up-to-date with the hottest styles, colors, and accessories that are dominating the fashion industry.",
     "items": [
@@ -3983,7 +3856,7 @@
   {
     "id": "2",
     "itemId": "22",
-    "image": "lib/assets/fashion_trends/subtopic_image.jpg",
+    "image": "lib/assets/fashion_trends/edgy_streetwear_style.jpg",
     "title": "Edgy Streetwear Style",
     "description": "Discover the edgy streetwear style that has taken the fashion world by storm. Embrace urban-inspired looks that combine comfort, boldness, and a touch of rebellion.",
     "items": [
@@ -4042,7 +3915,7 @@
   {
     "id": "3",
     "itemId": "22",
-    "image": "lib/assets/fashion_trends/subtopic_image.jpg",
+    "image": "lib/assets/fashion_trends/sustainable_fashion_eco-Conscious_style.jpg",
     "title": "Sustainable Fashion: Eco-Conscious Style",
     "description": "Explore the world of sustainable fashion and discover eco-conscious style choices that prioritize ethical production, reduce waste, and promote environmental sustainability.",
     "items": [
@@ -4101,7 +3974,7 @@
   {
     "id": "1",
     "itemId": "23",
-    "image": "lib/assets/mental_health/subtopic_image.jpg",
+    "image": "lib/assets/mental_health/self-Care_practices_for_mental_well-being.jpg",
     "title": "Self-Care Practices for Mental Well-being",
     "description": "Discover a variety of self-care practices that promote mental well-being and help you prioritize your mental health. Incorporate these practices into your daily routine to reduce stress and enhance your overall well-being.",
     "items": [
@@ -4160,7 +4033,7 @@
   {
     "id": "2",
     "itemId": "23",
-    "image": "lib/assets/mental_health/subtopic_image.jpg",
+    "image": "lib/assets/mental_health/coping_with_stress_and_anxiety.jpg",
     "title": "Coping with Stress and Anxiety",
     "description": "Learn effective strategies for coping with stress and anxiety, and develop resilience in the face of life's challenges. Discover techniques and activities that can help you manage stress and reduce anxiety levels.",
     "items": [
@@ -4219,7 +4092,7 @@
   {
     "id": "3",
     "itemId": "23",
-    "image": "lib/assets/mental_health/subtopic_image.jpg",
+    "image": "lib/assets/mental_health/building_healthy_relationships.jpg",
     "title": "Building Healthy Relationships",
     "description": "Explore the importance of healthy relationships for mental well-being and learn strategies for building and nurturing positive connections with others. Discover ways to enhance communication, set boundaries, and foster supportive relationships.",
     "items": [
@@ -4278,7 +4151,7 @@
   {
     "id": "1",
     "itemId": "24",
-    "image": "lib/assets/productivity/subtopic_image.jpg",
+    "image": "lib/assets/productivity/time_management_strategies.jpg",
     "title": "Time Management Strategies",
     "description": "Discover effective time management strategies to boost your productivity and make the most out of your time. Learn techniques for prioritizing tasks, setting goals, and optimizing your workflow for better efficiency.",
     "items": [
@@ -4337,7 +4210,7 @@
   {
     "id": "2",
     "itemId": "24",
-    "image": "lib/assets/productivity/subtopic_image.jpg",
+    "image": "lib/assets/productivity/effective_task_management.jpg",
     "title": "Effective Task Management",
     "description": "Explore effective techniques and strategies for managing tasks efficiently and improving your overall productivity. Learn how to organize your tasks, stay focused, and maintain momentum to accomplish your goals.",
     "items": [
@@ -4396,7 +4269,7 @@
   {
     "id": "3",
     "itemId": "24",
-    "image": "lib/assets/productivity/subtopic_image.jpg",
+    "image": "lib/assets/productivity/creating_a_productive_work_environment.jpg",
     "title": "Creating a Productive Work Environment",
     "description": "Discover how to create a productive work environment that fosters focus, creativity, and efficiency. Learn about optimizing your physical workspace, managing distractions, and creating a positive atmosphere for optimal productivity.",
     "items": [
@@ -4455,7 +4328,7 @@
   {
     "id": "1",
     "itemId": "25",
-    "image": "lib/assets/gaming/subtopic_image.jpg",
+    "image": "lib/assets/gaming/choosing_the_right_gaming_platform.jpg",
     "title": "Choosing the Right Gaming Platform",
     "description": "Explore different gaming platforms and learn how to choose the right one for your gaming preferences. Discover the features, benefits, and considerations of various gaming platforms to enhance your gaming experience.",
     "items": [
@@ -4514,7 +4387,7 @@
   {
     "id": "2",
     "itemId": "25",
-    "image": "lib/assets/gaming/subtopic_image.jpg",
+    "image": "lib/assets/gaming/improving_gameplay_skills.jpg",
     "title": "Improving Gameplay Skills",
     "description": "Discover strategies and tips to improve your gameplay skills and enhance your performance in different games. Learn about game mechanics, strategies, and techniques to level up your gaming abilities.",
     "items": [
@@ -4573,7 +4446,7 @@
   {
     "id": "3",
     "itemId": "25",
-    "image": "lib/assets/gaming/subtopic_image.jpg",
+    "image": "lib/assets/gaming/building_a_gaming_community.jpg",
     "title": "Building a Gaming Community",
     "description": "Explore the steps to build and foster a gaming community where you can connect with fellow gamers, share experiences, and collaborate on gaming-related activities. Discover how to create a positive and inclusive gaming community.",
     "items": [
@@ -4632,7 +4505,7 @@
   {
     "id": "1",
     "itemId": "26",
-    "image": "lib/assets/art_and_crafts/subtopic_image.jpg",
+    "image": "lib/assets/art_and_crafts/introduction_to_drawing.jpg",
     "title": "Introduction to Drawing",
     "description": "Discover the fundamentals of drawing and embark on a creative journey. Learn about various drawing techniques, materials, and exercises to develop your drawing skills and express your artistic vision.",
     "items": [
@@ -4691,7 +4564,7 @@
   {
     "id": "2",
     "itemId": "26",
-    "image": "lib/assets/art_and_crafts/subtopic_image.jpg",
+    "image": "lib/assets/art_and_crafts/exploring_watercolor_painting.jpg",
     "title": "Exploring Watercolor Painting",
     "description": "Dive into the vibrant world of watercolor painting and unlock your creativity. Learn about watercolor techniques, color mixing, and composition to create stunning and expressive artworks.",
     "items": [
@@ -4750,7 +4623,7 @@
   {
     "id": "3",
     "itemId": "26",
-    "image": "lib/assets/art_and_crafts/subtopic_image.jpg",
+    "image": "lib/assets/art_and_crafts/introduction_to_pottery.jpg",
     "title": "Introduction to Pottery",
     "description": "Embark on a hands-on journey into the world of pottery and explore the art of creating ceramic objects. Learn about pottery techniques, hand-building, and wheel-throwing to create unique and functional pottery pieces.",
     "items": [
@@ -4809,7 +4682,7 @@
   {
     "id": "1",
     "itemId": "27",
-    "image": "lib/assets/healthy_eating/subtopic_image.jpg",
+    "image": "lib/assets/healthy_eating/plant-Based_nutrition.jpg",
     "title": "Plant-Based Nutrition",
     "description": "Explore the benefits and principles of plant-based nutrition and discover how to incorporate more plant-based foods into your diet for improved health and well-being.",
     "items": [
@@ -4868,7 +4741,7 @@
   {
     "id": "2",
     "itemId": "27",
-    "image": "lib/assets/healthy_eating/subtopic_image.jpg",
+    "image": "lib/assets/healthy_eating/mindful_eating_for_a_healthy_relationship_with_food.jpg",
     "title": "Mindful Eating for a Healthy Relationship with Food",
     "description": "Discover the practice of mindful eating and how it can help you develop a healthier relationship with food. Learn techniques to slow down, savor your meals, and make conscious food choices.",
     "items": [
@@ -4927,7 +4800,7 @@
   {
     "id": "3",
     "itemId": "27",
-    "image": "lib/assets/healthy_eating/subtopic_image.jpg",
+    "image": "lib/assets/healthy_eating/meal_prep_and_healthy_eating.jpg",
     "title": "Meal Prep and Healthy Eating",
     "description": "Learn about the benefits of meal prepping and how it can support your healthy eating goals. Discover strategies, tips, and recipes to plan and prepare nutritious meals in advance.",
     "items": [
@@ -4986,7 +4859,7 @@
   {
     "id": "1",
     "itemId": "28",
-    "image": "lib/assets/job_search/subtopic_image.jpg",
+    "image": "lib/assets/job_search/creating_an_effective_resume.jpg",
     "title": "Creating an Effective Resume",
     "description": "Learn how to create a compelling resume that highlights your skills, experience, and qualifications. Discover tips and best practices to make your resume stand out to potential employers.",
     "items": [
@@ -5045,7 +4918,7 @@
   {
     "id": "2",
     "itemId": "28",
-    "image": "lib/assets/job_search/subtopic_image.jpg",
+    "image": "lib/assets/job_search/preparing_for_a_job_interview.jpg",
     "title": "Preparing for a Job Interview",
     "description": "Discover essential tips to help you prepare for a job interview and increase your chances of success. Learn how to research the company, anticipate common interview questions, and make a positive impression.",
     "items": [
@@ -5104,7 +4977,7 @@
   {
     "id": "3",
     "itemId": "28",
-    "image": "lib/assets/job_search/subtopic_image.jpg",
+    "image": "lib/assets/job_search/networking_for_job_opportunities.jpg",
     "title": "Networking for Job Opportunities",
     "description": "Discover effective networking strategies to expand your job search and uncover hidden job opportunities. Learn how to build professional relationships, leverage online platforms, and make the most of networking events.",
     "items": [
@@ -5163,7 +5036,7 @@
   {
     "id": "1",
     "itemId": "29",
-    "image": "lib/assets/relationship_advice/subtopic_image.jpg",
+    "image": "lib/assets/relationship_advice/effective_communication_in_relationships.jpg",
     "title": "Effective Communication in Relationships",
     "description": "Discover the importance of effective communication in building and maintaining healthy relationships. Learn strategies for active listening, expressing emotions, resolving conflicts, and fostering strong connections.",
     "items": [
@@ -5222,7 +5095,7 @@
   {
     "id": "2",
     "itemId": "29",
-    "image": "lib/assets/relationship_advice/subtopic_image.jpg",
+    "image": "lib/assets/relationship_advice/maintaining_healthy_boundaries_in_relationships.jpg",
     "title": "Maintaining Healthy Boundaries in Relationships",
     "description": "Learn the importance of establishing and maintaining healthy boundaries in relationships. Discover techniques for setting boundaries, communicating them effectively, and navigating personal space, time, and emotional needs.",
     "items": [
@@ -5281,7 +5154,7 @@
   {
     "id": "3",
     "itemId": "29",
-    "image": "lib/assets/relationship_advice/subtopic_image.jpg",
+    "image": "lib/assets/relationship_advice/building_trust_in_relationship.jpg",
     "title": "Building Trust in Relationships",
     "description": "Explore the importance of trust in relationships and learn strategies for building and nurturing trust with your partner. Discover effective communication, transparency, and vulnerability techniques to foster a strong foundation of trust.",
     "items": [
@@ -5340,7 +5213,7 @@
   {
     "id": "1",
     "itemId": "30",
-    "image": "lib/assets/sustainable_living/subtopic_image.jpg",
+    "image": "lib/assets/sustainable_living/reducing_waste_and_recycling.jpg",
     "title": "Reducing Waste and Recycling",
     "description": "Discover practical tips and strategies for reducing waste and implementing recycling practices in your daily life. Learn about the importance of waste reduction, recycling methods, and how to make environmentally conscious choices.",
     "items": [

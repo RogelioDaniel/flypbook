@@ -47,7 +47,8 @@ dependencies:
   animations: ^2.0.7
   google_mobile_ads: ^3.0.0
   animated_background: ^2.0.0
-  
+  flutter_tts: ^3.0.0
+  flutter_translate: ^4.0.4
 
 
 
@@ -101,6 +102,74 @@ flutter:
     - lib/assets/fitness_exercises/home_exercise.jpg
     - lib/assets/fitness_exercises/yoga.jpg
     - lib/assets/hobbies_interests/movie_series.jpg
+    - lib/assets/hobbies_interests/music_instruments.jpg
+    - lib/assets/hobbies_interests/gardening.jpg
+    - lib/assets/family_time/board_games.jpg
+    - lib/assets/family_time/family_cooking.jpg
+    - lib/assets/technology_gadgets/virtual_reality.jpg
+    - lib/assets/technology_gadgets/smart_home.jpg
+    - lib/assets/technology_gadgets/wearable_tech.jpg
+    - lib/assets/weekend_plans/outdoor_adventures.jpg
+    - lib/assets/weekend_plans/artistic_pursuits.jpg
+    - lib/assets/weekend_plans/culinary_delights.jpg
+    - lib/assets/commuting/eco_friendly_commuting.jpg
+    - lib/assets/commuting/alternative_commuting_methods.jpg
+    - lib/assets/commuting/smart_commuting_tips.jpg
+    - lib/assets/pet_ownership/choosing_the_right_pet.jpg
+    - lib/assets/pet_ownership/preparing_your_home_for_a_pet.jpg
+    - lib/assets/pet_ownership/training_and_socializing_your_pet.jpg
+    - lib/assets/music/exploring_different_music_genres.jpg
+    - lib/assets/music/music_production_basics.jpg
+    - lib/assets/music/music_theory_fundamentals.jpg
+    - lib/assets/travel/adventure_travel_destinations.jpg
+    - lib/assets/travel/adventure_destinations.jpg
+    - lib/assets/work_life_balance/healthy_work-life_balance.jpg
+    - lib/assets/work_life_balance/managing_stress_and_burnout.jpg
+    - lib/assets/work_life_balance/building_supportive_relationships.jpg
+    - lib/assets/learning_languages/effective_language_learning_strategies.jpg
+    - lib/assets/learning_languages/exploring_language_learning_apps.png
+    - lib/assets/learning_languages/tips_for_effective_language_learning.jpg
+    - lib/assets/family_time/board_games2.jpg
+    - lib/assets/parent_tips/effective_parenting_strategies.jpg
+    - lib/assets/parent_tips/effective_communication_with_teenagers.jpg
+    - lib/assets/parent_tips/promoting_healthy_eating_habits.jpg
+    - lib/assets/home_decor/creating_a_cozy_living_room.jpg
+    - lib/assets/home_decor/organizing_small_spaces.jpg
+    - lib/assets/home_decor/creating_a_relaxing_bedroom_retreat.jpg
+    - lib/assets/book_recommendations/classic_novels_for_every_bookworm.jpg
+    - lib/assets/book_recommendations/contemporary_fiction_must_reads.jpg
+    - lib/assets/book_recommendations/sci-Fi_classics.jpg
+    - lib/assets/financial_planning/building_an_emergency_fund.jpg
+    - lib/assets/financial_planning/retirement_savings_strategies.jpg
+    - lib/assets/financial_planning/debt_management_strategies.jpg
+    - lib/assets/friendships/building_strong_and_meaningful_friendships.jpg
+    - lib/assets/friendships/nurturing_long-distance_friendships.jpg
+    - lib/assets/friendships/maintaining_healthy_boundaries_in_friendships.jpg
+    - lib/assets/fashion_trends/current_fashion_trends_2023_edition.jpg
+    - lib/assets/fashion_trends/edgy_streetwear_style.jpg
+    - lib/assets/fashion_trends/sustainable_fashion_eco-Conscious_style.jpg
+    - lib/assets/mental_health/self-Care_practices_for_mental_well-being.jpg
+    - lib/assets/mental_health/coping_with_stress_and_anxiety.jpg
+    - lib/assets/mental_health/building_healthy_relationships.jpg
+    - lib/assets/productivity/time_management_strategies.jpg
+    - lib/assets/productivity/effective_task_management.jpg
+    - lib/assets/productivity/creating_a_productive_work_environment.jpg
+    - lib/assets/gaming/choosing_the_right_gaming_platform.jpg
+    - lib/assets/gaming/improving_gameplay_skills.jpg
+    - lib/assets/gaming/building_a_gaming_community.jpg
+    - lib/assets/art_and_crafts/introduction_to_drawing.jpg
+    - lib/assets/art_and_crafts/exploring_watercolor_painting.jpg
+    - lib/assets/art_and_crafts/introduction_to_pottery.jpg
+    - lib/assets/healthy_eating/plant-Based_nutrition.jpg
+    - lib/assets/healthy_eating/mindful_eating_for_a_healthy_relationship_with_food.jpg
+    - lib/assets/healthy_eating/meal_prep_and_healthy_eating.jpg
+    - lib/assets/job_search/creating_an_effective_resume.jpg
+    - lib/assets/job_search/preparing_for_a_job_interview.jpg
+    - lib/assets/job_search/networking_for_job_opportunities.jpg
+    - lib/assets/relationship_advice/effective_communication_in_relationships.jpg
+    - lib/assets/relationship_advice/maintaining_healthy_boundaries_in_relationships.jpg
+    - lib/assets/relationship_advice/building_trust_in_relationship.jpg
+    - lib/assets/sustainable_living/reducing_waste_and_recycling.jpg
     - lib/assets/art_crafts_b_.gif
     - lib/assets/book_recommendations_b.gif
     - lib/assets/commuting_b.gif

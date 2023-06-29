@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_translate/flutter_translate.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 import '../services/ad_mob_service.dart';
 import 'package:flypbook/views/topic_screen.dart';
 
@@ -25,7 +27,7 @@ class ItemDetailScreen extends StatefulWidget {
 
 class _ItemDetailScreenState extends State<ItemDetailScreen> {
   BannerAd? _banner;
-
+  String selectedText = '';
   @override
   void initState() {
     super.initState();
@@ -134,15 +136,37 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
                       SizedBox(height: 16.0),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 16.0),
-                        child: Text(
-                          widget.description,
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.black87,
-                            letterSpacing: 0.8,
-                            height: 1.5,
+                        child: GestureDetector(
+                          onTap: () {
+                            showDialog(
+                              context: context,
+                              builder: (context) {
+                                return AlertDialog(
+                                  title: Text('Mini ventana emergente'),
+                                  content:
+                                      Text('Contenido de la ventana emergente'),
+                                  actions: [
+                                    ElevatedButton(
+                                      onPressed: () {
+                                        Navigator.of(context).pop();
+                                      },
+                                      child: Text('Cerrar'),
+                                    ),
+                                  ],
+                                );
+                              },
+                            );
+                          },
+                          child: SelectableText(
+                            widget.description,
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Colors.black87,
+                              letterSpacing: 0.8,
+                              height: 1.5,
+                            ),
+                            textAlign: TextAlign.center,
                           ),
-                          textAlign: TextAlign.center,
                         ),
                       ),
                     ],
@@ -191,6 +215,72 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
           ),
         ],
       ),
+    );
+  }
+
+  Future<String> translateText(String text, String targetLanguage) async {
+    final apiKey =
+        'AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0'; // Reemplaza con tu propia clave de API de Google Translate
+    const to = 'es';
+    const text = 'hola';
+    final url =
+        Uri.parse('https://translation.googleapis.com/language/translate/v2');
+
+    final response = await http.post(
+      url,
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({
+        'q': text,
+        'target': targetLanguage,
+        'key': apiKey,
+      }),
+    );
+
+    if (response.statusCode == 200) {
+      final translatedText = jsonDecode(response.body)['data']['translations']
+          [0]['translatedText'];
+      return translatedText;
+    } else {
+      throw Exception('Failed to translate text');
+    }
+  }
+
+  void onTapText() {
+    setState(() {
+      selectedText = getSelectedText();
+    });
+    translateSelectedText();
+  }
+
+  String getSelectedText() {
+    final selection = TextSelection.fromPosition(
+      TextPosition(offset: widget.description.length),
+    );
+    final selectedText = selection.textInside(widget.description);
+    return selectedText;
+  }
+
+  void translateSelectedText() async {
+    final translatedText = await translateText(selectedText, 'es');
+    print('Selected Text: $selectedText');
+    print('Translation: $translatedText');
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text('Translation'),
+          content: Text(translatedText),
+          actions: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text('OK'),
+            ),
+          ],
+        );
+      },
     );
   }
 }

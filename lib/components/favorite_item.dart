@@ -65,22 +65,34 @@ class FavoriteItem extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            const SizedBox(height: 8.0),
+            SizedBox(height: 8.0),
             Text(
               title,
               style: TextStyle(
                 fontSize: MediaQuery.of(context).size.width * 0.04,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
+                shadows: [
+                  Shadow(
+                    color: Colors.black.withOpacity(0.5),
+                    blurRadius: 2,
+                    offset: Offset(1, 1),
+                  ),
+                ],
               ),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 4.0),
+            SizedBox(height: 4.0),
             Text(
               description,
               style: TextStyle(
                 fontSize: MediaQuery.of(context).size.width * 0.035,
                 color: Colors.black54,
+                shadows: [
+                  Shadow(
+                    color: Colors.black.withOpacity(0.5),
+                  ),
+                ],
               ),
               textAlign: TextAlign.center,
               maxLines: 2,

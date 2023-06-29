@@ -163,15 +163,27 @@ class MenuItem extends StatelessWidget {
         ],
       ),
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: Image.asset(
-              // or 'network' from URL
-              image,
-              height: MediaQuery.of(context).size.width * 0.18,
-              width: MediaQuery.of(context).size.width * 0.18,
-              fit: BoxFit.cover,
+          Container(
+            width: MediaQuery.of(context).size.width * 0.18,
+            height: MediaQuery.of(context).size.width * 0.18,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.3),
+                  blurRadius: 8,
+                  offset: const Offset(0, 4),
+                ),
+              ],
+            ),
+            child: ClipOval(
+              child: Image.asset(
+                // or 'network' from URL
+                image,
+                fit: BoxFit.cover,
+              ),
             ),
           ),
           SizedBox(width: 16.0),
@@ -185,6 +197,14 @@ class MenuItem extends StatelessWidget {
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
+                    letterSpacing: 1.2, // Espaciado entre letras
+                    shadows: [
+                      Shadow(
+                        color: Colors.black.withOpacity(0.5),
+                        blurRadius: 2,
+                        offset: Offset(1, 1),
+                      ),
+                    ],
                   ),
                 ),
                 SizedBox(height: 8.0),
@@ -193,6 +213,12 @@ class MenuItem extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 16.0,
                     color: Colors.black54,
+                    fontStyle: FontStyle.italic, // Estilo de fuente en cursiva
+                    shadows: [
+                      Shadow(
+                        color: Colors.black.withOpacity(0.5),
+                      ),
+                    ],
                   ),
                 ),
               ],
