@@ -11,7 +11,7 @@ Aplicación creada en Flutter consumiendo información desde archivos json, trat
 - flutter run
 
 <div align="center">
-  <video src="https://github.com/RogelioDaniel/flypbook/assets/55957565/e08a7216-304c-4b47-a548-2313c8ebadbb" width="400" />
+  <video src="https://youtube.com/shorts/TfzRqjLlNOY?feature=share" width="400" />
 </div>
 
 
