@@ -9,12 +9,7 @@ Aplicación creada en Flutter consumiendo información desde archivos json, trat
 - cd flypbook
 - flutter pub get
 - flutter run
-
-<div align="center">
-  <video src="https://youtube.com/shorts/TfzRqjLlNOY?feature=share" width="400" />
-</div>
-
-
+[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://youtube.com/shorts/TfzRqjLlNOY?feature=share)
 
 
 
